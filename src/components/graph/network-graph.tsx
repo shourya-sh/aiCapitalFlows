@@ -15,6 +15,7 @@ import {
 } from "@xyflow/react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Search, X } from "lucide-react";
+import { ClusterLabels } from "./cluster-labels";
 import { EntityNode } from "./entity-node";
 import { FlowEdge } from "./flow-edge";
 import { CopilotPanel } from "./copilot-panel";
@@ -25,6 +26,7 @@ import {
   filterGraphByComplexity,
   type MapComplexity,
 } from "@/lib/metrics/graph-complexity";
+import { nodesCollideAt } from "@/lib/metrics/graph-layout";
 import type { GraphEdge, GraphNode } from "@/lib/metrics/graph";
 import type { Sector } from "@/lib/types";
 import { cn } from "@/lib/utils";
@@ -171,10 +173,39 @@ function InnerGraph({ graphNodes, graphEdges, complexity, onGraphStats }: Networ
 
   const [nodes, setNodes, onNodesChange] = useNodesState(displayNodes);
 
-  // Sync layout positions when complexity changes; preserve user drags otherwise.
   const onNodesChangeWrapped: OnNodesChange = useCallback(
-    (changes) => onNodesChange(changes),
-    [onNodesChange]
+    (changes) => {
+      const sizes = new Map(filtered.nodes.map((n) => [n.id, n.size]));
+      const positions = new Map(nodes.map((n) => [n.id, { ...n.position }]));
+
+      const accepted = [];
+      for (const change of changes) {
+        if (change.type !== "position" || !change.position) {
+          accepted.push(change);
+          continue;
+        }
+
+        const { x, y } = change.position;
+        if (x === undefined || y === undefined) {
+          accepted.push(change);
+          continue;
+        }
+
+        const size = sizes.get(change.id) ?? 48;
+        const others = filtered.nodes.map((n) => {
+          const pos = n.id === change.id ? { x, y } : positions.get(n.id);
+          return { id: n.id, x: pos?.x ?? n.x, y: pos?.y ?? n.y, size: n.size };
+        });
+
+        if (nodesCollideAt(change.id, x, y, size, others)) continue;
+
+        positions.set(change.id, { x, y });
+        accepted.push(change);
+      }
+
+      if (accepted.length > 0) onNodesChange(accepted);
+    },
+    [filtered.nodes, nodes, onNodesChange]
   );
 
   useEffect(() => {
@@ -217,6 +248,7 @@ function InnerGraph({ graphNodes, graphEdges, complexity, onGraphStats }: Networ
         defaultEdgeOptions={{ type: "flow" }}
       >
         <Background variant={BackgroundVariant.Dots} gap={28} size={1} color="rgba(255,255,255,0.05)" />
+        <ClusterLabels />
         <Controls className="!bottom-6 !left-6" showInteractive={false} />
         {showMiniMap && (
           <MiniMap
