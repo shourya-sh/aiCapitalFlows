@@ -1,0 +1,6673 @@
+[
+  {
+    "id": "flow-1",
+    "sourceId": "thrive-capital",
+    "targetId": "openai",
+    "amountUsd": 1200000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "roundId": "round-1",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      },
+      {
+        "id": "openai-funding-oct-2024",
+        "title": "OpenAI raises $6.6 billion in funding",
+        "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
+        "publisher": "OpenAI",
+        "publishedAt": "2024-10-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+  },
+  {
+    "id": "flow-2",
+    "sourceId": "microsoft",
+    "targetId": "openai",
+    "amountUsd": 1500000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "roundId": "round-1",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Microsoft participated in OpenAI's October 2024 $6.6B round, extending its strategic stake."
+  },
+  {
+    "id": "flow-3",
+    "sourceId": "nvidia",
+    "targetId": "openai",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "roundId": "round-1",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia invested in OpenAI's October 2024 funding round as part of broader AI ecosystem alignment."
+  },
+  {
+    "id": "flow-4",
+    "sourceId": "softbank",
+    "targetId": "openai",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "roundId": "round-1",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      },
+      {
+        "id": "openai-funding-oct-2024",
+        "title": "OpenAI raises $6.6 billion in funding",
+        "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
+        "publisher": "OpenAI",
+        "publishedAt": "2024-10-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+  },
+  {
+    "id": "flow-5",
+    "sourceId": "mgx",
+    "targetId": "openai",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "roundId": "round-1",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      },
+      {
+        "id": "openai-funding-oct-2024",
+        "title": "OpenAI raises $6.6 billion in funding",
+        "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
+        "publisher": "OpenAI",
+        "publishedAt": "2024-10-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+  },
+  {
+    "id": "flow-6",
+    "sourceId": "tiger-global",
+    "targetId": "openai",
+    "amountUsd": 400000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "roundId": "round-1",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      },
+      {
+        "id": "openai-funding-oct-2024",
+        "title": "OpenAI raises $6.6 billion in funding",
+        "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
+        "publisher": "OpenAI",
+        "publishedAt": "2024-10-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+  },
+  {
+    "id": "flow-7",
+    "sourceId": "coatue",
+    "targetId": "openai",
+    "amountUsd": 400000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "roundId": "round-1",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      },
+      {
+        "id": "openai-funding-oct-2024",
+        "title": "OpenAI raises $6.6 billion in funding",
+        "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
+        "publisher": "OpenAI",
+        "publishedAt": "2024-10-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+  },
+  {
+    "id": "flow-8",
+    "sourceId": "sequoia-capital",
+    "targetId": "openai",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "roundId": "round-1",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      },
+      {
+        "id": "openai-funding-oct-2024",
+        "title": "OpenAI raises $6.6 billion in funding",
+        "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
+        "publisher": "OpenAI",
+        "publishedAt": "2024-10-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+  },
+  {
+    "id": "flow-9",
+    "sourceId": "khosla-ventures",
+    "targetId": "openai",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "roundId": "round-1",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      },
+      {
+        "id": "openai-funding-oct-2024",
+        "title": "OpenAI raises $6.6 billion in funding",
+        "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
+        "publisher": "OpenAI",
+        "publishedAt": "2024-10-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+  },
+  {
+    "id": "flow-10",
+    "sourceId": "softbank",
+    "targetId": "openai",
+    "amountUsd": 30000000000,
+    "type": "investment",
+    "date": "2025-03-31",
+    "roundId": "round-2",
+    "citations": [
+      {
+        "id": "reuters-openai-softbank-2025",
+        "title": "OpenAI finalizes $40 billion SoftBank-led funding round",
+        "url": "https://www.reuters.com/technology/openai-finalizes-40-billion-softbank-led-funding-round-2025-03-31/",
+        "publisher": "Reuters",
+        "publishedAt": "2025-03-31",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "SoftBank led a $40B investment in OpenAI at a $300B valuation, with participation from Microsoft, Coatue, and MGX."
+  },
+  {
+    "id": "flow-11",
+    "sourceId": "mgx",
+    "targetId": "openai",
+    "amountUsd": 7000000000,
+    "type": "investment",
+    "date": "2025-03-31",
+    "roundId": "round-2",
+    "citations": [
+      {
+        "id": "reuters-openai-softbank-2025",
+        "title": "OpenAI finalizes $40 billion SoftBank-led funding round",
+        "url": "https://www.reuters.com/technology/openai-finalizes-40-billion-softbank-led-funding-round-2025-03-31/",
+        "publisher": "Reuters",
+        "publishedAt": "2025-03-31",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "SoftBank led a $40B investment in OpenAI at a $300B valuation, with participation from Microsoft, Coatue, and MGX."
+  },
+  {
+    "id": "flow-12",
+    "sourceId": "microsoft",
+    "targetId": "openai",
+    "amountUsd": 2000000000,
+    "type": "investment",
+    "date": "2025-03-31",
+    "roundId": "round-2",
+    "citations": [
+      {
+        "id": "reuters-openai-softbank-2025",
+        "title": "OpenAI finalizes $40 billion SoftBank-led funding round",
+        "url": "https://www.reuters.com/technology/openai-finalizes-40-billion-softbank-led-funding-round-2025-03-31/",
+        "publisher": "Reuters",
+        "publishedAt": "2025-03-31",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "SoftBank led a $40B investment in OpenAI at a $300B valuation, with participation from Microsoft, Coatue, and MGX."
+  },
+  {
+    "id": "flow-13",
+    "sourceId": "coatue",
+    "targetId": "openai",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2025-03-31",
+    "roundId": "round-2",
+    "citations": [
+      {
+        "id": "reuters-openai-softbank-2025",
+        "title": "OpenAI finalizes $40 billion SoftBank-led funding round",
+        "url": "https://www.reuters.com/technology/openai-finalizes-40-billion-softbank-led-funding-round-2025-03-31/",
+        "publisher": "Reuters",
+        "publishedAt": "2025-03-31",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "SoftBank led a $40B investment in OpenAI at a $300B valuation, with participation from Microsoft, Coatue, and MGX."
+  },
+  {
+    "id": "flow-14",
+    "sourceId": "nvidia",
+    "targetId": "anthropic",
+    "amountUsd": 10000000000,
+    "type": "investment",
+    "date": "2025-11-18",
+    "roundId": "round-3",
+    "citations": [
+      {
+        "id": "msft-anthropic-nov-2025",
+        "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships",
+        "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+        "publisher": "Microsoft",
+        "publishedAt": "2025-11-18",
+        "type": "press-release"
+      },
+      {
+        "id": "cnbc-anthropic-nov-2025",
+        "title": "Anthropic valued in range of $350 billion following investment deal with Microsoft, Nvidia",
+        "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html",
+        "publisher": "CNBC",
+        "publishedAt": "2025-11-18",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia committed up to $10B to Anthropic and a deep technology partnership for Grace Blackwell / Vera Rubin systems."
+  },
+  {
+    "id": "flow-15",
+    "sourceId": "microsoft",
+    "targetId": "anthropic",
+    "amountUsd": 5000000000,
+    "type": "investment",
+    "date": "2025-11-18",
+    "roundId": "round-3",
+    "citations": [
+      {
+        "id": "msft-anthropic-nov-2025",
+        "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships",
+        "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+        "publisher": "Microsoft",
+        "publishedAt": "2025-11-18",
+        "type": "press-release"
+      },
+      {
+        "id": "cnbc-anthropic-nov-2025",
+        "title": "Anthropic valued in range of $350 billion following investment deal with Microsoft, Nvidia",
+        "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html",
+        "publisher": "CNBC",
+        "publishedAt": "2025-11-18",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Microsoft committed up to $5B to Anthropic as part of a three-way deal bringing Claude to Azure at a ~$350B valuation."
+  },
+  {
+    "id": "flow-16",
+    "sourceId": "amazon",
+    "targetId": "anthropic",
+    "amountUsd": 4000000000,
+    "type": "investment",
+    "date": "2024-11-22",
+    "roundId": "round-4",
+    "citations": [
+      {
+        "id": "amazon-anthropic-4b",
+        "title": "Amazon completes $4B investment in Anthropic",
+        "url": "https://www.aboutamazon.com/news/company-news/amazon-anthropic-ai-investment",
+        "publisher": "Amazon",
+        "publishedAt": "2024-11-22",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Amazon completed its second $4B investment in Anthropic, bringing Amazon's total commitment to $8B."
+  },
+  {
+    "id": "flow-17",
+    "sourceId": "google",
+    "targetId": "anthropic",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-5",
+    "citations": [
+      {
+        "id": "google-anthropic-cloud",
+        "title": "Google and Anthropic expand AI partnership",
+        "url": "https://blog.google/technology/ai/google-anthropic-partnership/",
+        "publisher": "Google",
+        "publishedAt": "2024-10-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Google invested an additional $1B in Anthropic alongside expanded Google Cloud / TPU partnership."
+  },
+  {
+    "id": "flow-18",
+    "sourceId": "google",
+    "targetId": "anthropic",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-03-27",
+    "roundId": "round-6",
+    "verified": false
+  },
+  {
+    "id": "flow-19",
+    "sourceId": "salesforce",
+    "targetId": "anthropic",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-03-27",
+    "roundId": "round-6",
+    "verified": false
+  },
+  {
+    "id": "flow-20",
+    "sourceId": "lightspeed-venture-partners",
+    "targetId": "anthropic",
+    "amountUsd": 250000000,
+    "type": "investment",
+    "date": "2024-03-27",
+    "roundId": "round-6",
+    "verified": false
+  },
+  {
+    "id": "flow-21",
+    "sourceId": "iconiq",
+    "targetId": "anthropic",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-03-27",
+    "roundId": "round-6",
+    "verified": false
+  },
+  {
+    "id": "flow-22",
+    "sourceId": "tiger-global",
+    "targetId": "anthropic",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-03-27",
+    "roundId": "round-6",
+    "verified": false
+  },
+  {
+    "id": "flow-23",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "xai",
+    "amountUsd": 2000000000,
+    "type": "investment",
+    "date": "2025-07-01",
+    "roundId": "round-7",
+    "citations": [
+      {
+        "id": "xai-series-c-2025",
+        "title": "xAI raises $6B Series C",
+        "url": "https://x.ai/blog/series-c",
+        "publisher": "xAI",
+        "publishedAt": "2025-07-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Saudi PIF participated in xAI's Series C alongside Valor, Fidelity, and Qatar Investment Authority."
+  },
+  {
+    "id": "flow-24",
+    "sourceId": "sequoia-capital",
+    "targetId": "xai",
+    "amountUsd": 1500000000,
+    "type": "investment",
+    "date": "2025-07-01",
+    "roundId": "round-7",
+    "citations": [
+      {
+        "id": "xai-series-c-2025",
+        "title": "xAI raises $6B Series C",
+        "url": "https://x.ai/blog/series-c",
+        "publisher": "xAI",
+        "publishedAt": "2025-07-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Saudi PIF participated in xAI's Series C alongside Valor, Fidelity, and Qatar Investment Authority."
+  },
+  {
+    "id": "flow-25",
+    "sourceId": "fidelity",
+    "targetId": "xai",
+    "amountUsd": 1500000000,
+    "type": "investment",
+    "date": "2025-07-01",
+    "roundId": "round-7",
+    "citations": [
+      {
+        "id": "xai-series-c-2025",
+        "title": "xAI raises $6B Series C",
+        "url": "https://x.ai/blog/series-c",
+        "publisher": "xAI",
+        "publishedAt": "2025-07-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Saudi PIF participated in xAI's Series C alongside Valor, Fidelity, and Qatar Investment Authority."
+  },
+  {
+    "id": "flow-26",
+    "sourceId": "mgx",
+    "targetId": "xai",
+    "amountUsd": 2000000000,
+    "type": "investment",
+    "date": "2025-07-01",
+    "roundId": "round-7",
+    "citations": [
+      {
+        "id": "xai-series-c-2025",
+        "title": "xAI raises $6B Series C",
+        "url": "https://x.ai/blog/series-c",
+        "publisher": "xAI",
+        "publishedAt": "2025-07-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Saudi PIF participated in xAI's Series C alongside Valor, Fidelity, and Qatar Investment Authority."
+  },
+  {
+    "id": "flow-27",
+    "sourceId": "blackrock",
+    "targetId": "xai",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2025-07-01",
+    "roundId": "round-7",
+    "citations": [
+      {
+        "id": "xai-series-c-2025",
+        "title": "xAI raises $6B Series C",
+        "url": "https://x.ai/blog/series-c",
+        "publisher": "xAI",
+        "publishedAt": "2025-07-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Saudi PIF participated in xAI's Series C alongside Valor, Fidelity, and Qatar Investment Authority."
+  },
+  {
+    "id": "flow-28",
+    "sourceId": "nvidia",
+    "targetId": "xai",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2025-07-01",
+    "roundId": "round-7",
+    "citations": [
+      {
+        "id": "xai-series-c-2025",
+        "title": "xAI raises $6B Series C",
+        "url": "https://x.ai/blog/series-c",
+        "publisher": "xAI",
+        "publishedAt": "2025-07-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Saudi PIF participated in xAI's Series C alongside Valor, Fidelity, and Qatar Investment Authority."
+  },
+  {
+    "id": "flow-29",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "xai",
+    "amountUsd": 1500000000,
+    "type": "investment",
+    "date": "2024-05-26",
+    "roundId": "round-8",
+    "verified": false
+  },
+  {
+    "id": "flow-30",
+    "sourceId": "sequoia-capital",
+    "targetId": "xai",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-05-26",
+    "roundId": "round-8",
+    "verified": false
+  },
+  {
+    "id": "flow-31",
+    "sourceId": "fidelity",
+    "targetId": "xai",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-05-26",
+    "roundId": "round-8",
+    "verified": false
+  },
+  {
+    "id": "flow-32",
+    "sourceId": "tiger-global",
+    "targetId": "xai",
+    "amountUsd": 800000000,
+    "type": "investment",
+    "date": "2024-05-26",
+    "roundId": "round-8",
+    "verified": false
+  },
+  {
+    "id": "flow-33",
+    "sourceId": "blackrock",
+    "targetId": "xai",
+    "amountUsd": 700000000,
+    "type": "investment",
+    "date": "2024-05-26",
+    "roundId": "round-8",
+    "verified": false
+  },
+  {
+    "id": "flow-34",
+    "sourceId": "general-catalyst",
+    "targetId": "mistral-ai",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-06-11",
+    "roundId": "round-9",
+    "verified": false
+  },
+  {
+    "id": "flow-35",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "mistral-ai",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-06-11",
+    "roundId": "round-9",
+    "verified": false
+  },
+  {
+    "id": "flow-36",
+    "sourceId": "lightspeed-venture-partners",
+    "targetId": "mistral-ai",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-06-11",
+    "roundId": "round-9",
+    "verified": false
+  },
+  {
+    "id": "flow-37",
+    "sourceId": "nvidia",
+    "targetId": "mistral-ai",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-06-11",
+    "roundId": "round-9",
+    "verified": false
+  },
+  {
+    "id": "flow-38",
+    "sourceId": "salesforce",
+    "targetId": "mistral-ai",
+    "amountUsd": 90000000,
+    "type": "investment",
+    "date": "2024-06-11",
+    "roundId": "round-9",
+    "verified": false
+  },
+  {
+    "id": "flow-39",
+    "sourceId": "general-catalyst",
+    "targetId": "mistral-ai",
+    "amountUsd": 600000000,
+    "type": "investment",
+    "date": "2025-09-09",
+    "roundId": "round-10",
+    "verified": false
+  },
+  {
+    "id": "flow-40",
+    "sourceId": "nvidia",
+    "targetId": "mistral-ai",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2025-09-09",
+    "roundId": "round-10",
+    "verified": false
+  },
+  {
+    "id": "flow-41",
+    "sourceId": "cisco",
+    "targetId": "mistral-ai",
+    "amountUsd": 400000000,
+    "type": "investment",
+    "date": "2025-09-09",
+    "roundId": "round-10",
+    "verified": false
+  },
+  {
+    "id": "flow-42",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "mistral-ai",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2025-09-09",
+    "roundId": "round-10",
+    "verified": false
+  },
+  {
+    "id": "flow-43",
+    "sourceId": "salesforce",
+    "targetId": "mistral-ai",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2025-09-09",
+    "roundId": "round-10",
+    "verified": false
+  },
+  {
+    "id": "flow-44",
+    "sourceId": "insight-partners",
+    "targetId": "cohere",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-07-21",
+    "roundId": "round-11",
+    "verified": false
+  },
+  {
+    "id": "flow-45",
+    "sourceId": "nvidia",
+    "targetId": "cohere",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-07-21",
+    "roundId": "round-11",
+    "verified": false
+  },
+  {
+    "id": "flow-46",
+    "sourceId": "oracle",
+    "targetId": "cohere",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-07-21",
+    "roundId": "round-11",
+    "verified": false
+  },
+  {
+    "id": "flow-47",
+    "sourceId": "salesforce",
+    "targetId": "cohere",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-07-21",
+    "roundId": "round-11",
+    "verified": false
+  },
+  {
+    "id": "flow-48",
+    "sourceId": "tiger-global",
+    "targetId": "cohere",
+    "amountUsd": 70000000,
+    "type": "investment",
+    "date": "2024-07-21",
+    "roundId": "round-11",
+    "verified": false
+  },
+  {
+    "id": "flow-49",
+    "sourceId": "nvidia",
+    "targetId": "perplexity",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-12",
+    "citations": [
+      {
+        "id": "perplexity-series-d",
+        "title": "Perplexity raises $500M Series D",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-raises-series-d",
+        "publisher": "Perplexity",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia participated in Perplexity's $500M round at a $9B valuation."
+  },
+  {
+    "id": "flow-50",
+    "sourceId": "softbank",
+    "targetId": "perplexity",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-12",
+    "citations": [
+      {
+        "id": "perplexity-series-d",
+        "title": "Perplexity raises $500M Series D",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-raises-series-d",
+        "publisher": "Perplexity",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia participated in Perplexity's $500M round at a $9B valuation."
+  },
+  {
+    "id": "flow-51",
+    "sourceId": "new-enterprise-associates",
+    "targetId": "perplexity",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-12",
+    "citations": [
+      {
+        "id": "perplexity-series-d",
+        "title": "Perplexity raises $500M Series D",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-raises-series-d",
+        "publisher": "Perplexity",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia participated in Perplexity's $500M round at a $9B valuation."
+  },
+  {
+    "id": "flow-52",
+    "sourceId": "coatue",
+    "targetId": "perplexity",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-12",
+    "citations": [
+      {
+        "id": "perplexity-series-d",
+        "title": "Perplexity raises $500M Series D",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-raises-series-d",
+        "publisher": "Perplexity",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia participated in Perplexity's $500M round at a $9B valuation."
+  },
+  {
+    "id": "flow-53",
+    "sourceId": "bessemer-venture-partners",
+    "targetId": "perplexity",
+    "amountUsd": 70000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-12",
+    "citations": [
+      {
+        "id": "perplexity-series-d",
+        "title": "Perplexity raises $500M Series D",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-raises-series-d",
+        "publisher": "Perplexity",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia participated in Perplexity's $500M round at a $9B valuation."
+  },
+  {
+    "id": "flow-54",
+    "sourceId": "sequoia-capital",
+    "targetId": "safe-superintelligence",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-09-04",
+    "roundId": "round-13",
+    "verified": false
+  },
+  {
+    "id": "flow-55",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "safe-superintelligence",
+    "amountUsd": 250000000,
+    "type": "investment",
+    "date": "2024-09-04",
+    "roundId": "round-13",
+    "verified": false
+  },
+  {
+    "id": "flow-56",
+    "sourceId": "dst-global",
+    "targetId": "safe-superintelligence",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-09-04",
+    "roundId": "round-13",
+    "verified": false
+  },
+  {
+    "id": "flow-57",
+    "sourceId": "nvidia",
+    "targetId": "safe-superintelligence",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-09-04",
+    "roundId": "round-13",
+    "verified": false
+  },
+  {
+    "id": "flow-58",
+    "sourceId": "sequoia-capital",
+    "targetId": "safe-superintelligence",
+    "amountUsd": 800000000,
+    "type": "investment",
+    "date": "2025-03-01",
+    "roundId": "round-14",
+    "verified": false
+  },
+  {
+    "id": "flow-59",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "safe-superintelligence",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2025-03-01",
+    "roundId": "round-14",
+    "verified": false
+  },
+  {
+    "id": "flow-60",
+    "sourceId": "dst-global",
+    "targetId": "safe-superintelligence",
+    "amountUsd": 400000000,
+    "type": "investment",
+    "date": "2025-03-01",
+    "roundId": "round-14",
+    "verified": false
+  },
+  {
+    "id": "flow-61",
+    "sourceId": "nvidia",
+    "targetId": "safe-superintelligence",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2025-03-01",
+    "roundId": "round-14",
+    "verified": false
+  },
+  {
+    "id": "flow-62",
+    "sourceId": "microsoft",
+    "targetId": "inflection-ai",
+    "amountUsd": 600000000,
+    "type": "investment",
+    "date": "2023-06-29",
+    "roundId": "round-15",
+    "verified": false
+  },
+  {
+    "id": "flow-63",
+    "sourceId": "nvidia",
+    "targetId": "inflection-ai",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2023-06-29",
+    "roundId": "round-15",
+    "verified": false
+  },
+  {
+    "id": "flow-64",
+    "sourceId": "greylock",
+    "targetId": "inflection-ai",
+    "amountUsd": 400000000,
+    "type": "investment",
+    "date": "2023-06-29",
+    "roundId": "round-15",
+    "verified": false
+  },
+  {
+    "id": "flow-65",
+    "sourceId": "tencent",
+    "targetId": "moonshot-ai",
+    "amountUsd": 400000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-16",
+    "verified": false
+  },
+  {
+    "id": "flow-66",
+    "sourceId": "alibaba",
+    "targetId": "moonshot-ai",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-16",
+    "verified": false
+  },
+  {
+    "id": "flow-67",
+    "sourceId": "sequoia-capital",
+    "targetId": "moonshot-ai",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-16",
+    "verified": false
+  },
+  {
+    "id": "flow-68",
+    "sourceId": "tencent",
+    "targetId": "zhipu-ai",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-17",
+    "verified": false
+  },
+  {
+    "id": "flow-69",
+    "sourceId": "alibaba",
+    "targetId": "zhipu-ai",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-17",
+    "verified": false
+  },
+  {
+    "id": "flow-70",
+    "sourceId": "sequoia-capital",
+    "targetId": "zhipu-ai",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-17",
+    "verified": false
+  },
+  {
+    "id": "flow-71",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "black-forest-labs",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-18",
+    "verified": false
+  },
+  {
+    "id": "flow-72",
+    "sourceId": "general-catalyst",
+    "targetId": "black-forest-labs",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-18",
+    "verified": false
+  },
+  {
+    "id": "flow-73",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "world-labs",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-09-13",
+    "roundId": "round-19",
+    "verified": false
+  },
+  {
+    "id": "flow-74",
+    "sourceId": "nvidia",
+    "targetId": "world-labs",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-09-13",
+    "roundId": "round-19",
+    "verified": false
+  },
+  {
+    "id": "flow-75",
+    "sourceId": "lux-capital",
+    "targetId": "world-labs",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-09-13",
+    "roundId": "round-19",
+    "verified": false
+  },
+  {
+    "id": "flow-76",
+    "sourceId": "general-catalyst",
+    "targetId": "liquid-ai",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-20",
+    "verified": false
+  },
+  {
+    "id": "flow-77",
+    "sourceId": "nvidia",
+    "targetId": "liquid-ai",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-20",
+    "verified": false
+  },
+  {
+    "id": "flow-78",
+    "sourceId": "coatue",
+    "targetId": "stability-ai",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-21",
+    "verified": false
+  },
+  {
+    "id": "flow-79",
+    "sourceId": "lightspeed-venture-partners",
+    "targetId": "stability-ai",
+    "amountUsd": 25000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-21",
+    "verified": false
+  },
+  {
+    "id": "flow-80",
+    "sourceId": "intel",
+    "targetId": "ai21-labs",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-03-01",
+    "roundId": "round-22",
+    "verified": false
+  },
+  {
+    "id": "flow-81",
+    "sourceId": "nvidia",
+    "targetId": "ai21-labs",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-03-01",
+    "roundId": "round-22",
+    "verified": false
+  },
+  {
+    "id": "flow-82",
+    "sourceId": "google",
+    "targetId": "ai21-labs",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-03-01",
+    "roundId": "round-22",
+    "verified": false
+  },
+  {
+    "id": "flow-83",
+    "sourceId": "dst-global",
+    "targetId": "reka-ai",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-23",
+    "verified": false
+  },
+  {
+    "id": "flow-84",
+    "sourceId": "snowflake",
+    "targetId": "reka-ai",
+    "amountUsd": 20000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-23",
+    "verified": false
+  },
+  {
+    "id": "flow-85",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "luma-ai",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-24",
+    "verified": false
+  },
+  {
+    "id": "flow-86",
+    "sourceId": "nvidia",
+    "targetId": "luma-ai",
+    "amountUsd": 25000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-24",
+    "verified": false
+  },
+  {
+    "id": "flow-87",
+    "sourceId": "coatue",
+    "targetId": "cerebras",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-25",
+    "verified": false
+  },
+  {
+    "id": "flow-88",
+    "sourceId": "nvidia",
+    "targetId": "cerebras",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-25",
+    "verified": false
+  },
+  {
+    "id": "flow-89",
+    "sourceId": "tiger-global",
+    "targetId": "cerebras",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-25",
+    "verified": false
+  },
+  {
+    "id": "flow-90",
+    "sourceId": "blackrock",
+    "targetId": "groq",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-26",
+    "verified": false
+  },
+  {
+    "id": "flow-91",
+    "sourceId": "tiger-global",
+    "targetId": "groq",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-26",
+    "verified": false
+  },
+  {
+    "id": "flow-92",
+    "sourceId": "samsung",
+    "targetId": "groq",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-26",
+    "verified": false
+  },
+  {
+    "id": "flow-93",
+    "sourceId": "samsung",
+    "targetId": "tenstorrent",
+    "amountUsd": 250000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-27",
+    "verified": false
+  },
+  {
+    "id": "flow-94",
+    "sourceId": "nvidia",
+    "targetId": "tenstorrent",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-27",
+    "verified": false
+  },
+  {
+    "id": "flow-95",
+    "sourceId": "nvidia",
+    "targetId": "etched",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-28",
+    "verified": false
+  },
+  {
+    "id": "flow-96",
+    "sourceId": "lux-capital",
+    "targetId": "etched",
+    "amountUsd": 25000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-28",
+    "verified": false
+  },
+  {
+    "id": "flow-97",
+    "sourceId": "blackrock",
+    "targetId": "coreweave",
+    "amountUsd": 2000000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-29",
+    "citations": [
+      {
+        "id": "nvidia-coreweave-invest",
+        "title": "Nvidia invests in CoreWeave",
+        "url": "https://www.reuters.com/technology/nvidia-invests-coreweave-2024-05-01/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-05-01",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia invested in CoreWeave as part of its AI infrastructure ecosystem strategy."
+  },
+  {
+    "id": "flow-98",
+    "sourceId": "jpmorgan-chase",
+    "targetId": "coreweave",
+    "amountUsd": 1500000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-29",
+    "citations": [
+      {
+        "id": "nvidia-coreweave-invest",
+        "title": "Nvidia invests in CoreWeave",
+        "url": "https://www.reuters.com/technology/nvidia-invests-coreweave-2024-05-01/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-05-01",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia invested in CoreWeave as part of its AI infrastructure ecosystem strategy."
+  },
+  {
+    "id": "flow-99",
+    "sourceId": "goldman-sachs",
+    "targetId": "coreweave",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-29",
+    "citations": [
+      {
+        "id": "nvidia-coreweave-invest",
+        "title": "Nvidia invests in CoreWeave",
+        "url": "https://www.reuters.com/technology/nvidia-invests-coreweave-2024-05-01/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-05-01",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia invested in CoreWeave as part of its AI infrastructure ecosystem strategy."
+  },
+  {
+    "id": "flow-100",
+    "sourceId": "coatue",
+    "targetId": "coreweave",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-05-17",
+    "roundId": "round-30",
+    "verified": false
+  },
+  {
+    "id": "flow-101",
+    "sourceId": "fidelity",
+    "targetId": "coreweave",
+    "amountUsd": 250000000,
+    "type": "investment",
+    "date": "2024-05-17",
+    "roundId": "round-30",
+    "verified": false
+  },
+  {
+    "id": "flow-102",
+    "sourceId": "jane-street",
+    "targetId": "coreweave",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-05-17",
+    "roundId": "round-30",
+    "verified": false
+  },
+  {
+    "id": "flow-103",
+    "sourceId": "jpmorgan-chase",
+    "targetId": "coreweave",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-05-17",
+    "roundId": "round-30",
+    "verified": false
+  },
+  {
+    "id": "flow-104",
+    "sourceId": "nvidia",
+    "targetId": "coreweave",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-05-17",
+    "roundId": "round-30",
+    "verified": false
+  },
+  {
+    "id": "flow-105",
+    "sourceId": "founders-fund",
+    "targetId": "crusoe",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-31",
+    "verified": false
+  },
+  {
+    "id": "flow-106",
+    "sourceId": "nvidia",
+    "targetId": "crusoe",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-31",
+    "verified": false
+  },
+  {
+    "id": "flow-107",
+    "sourceId": "lux-capital",
+    "targetId": "crusoe",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-31",
+    "verified": false
+  },
+  {
+    "id": "flow-108",
+    "sourceId": "nvidia",
+    "targetId": "lambda",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-02-01",
+    "roundId": "round-32",
+    "verified": false
+  },
+  {
+    "id": "flow-109",
+    "sourceId": "tiger-global",
+    "targetId": "lambda",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-02-01",
+    "roundId": "round-32",
+    "verified": false
+  },
+  {
+    "id": "flow-110",
+    "sourceId": "lux-capital",
+    "targetId": "together-ai",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-03-01",
+    "roundId": "round-33",
+    "verified": false
+  },
+  {
+    "id": "flow-111",
+    "sourceId": "nvidia",
+    "targetId": "together-ai",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-03-01",
+    "roundId": "round-33",
+    "verified": false
+  },
+  {
+    "id": "flow-112",
+    "sourceId": "sequoia-capital",
+    "targetId": "fireworks-ai",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-34",
+    "verified": false
+  },
+  {
+    "id": "flow-113",
+    "sourceId": "nvidia",
+    "targetId": "fireworks-ai",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-34",
+    "verified": false
+  },
+  {
+    "id": "flow-114",
+    "sourceId": "tiger-global",
+    "targetId": "fireworks-ai",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-34",
+    "verified": false
+  },
+  {
+    "id": "flow-115",
+    "sourceId": "nvidia",
+    "targetId": "baseten",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-35",
+    "verified": false
+  },
+  {
+    "id": "flow-116",
+    "sourceId": "insight-partners",
+    "targetId": "baseten",
+    "amountUsd": 35000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-35",
+    "verified": false
+  },
+  {
+    "id": "flow-117",
+    "sourceId": "lux-capital",
+    "targetId": "modal",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-36",
+    "verified": false
+  },
+  {
+    "id": "flow-118",
+    "sourceId": "general-catalyst",
+    "targetId": "modal",
+    "amountUsd": 25000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-36",
+    "verified": false
+  },
+  {
+    "id": "flow-119",
+    "sourceId": "nvidia",
+    "targetId": "nebius",
+    "amountUsd": 700000000,
+    "type": "investment",
+    "date": "2024-12-02",
+    "roundId": "round-37",
+    "verified": false
+  },
+  {
+    "id": "flow-120",
+    "sourceId": "microsoft",
+    "targetId": "g42",
+    "amountUsd": 1500000000,
+    "type": "investment",
+    "date": "2024-04-16",
+    "roundId": "round-38",
+    "verified": false
+  },
+  {
+    "id": "flow-121",
+    "sourceId": "google",
+    "targetId": "kairos-power",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-10-14",
+    "roundId": "round-39",
+    "citations": [
+      {
+        "id": "google-kairos",
+        "title": "Google orders nuclear reactors from Kairos Power",
+        "url": "https://blog.google/inside-google/infrastructure/google-kairos-power-nuclear/",
+        "publisher": "Google",
+        "publishedAt": "2024-10-14",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Google ordered small modular reactors from Kairos Power for datacenter power."
+  },
+  {
+    "id": "flow-122",
+    "sourceId": "amazon",
+    "targetId": "x-energy",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-10-16",
+    "roundId": "round-40",
+    "verified": false
+  },
+  {
+    "id": "flow-123",
+    "sourceId": "google",
+    "targetId": "commonwealth-fusion",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-41",
+    "verified": false
+  },
+  {
+    "id": "flow-124",
+    "sourceId": "microsoft",
+    "targetId": "commonwealth-fusion",
+    "amountUsd": 400000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-41",
+    "verified": false
+  },
+  {
+    "id": "flow-125",
+    "sourceId": "microsoft",
+    "targetId": "helion-energy",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-42",
+    "verified": false
+  },
+  {
+    "id": "flow-126",
+    "sourceId": "google",
+    "targetId": "fervo-energy",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-43",
+    "verified": false
+  },
+  {
+    "id": "flow-127",
+    "sourceId": "softbank",
+    "targetId": "fervo-energy",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-43",
+    "verified": false
+  },
+  {
+    "id": "flow-128",
+    "sourceId": "microsoft",
+    "targetId": "figure",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-02-29",
+    "roundId": "round-44",
+    "verified": false
+  },
+  {
+    "id": "flow-129",
+    "sourceId": "nvidia",
+    "targetId": "figure",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-02-29",
+    "roundId": "round-44",
+    "verified": false
+  },
+  {
+    "id": "flow-130",
+    "sourceId": "openai",
+    "targetId": "figure",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-02-29",
+    "roundId": "round-44",
+    "verified": false
+  },
+  {
+    "id": "flow-131",
+    "sourceId": "intel",
+    "targetId": "figure",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-02-29",
+    "roundId": "round-44",
+    "verified": false
+  },
+  {
+    "id": "flow-132",
+    "sourceId": "amazon",
+    "targetId": "figure",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-02-29",
+    "roundId": "round-44",
+    "verified": false
+  },
+  {
+    "id": "flow-133",
+    "sourceId": "nvidia",
+    "targetId": "figure",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2025-09-01",
+    "roundId": "round-45",
+    "verified": false
+  },
+  {
+    "id": "flow-134",
+    "sourceId": "microsoft",
+    "targetId": "figure",
+    "amountUsd": 250000000,
+    "type": "investment",
+    "date": "2025-09-01",
+    "roundId": "round-45",
+    "verified": false
+  },
+  {
+    "id": "flow-135",
+    "sourceId": "openai",
+    "targetId": "figure",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2025-09-01",
+    "roundId": "round-45",
+    "verified": false
+  },
+  {
+    "id": "flow-136",
+    "sourceId": "intel",
+    "targetId": "figure",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2025-09-01",
+    "roundId": "round-45",
+    "verified": false
+  },
+  {
+    "id": "flow-137",
+    "sourceId": "thrive-capital",
+    "targetId": "physical-intelligence",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-46",
+    "verified": false
+  },
+  {
+    "id": "flow-138",
+    "sourceId": "sequoia-capital",
+    "targetId": "physical-intelligence",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-46",
+    "verified": false
+  },
+  {
+    "id": "flow-139",
+    "sourceId": "lux-capital",
+    "targetId": "physical-intelligence",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-46",
+    "verified": false
+  },
+  {
+    "id": "flow-140",
+    "sourceId": "lightspeed-venture-partners",
+    "targetId": "skild-ai",
+    "amountUsd": 120000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-47",
+    "verified": false
+  },
+  {
+    "id": "flow-141",
+    "sourceId": "coatue",
+    "targetId": "skild-ai",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-47",
+    "verified": false
+  },
+  {
+    "id": "flow-142",
+    "sourceId": "softbank",
+    "targetId": "skild-ai",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-47",
+    "verified": false
+  },
+  {
+    "id": "flow-143",
+    "sourceId": "founders-fund",
+    "targetId": "anduril",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-48",
+    "verified": false
+  },
+  {
+    "id": "flow-144",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "anduril",
+    "amountUsd": 400000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-48",
+    "verified": false
+  },
+  {
+    "id": "flow-145",
+    "sourceId": "lux-capital",
+    "targetId": "anduril",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-48",
+    "verified": false
+  },
+  {
+    "id": "flow-146",
+    "sourceId": "thrive-capital",
+    "targetId": "anduril",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-48",
+    "verified": false
+  },
+  {
+    "id": "flow-147",
+    "sourceId": "softbank",
+    "targetId": "wayve",
+    "amountUsd": 400000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-49",
+    "verified": false
+  },
+  {
+    "id": "flow-148",
+    "sourceId": "nvidia",
+    "targetId": "wayve",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-49",
+    "verified": false
+  },
+  {
+    "id": "flow-149",
+    "sourceId": "microsoft",
+    "targetId": "wayve",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-49",
+    "verified": false
+  },
+  {
+    "id": "flow-150",
+    "sourceId": "amazon",
+    "targetId": "agility-robotics",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-04-01",
+    "roundId": "round-50",
+    "verified": false
+  },
+  {
+    "id": "flow-151",
+    "sourceId": "nvidia",
+    "targetId": "agility-robotics",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-04-01",
+    "roundId": "round-50",
+    "verified": false
+  },
+  {
+    "id": "flow-152",
+    "sourceId": "samsung",
+    "targetId": "1x-technologies",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-01-01",
+    "roundId": "round-51",
+    "verified": false
+  },
+  {
+    "id": "flow-153",
+    "sourceId": "thrive-capital",
+    "targetId": "databricks",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-52",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-154",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "databricks",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-52",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-155",
+    "sourceId": "nvidia",
+    "targetId": "databricks",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-52",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-156",
+    "sourceId": "microsoft",
+    "targetId": "databricks",
+    "amountUsd": 800000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-52",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-157",
+    "sourceId": "tiger-global",
+    "targetId": "databricks",
+    "amountUsd": 700000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-52",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-158",
+    "sourceId": "coatue",
+    "targetId": "databricks",
+    "amountUsd": 600000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-52",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-159",
+    "sourceId": "insight-partners",
+    "targetId": "databricks",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "roundId": "round-52",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-160",
+    "sourceId": "accel",
+    "targetId": "scale-ai",
+    "amountUsd": 250000000,
+    "type": "investment",
+    "date": "2024-05-21",
+    "roundId": "round-53",
+    "verified": false
+  },
+  {
+    "id": "flow-161",
+    "sourceId": "nvidia",
+    "targetId": "scale-ai",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-05-21",
+    "roundId": "round-53",
+    "verified": false
+  },
+  {
+    "id": "flow-162",
+    "sourceId": "amazon",
+    "targetId": "scale-ai",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-05-21",
+    "roundId": "round-53",
+    "verified": false
+  },
+  {
+    "id": "flow-163",
+    "sourceId": "intel",
+    "targetId": "scale-ai",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-05-21",
+    "roundId": "round-53",
+    "verified": false
+  },
+  {
+    "id": "flow-164",
+    "sourceId": "tiger-global",
+    "targetId": "scale-ai",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-05-21",
+    "roundId": "round-53",
+    "verified": false
+  },
+  {
+    "id": "flow-165",
+    "sourceId": "meta",
+    "targetId": "scale-ai",
+    "amountUsd": 14300000000,
+    "type": "investment",
+    "date": "2025-06-12",
+    "roundId": "round-54",
+    "verified": false
+  },
+  {
+    "id": "flow-166",
+    "sourceId": "salesforce",
+    "targetId": "hugging-face",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-55",
+    "verified": false
+  },
+  {
+    "id": "flow-167",
+    "sourceId": "google",
+    "targetId": "hugging-face",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-55",
+    "verified": false
+  },
+  {
+    "id": "flow-168",
+    "sourceId": "nvidia",
+    "targetId": "hugging-face",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-55",
+    "verified": false
+  },
+  {
+    "id": "flow-169",
+    "sourceId": "amazon",
+    "targetId": "hugging-face",
+    "amountUsd": 45000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-55",
+    "verified": false
+  },
+  {
+    "id": "flow-170",
+    "sourceId": "sequoia-capital",
+    "targetId": "langchain",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-56",
+    "verified": false
+  },
+  {
+    "id": "flow-171",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "langchain",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-56",
+    "verified": false
+  },
+  {
+    "id": "flow-172",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "pinecone",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-04-01",
+    "roundId": "round-57",
+    "verified": false
+  },
+  {
+    "id": "flow-173",
+    "sourceId": "iconiq",
+    "targetId": "pinecone",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-04-01",
+    "roundId": "round-57",
+    "verified": false
+  },
+  {
+    "id": "flow-174",
+    "sourceId": "accel",
+    "targetId": "vercel",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-58",
+    "verified": false
+  },
+  {
+    "id": "flow-175",
+    "sourceId": "google",
+    "targetId": "vercel",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-58",
+    "verified": false
+  },
+  {
+    "id": "flow-176",
+    "sourceId": "insight-partners",
+    "targetId": "weights-and-biases",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-59",
+    "verified": false
+  },
+  {
+    "id": "flow-177",
+    "sourceId": "coatue",
+    "targetId": "weights-and-biases",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-59",
+    "verified": false
+  },
+  {
+    "id": "flow-178",
+    "sourceId": "thrive-capital",
+    "targetId": "cursor",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2025-06-01",
+    "roundId": "round-60",
+    "verified": false
+  },
+  {
+    "id": "flow-179",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "cursor",
+    "amountUsd": 250000000,
+    "type": "investment",
+    "date": "2025-06-01",
+    "roundId": "round-60",
+    "verified": false
+  },
+  {
+    "id": "flow-180",
+    "sourceId": "google",
+    "targetId": "cursor",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2025-06-01",
+    "roundId": "round-60",
+    "verified": false
+  },
+  {
+    "id": "flow-181",
+    "sourceId": "openai",
+    "targetId": "cursor",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2025-06-01",
+    "roundId": "round-60",
+    "verified": false
+  },
+  {
+    "id": "flow-182",
+    "sourceId": "sequoia-capital",
+    "targetId": "harvey",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-61",
+    "verified": false
+  },
+  {
+    "id": "flow-183",
+    "sourceId": "kleiner-perkins",
+    "targetId": "harvey",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-61",
+    "verified": false
+  },
+  {
+    "id": "flow-184",
+    "sourceId": "openai",
+    "targetId": "harvey",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-61",
+    "verified": false
+  },
+  {
+    "id": "flow-185",
+    "sourceId": "coatue",
+    "targetId": "harvey",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "roundId": "round-61",
+    "verified": false
+  },
+  {
+    "id": "flow-186",
+    "sourceId": "kleiner-perkins",
+    "targetId": "glean",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-62",
+    "verified": false
+  },
+  {
+    "id": "flow-187",
+    "sourceId": "lightspeed-venture-partners",
+    "targetId": "glean",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-62",
+    "verified": false
+  },
+  {
+    "id": "flow-188",
+    "sourceId": "sequoia-capital",
+    "targetId": "glean",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-62",
+    "verified": false
+  },
+  {
+    "id": "flow-189",
+    "sourceId": "greenoaks",
+    "targetId": "sierra",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-63",
+    "verified": false
+  },
+  {
+    "id": "flow-190",
+    "sourceId": "sequoia-capital",
+    "targetId": "sierra",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-63",
+    "verified": false
+  },
+  {
+    "id": "flow-191",
+    "sourceId": "kleiner-perkins",
+    "targetId": "abridge",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-64",
+    "verified": false
+  },
+  {
+    "id": "flow-192",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "abridge",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-64",
+    "verified": false
+  },
+  {
+    "id": "flow-193",
+    "sourceId": "founders-fund",
+    "targetId": "cognition",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2025-03-01",
+    "roundId": "round-65",
+    "verified": false
+  },
+  {
+    "id": "flow-194",
+    "sourceId": "lux-capital",
+    "targetId": "cognition",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2025-03-01",
+    "roundId": "round-65",
+    "verified": false
+  },
+  {
+    "id": "flow-195",
+    "sourceId": "khosla-ventures",
+    "targetId": "cognition",
+    "amountUsd": 45000000,
+    "type": "investment",
+    "date": "2025-03-01",
+    "roundId": "round-65",
+    "verified": false
+  },
+  {
+    "id": "flow-196",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "elevenlabs",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-66",
+    "verified": false
+  },
+  {
+    "id": "flow-197",
+    "sourceId": "sequoia-capital",
+    "targetId": "elevenlabs",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-66",
+    "verified": false
+  },
+  {
+    "id": "flow-198",
+    "sourceId": "nvidia",
+    "targetId": "elevenlabs",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-66",
+    "verified": false
+  },
+  {
+    "id": "flow-199",
+    "sourceId": "general-catalyst",
+    "targetId": "runway",
+    "amountUsd": 120000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-67",
+    "verified": false
+  },
+  {
+    "id": "flow-200",
+    "sourceId": "nvidia",
+    "targetId": "runway",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-67",
+    "verified": false
+  },
+  {
+    "id": "flow-201",
+    "sourceId": "google",
+    "targetId": "runway",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-67",
+    "verified": false
+  },
+  {
+    "id": "flow-202",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "replit",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-68",
+    "verified": false
+  },
+  {
+    "id": "flow-203",
+    "sourceId": "coatue",
+    "targetId": "replit",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-68",
+    "verified": false
+  },
+  {
+    "id": "flow-204",
+    "sourceId": "general-catalyst",
+    "targetId": "mercor",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2025-02-01",
+    "roundId": "round-69",
+    "verified": false
+  },
+  {
+    "id": "flow-205",
+    "sourceId": "nvidia",
+    "targetId": "mercor",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2025-02-01",
+    "roundId": "round-69",
+    "verified": false
+  },
+  {
+    "id": "flow-206",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "decagon",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-70",
+    "verified": false
+  },
+  {
+    "id": "flow-207",
+    "sourceId": "accel",
+    "targetId": "decagon",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-70",
+    "verified": false
+  },
+  {
+    "id": "flow-208",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "hebbia",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-71",
+    "verified": false
+  },
+  {
+    "id": "flow-209",
+    "sourceId": "index-ventures",
+    "targetId": "hebbia",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-71",
+    "verified": false
+  },
+  {
+    "id": "flow-210",
+    "sourceId": "accel",
+    "targetId": "synthesia",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-72",
+    "verified": false
+  },
+  {
+    "id": "flow-211",
+    "sourceId": "nvidia",
+    "targetId": "synthesia",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-72",
+    "verified": false
+  },
+  {
+    "id": "flow-212",
+    "sourceId": "founders-fund",
+    "targetId": "ramp",
+    "amountUsd": 250000000,
+    "type": "investment",
+    "date": "2024-04-01",
+    "roundId": "round-73",
+    "verified": false
+  },
+  {
+    "id": "flow-213",
+    "sourceId": "thrive-capital",
+    "targetId": "ramp",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-04-01",
+    "roundId": "round-73",
+    "verified": false
+  },
+  {
+    "id": "flow-214",
+    "sourceId": "coatue",
+    "targetId": "ramp",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-04-01",
+    "roundId": "round-73",
+    "verified": false
+  },
+  {
+    "id": "flow-215",
+    "sourceId": "coatue",
+    "targetId": "notion",
+    "amountUsd": 120000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-74",
+    "verified": false
+  },
+  {
+    "id": "flow-216",
+    "sourceId": "sequoia-capital",
+    "targetId": "notion",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-74",
+    "verified": false
+  },
+  {
+    "id": "flow-217",
+    "sourceId": "sequoia-capital",
+    "targetId": "canva",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-75",
+    "verified": false
+  },
+  {
+    "id": "flow-218",
+    "sourceId": "blackrock",
+    "targetId": "canva",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-75",
+    "verified": false
+  },
+  {
+    "id": "flow-219",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "browserbase",
+    "amountUsd": 20000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-76",
+    "verified": false
+  },
+  {
+    "id": "flow-220",
+    "sourceId": "greylock",
+    "targetId": "browserbase",
+    "amountUsd": 10000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "roundId": "round-76",
+    "verified": false
+  },
+  {
+    "id": "flow-221",
+    "sourceId": "insight-partners",
+    "targetId": "crewai",
+    "amountUsd": 10000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-77",
+    "verified": false
+  },
+  {
+    "id": "flow-222",
+    "sourceId": "greylock",
+    "targetId": "crewai",
+    "amountUsd": 5000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-77",
+    "verified": false
+  },
+  {
+    "id": "flow-223",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "livekit",
+    "amountUsd": 20000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-78",
+    "verified": false
+  },
+  {
+    "id": "flow-224",
+    "sourceId": "greylock",
+    "targetId": "livekit",
+    "amountUsd": 12000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-78",
+    "verified": false
+  },
+  {
+    "id": "flow-225",
+    "sourceId": "spark-capital",
+    "targetId": "livekit",
+    "amountUsd": 8000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-78",
+    "verified": false
+  },
+  {
+    "id": "flow-226",
+    "sourceId": "greylock",
+    "targetId": "llamaindex",
+    "amountUsd": 12000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-79",
+    "verified": false
+  },
+  {
+    "id": "flow-227",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "llamaindex",
+    "amountUsd": 10000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-79",
+    "verified": false
+  },
+  {
+    "id": "flow-228",
+    "sourceId": "softbank",
+    "targetId": "nuro",
+    "amountUsd": 250000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-80",
+    "verified": false
+  },
+  {
+    "id": "flow-229",
+    "sourceId": "google",
+    "targetId": "nuro",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-80",
+    "verified": false
+  },
+  {
+    "id": "flow-230",
+    "sourceId": "softbank",
+    "targetId": "sambanova",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-81",
+    "verified": false
+  },
+  {
+    "id": "flow-231",
+    "sourceId": "nvidia",
+    "targetId": "sambanova",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-81",
+    "verified": false
+  },
+  {
+    "id": "flow-232",
+    "sourceId": "google",
+    "targetId": "sambanova",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-81",
+    "verified": false
+  },
+  {
+    "id": "flow-233",
+    "sourceId": "nvidia",
+    "targetId": "sanctuary-ai",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-82",
+    "verified": false
+  },
+  {
+    "id": "flow-234",
+    "sourceId": "microsoft",
+    "targetId": "sanctuary-ai",
+    "amountUsd": 35000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-82",
+    "verified": false
+  },
+  {
+    "id": "flow-235",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "suno",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-83",
+    "verified": false
+  },
+  {
+    "id": "flow-236",
+    "sourceId": "lightspeed-venture-partners",
+    "targetId": "suno",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-83",
+    "verified": false
+  },
+  {
+    "id": "flow-237",
+    "sourceId": "tiger-global",
+    "targetId": "vast-data",
+    "amountUsd": 120000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-84",
+    "verified": false
+  },
+  {
+    "id": "flow-238",
+    "sourceId": "nvidia",
+    "targetId": "vast-data",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-84",
+    "verified": false
+  },
+  {
+    "id": "flow-239",
+    "sourceId": "index-ventures",
+    "targetId": "weaviate",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-85",
+    "verified": false
+  },
+  {
+    "id": "flow-240",
+    "sourceId": "nvidia",
+    "targetId": "weaviate",
+    "amountUsd": 20000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "roundId": "round-85",
+    "verified": false
+  },
+  {
+    "id": "flow-241",
+    "sourceId": "iconiq",
+    "targetId": "writer",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-86",
+    "verified": false
+  },
+  {
+    "id": "flow-242",
+    "sourceId": "salesforce",
+    "targetId": "writer",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-86",
+    "verified": false
+  },
+  {
+    "id": "flow-243",
+    "sourceId": "tiger-global",
+    "targetId": "writer",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-86",
+    "verified": false
+  },
+  {
+    "id": "flow-244",
+    "sourceId": "kleiner-perkins",
+    "targetId": "glean-health",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-87",
+    "verified": false
+  },
+  {
+    "id": "flow-245",
+    "sourceId": "general-catalyst",
+    "targetId": "glean-health",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-87",
+    "verified": false
+  },
+  {
+    "id": "flow-246",
+    "sourceId": "ivp",
+    "targetId": "gong",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-88",
+    "verified": false
+  },
+  {
+    "id": "flow-247",
+    "sourceId": "tiger-global",
+    "targetId": "gong",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-88",
+    "verified": false
+  },
+  {
+    "id": "flow-248",
+    "sourceId": "salesforce",
+    "targetId": "gong",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "roundId": "round-88",
+    "verified": false
+  },
+  {
+    "id": "flow-249",
+    "sourceId": "blackrock",
+    "targetId": "grammarly",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-89",
+    "verified": false
+  },
+  {
+    "id": "flow-250",
+    "sourceId": "general-catalyst",
+    "targetId": "grammarly",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "roundId": "round-89",
+    "verified": false
+  },
+  {
+    "id": "flow-251",
+    "sourceId": "amazon",
+    "targetId": "apptronik",
+    "amountUsd": 120000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-90",
+    "verified": false
+  },
+  {
+    "id": "flow-252",
+    "sourceId": "google",
+    "targetId": "apptronik",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-90",
+    "verified": false
+  },
+  {
+    "id": "flow-253",
+    "sourceId": "nvidia",
+    "targetId": "apptronik",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "roundId": "round-90",
+    "verified": false
+  },
+  {
+    "id": "flow-254",
+    "sourceId": "amazon",
+    "targetId": "covariant",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "roundId": "round-91",
+    "verified": false
+  },
+  {
+    "id": "flow-255",
+    "sourceId": "microsoft",
+    "targetId": "iren",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-92",
+    "verified": false
+  },
+  {
+    "id": "flow-256",
+    "sourceId": "nvidia",
+    "targetId": "iren",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "roundId": "round-92",
+    "verified": false
+  },
+  {
+    "id": "flow-257",
+    "sourceId": "microsoft",
+    "targetId": "openai",
+    "amountUsd": 13000000000,
+    "type": "partnership",
+    "date": "2024-01-23",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-258",
+    "sourceId": "nvidia",
+    "targetId": "openai",
+    "amountUsd": 100000000000,
+    "type": "partnership",
+    "date": "2025-09-22",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-259",
+    "sourceId": "oracle",
+    "targetId": "openai",
+    "amountUsd": 300000000000,
+    "type": "compute-deal",
+    "date": "2025-07-15",
+    "dealStructure": "infrastructure-commitment",
+    "verified": false
+  },
+  {
+    "id": "flow-260",
+    "sourceId": "openai",
+    "targetId": "coreweave",
+    "amountUsd": 11900000000,
+    "type": "compute-deal",
+    "date": "2025-03-10",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-261",
+    "sourceId": "openai",
+    "targetId": "amd",
+    "amountUsd": 6000000000,
+    "type": "supply",
+    "date": "2025-10-06",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-262",
+    "sourceId": "openai",
+    "targetId": "broadcom",
+    "amountUsd": 10000000000,
+    "type": "supply",
+    "date": "2025-09-04",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-263",
+    "sourceId": "openai",
+    "targetId": "microsoft",
+    "amountUsd": 5000000000,
+    "type": "compute-deal",
+    "date": "2024-01-23",
+    "dealStructure": "compute-capacity-agreement",
+    "citations": [
+      {
+        "id": "openai-ms-partnership",
+        "title": "OpenAI and Microsoft extend partnership",
+        "url": "https://openai.com/index/openai-and-microsoft-extend-partnership/",
+        "publisher": "OpenAI",
+        "publishedAt": "2023-01-23",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "OpenAI and Microsoft extended their partnership with a reported multi-billion compute capacity commitment routed through Azure."
+  },
+  {
+    "id": "flow-264",
+    "sourceId": "anthropic",
+    "targetId": "microsoft",
+    "amountUsd": 30000000000,
+    "type": "compute-deal",
+    "date": "2025-11-18",
+    "dealStructure": "compute-capacity-agreement",
+    "citations": [
+      {
+        "id": "msft-anthropic-nov-2025",
+        "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships",
+        "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+        "publisher": "Microsoft",
+        "publishedAt": "2025-11-18",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Anthropic committed to purchase $30B of Azure compute capacity, making Claude available on all three major clouds."
+  },
+  {
+    "id": "flow-265",
+    "sourceId": "amazon",
+    "targetId": "anthropic",
+    "amountUsd": 4000000000,
+    "type": "investment",
+    "date": "2023-09-25",
+    "dealStructure": "strategic-equity",
+    "citations": [
+      {
+        "id": "amazon-anthropic-2023",
+        "title": "Amazon and Anthropic announce strategic collaboration",
+        "url": "https://www.aboutamazon.com/news/company-news/amazon-anthropic-ai-collaboration",
+        "publisher": "Amazon",
+        "publishedAt": "2023-09-25",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Amazon announced an initial $4B investment in Anthropic with AWS as primary cloud partner."
+  },
+  {
+    "id": "flow-266",
+    "sourceId": "google",
+    "targetId": "anthropic",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2023-10-27",
+    "dealStructure": "strategic-equity",
+    "citations": [
+      {
+        "id": "google-anthropic-2023",
+        "title": "Google invests in Anthropic",
+        "url": "https://www.anthropic.com/news/google-invests-in-anthropic",
+        "publisher": "Anthropic",
+        "publishedAt": "2023-10-27",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Google invested $500M in Anthropic with option for additional $1.5B."
+  },
+  {
+    "id": "flow-267",
+    "sourceId": "anthropic",
+    "targetId": "amazon",
+    "amountUsd": 4000000000,
+    "type": "compute-deal",
+    "date": "2024-11-22",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-268",
+    "sourceId": "anthropic",
+    "targetId": "google",
+    "amountUsd": 1000000000,
+    "type": "compute-deal",
+    "date": "2024-10-01",
+    "dealStructure": "compute-capacity-agreement",
+    "citations": [
+      {
+        "id": "google-anthropic-cloud",
+        "title": "Google and Anthropic expand AI partnership",
+        "url": "https://blog.google/technology/ai/google-anthropic-partnership/",
+        "publisher": "Google",
+        "publishedAt": "2024-10-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Anthropic committed to expanded Google Cloud / TPU compute capacity for Claude training and inference."
+  },
+  {
+    "id": "flow-269",
+    "sourceId": "microsoft",
+    "targetId": "coreweave",
+    "amountUsd": 10000000000,
+    "type": "compute-deal",
+    "date": "2024-06-01",
+    "dealStructure": "compute-capacity-agreement",
+    "citations": [
+      {
+        "id": "coreweave-msft",
+        "title": "CoreWeave and Microsoft expand AI infrastructure partnership",
+        "url": "https://www.coreweave.com/news/coreweave-microsoft-partnership",
+        "publisher": "CoreWeave",
+        "publishedAt": "2024-06-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Microsoft contracted CoreWeave GPU cloud capacity to supplement Azure AI infrastructure."
+  },
+  {
+    "id": "flow-270",
+    "sourceId": "nvidia",
+    "targetId": "coreweave",
+    "amountUsd": 2500000000,
+    "type": "supply",
+    "date": "2024-04-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-271",
+    "sourceId": "blackrock",
+    "targetId": "coreweave",
+    "amountUsd": 7500000000,
+    "type": "investment",
+    "date": "2024-05-17",
+    "dealStructure": "debt-financing",
+    "verified": false
+  },
+  {
+    "id": "flow-272",
+    "sourceId": "jane-street",
+    "targetId": "coreweave",
+    "amountUsd": 1000000000,
+    "type": "compute-deal",
+    "date": "2025-01-15",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-273",
+    "sourceId": "citadel",
+    "targetId": "coreweave",
+    "amountUsd": 650000000,
+    "type": "compute-deal",
+    "date": "2025-02-10",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-274",
+    "sourceId": "meta",
+    "targetId": "coreweave",
+    "amountUsd": 14200000000,
+    "type": "compute-deal",
+    "date": "2025-09-30",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-275",
+    "sourceId": "hudson-river-trading",
+    "targetId": "coreweave",
+    "amountUsd": 400000000,
+    "type": "compute-deal",
+    "date": "2025-03-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-276",
+    "sourceId": "two-sigma",
+    "targetId": "coreweave",
+    "amountUsd": 350000000,
+    "type": "compute-deal",
+    "date": "2025-04-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-277",
+    "sourceId": "d-e-shaw",
+    "targetId": "coreweave",
+    "amountUsd": 300000000,
+    "type": "compute-deal",
+    "date": "2025-05-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-278",
+    "sourceId": "morgan-stanley",
+    "targetId": "coreweave",
+    "amountUsd": 1200000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "dealStructure": "debt-financing",
+    "citations": [
+      {
+        "id": "nvidia-coreweave-invest",
+        "title": "Nvidia invests in CoreWeave",
+        "url": "https://www.reuters.com/technology/nvidia-invests-coreweave-2024-05-01/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-05-01",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia invested in CoreWeave as part of its AI infrastructure ecosystem strategy."
+  },
+  {
+    "id": "flow-279",
+    "sourceId": "microsoft",
+    "targetId": "nebius",
+    "amountUsd": 17400000000,
+    "type": "compute-deal",
+    "date": "2025-09-08",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-280",
+    "sourceId": "nvidia",
+    "targetId": "lambda",
+    "amountUsd": 1300000000,
+    "type": "supply",
+    "date": "2025-03-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-281",
+    "sourceId": "nvidia",
+    "targetId": "crusoe",
+    "amountUsd": 1000000000,
+    "type": "supply",
+    "date": "2024-11-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-282",
+    "sourceId": "nvidia",
+    "targetId": "cerebras",
+    "amountUsd": 300000000,
+    "type": "supply",
+    "date": "2025-02-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-283",
+    "sourceId": "g42",
+    "targetId": "cerebras",
+    "amountUsd": 900000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-284",
+    "sourceId": "susquehanna",
+    "targetId": "lambda",
+    "amountUsd": 300000000,
+    "type": "compute-deal",
+    "date": "2025-04-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-285",
+    "sourceId": "jane-street",
+    "targetId": "lambda",
+    "amountUsd": 250000000,
+    "type": "compute-deal",
+    "date": "2025-03-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-286",
+    "sourceId": "citadel",
+    "targetId": "lambda",
+    "amountUsd": 200000000,
+    "type": "compute-deal",
+    "date": "2025-02-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-287",
+    "sourceId": "meta",
+    "targetId": "crusoe",
+    "amountUsd": 3000000000,
+    "type": "compute-deal",
+    "date": "2025-06-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-288",
+    "sourceId": "google",
+    "targetId": "crusoe",
+    "amountUsd": 2000000000,
+    "type": "compute-deal",
+    "date": "2025-04-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-289",
+    "sourceId": "amazon",
+    "targetId": "crusoe",
+    "amountUsd": 1500000000,
+    "type": "compute-deal",
+    "date": "2025-03-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-290",
+    "sourceId": "microsoft",
+    "targetId": "applied-digital",
+    "amountUsd": 5000000000,
+    "type": "compute-deal",
+    "date": "2025-01-01",
+    "dealStructure": "infrastructure-commitment",
+    "verified": false
+  },
+  {
+    "id": "flow-291",
+    "sourceId": "oracle",
+    "targetId": "applied-digital",
+    "amountUsd": 3000000000,
+    "type": "compute-deal",
+    "date": "2025-02-01",
+    "dealStructure": "infrastructure-commitment",
+    "verified": false
+  },
+  {
+    "id": "flow-292",
+    "sourceId": "together-ai",
+    "targetId": "coreweave",
+    "amountUsd": 500000000,
+    "type": "compute-deal",
+    "date": "2024-08-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-293",
+    "sourceId": "xai",
+    "targetId": "coreweave",
+    "amountUsd": 2000000000,
+    "type": "compute-deal",
+    "date": "2025-01-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-294",
+    "sourceId": "xai",
+    "targetId": "crusoe",
+    "amountUsd": 1500000000,
+    "type": "compute-deal",
+    "date": "2025-02-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-295",
+    "sourceId": "nvidia",
+    "targetId": "xai",
+    "amountUsd": 2000000000,
+    "type": "supply",
+    "date": "2024-12-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-296",
+    "sourceId": "nvidia",
+    "targetId": "perplexity",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "strategic-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-297",
+    "sourceId": "nvidia",
+    "targetId": "together-ai",
+    "amountUsd": 200000000,
+    "type": "supply",
+    "date": "2024-06-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-298",
+    "sourceId": "nvidia",
+    "targetId": "fireworks-ai",
+    "amountUsd": 150000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-299",
+    "sourceId": "nvidia",
+    "targetId": "baseten",
+    "amountUsd": 100000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-300",
+    "sourceId": "nvidia",
+    "targetId": "applied-digital",
+    "amountUsd": 500000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-301",
+    "sourceId": "nvidia",
+    "targetId": "supermicro",
+    "amountUsd": 2000000000,
+    "type": "supply",
+    "date": "2024-06-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-302",
+    "sourceId": "nvidia",
+    "targetId": "dell-technologies",
+    "amountUsd": 3000000000,
+    "type": "supply",
+    "date": "2024-05-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-303",
+    "sourceId": "nvidia",
+    "targetId": "hewlett-packard-enterprise",
+    "amountUsd": 1500000000,
+    "type": "supply",
+    "date": "2024-04-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-304",
+    "sourceId": "nvidia",
+    "targetId": "tsmc",
+    "amountUsd": 5000000000,
+    "type": "supply",
+    "date": "2024-03-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-305",
+    "sourceId": "nvidia",
+    "targetId": "micron",
+    "amountUsd": 2000000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-306",
+    "sourceId": "nvidia",
+    "targetId": "samsung",
+    "amountUsd": 1500000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-307",
+    "sourceId": "nvidia",
+    "targetId": "sk-hynix",
+    "amountUsd": 1200000000,
+    "type": "supply",
+    "date": "2024-06-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-308",
+    "sourceId": "jane-street",
+    "targetId": "nvidia",
+    "amountUsd": 2000000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-309",
+    "sourceId": "citadel",
+    "targetId": "nvidia",
+    "amountUsd": 1000000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-310",
+    "sourceId": "two-sigma",
+    "targetId": "nvidia",
+    "amountUsd": 800000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-311",
+    "sourceId": "d-e-shaw",
+    "targetId": "nvidia",
+    "amountUsd": 600000000,
+    "type": "supply",
+    "date": "2024-10-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-312",
+    "sourceId": "millennium",
+    "targetId": "nvidia",
+    "amountUsd": 500000000,
+    "type": "supply",
+    "date": "2024-11-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-313",
+    "sourceId": "point72",
+    "targetId": "nvidia",
+    "amountUsd": 400000000,
+    "type": "supply",
+    "date": "2024-12-01",
+    "dealStructure": "gpu-supply-allocation",
+    "citations": [
+      {
+        "id": "nvidia-xai-colossus",
+        "title": "Nvidia and xAI expand Colossus supercomputer",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-xai-colossus",
+        "publisher": "Nvidia",
+        "publishedAt": "2024-12-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "xAI contracted Nvidia GPU capacity for its Colossus training cluster in Memphis."
+  },
+  {
+    "id": "flow-314",
+    "sourceId": "susquehanna",
+    "targetId": "nvidia",
+    "amountUsd": 700000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-315",
+    "sourceId": "hudson-river-trading",
+    "targetId": "nvidia",
+    "amountUsd": 300000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-316",
+    "sourceId": "jane-street",
+    "targetId": "microsoft",
+    "amountUsd": 1000000000,
+    "type": "compute-deal",
+    "date": "2024-10-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-317",
+    "sourceId": "citadel",
+    "targetId": "microsoft",
+    "amountUsd": 800000000,
+    "type": "compute-deal",
+    "date": "2024-11-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-318",
+    "sourceId": "two-sigma",
+    "targetId": "google",
+    "amountUsd": 600000000,
+    "type": "compute-deal",
+    "date": "2024-12-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-319",
+    "sourceId": "amazon",
+    "targetId": "x-energy",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2024-10-16",
+    "dealStructure": "energy-infrastructure",
+    "verified": false
+  },
+  {
+    "id": "flow-320",
+    "sourceId": "amazon",
+    "targetId": "talen-energy",
+    "amountUsd": 650000000,
+    "type": "energy-contract",
+    "date": "2024-03-04",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-321",
+    "sourceId": "google",
+    "targetId": "kairos-power",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2024-10-14",
+    "dealStructure": "energy-infrastructure",
+    "citations": [
+      {
+        "id": "google-kairos",
+        "title": "Google orders nuclear reactors from Kairos Power",
+        "url": "https://blog.google/inside-google/infrastructure/google-kairos-power-nuclear/",
+        "publisher": "Google",
+        "publishedAt": "2024-10-14",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Google ordered small modular reactors from Kairos Power for datacenter power."
+  },
+  {
+    "id": "flow-322",
+    "sourceId": "microsoft",
+    "targetId": "constellation-energy",
+    "amountUsd": 1600000000,
+    "type": "energy-contract",
+    "date": "2024-09-20",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-323",
+    "sourceId": "meta",
+    "targetId": "constellation-energy",
+    "amountUsd": 1000000000,
+    "type": "energy-contract",
+    "date": "2025-06-03",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-324",
+    "sourceId": "microsoft",
+    "targetId": "helion-energy",
+    "amountUsd": 500000000,
+    "type": "energy-contract",
+    "date": "2024-05-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-325",
+    "sourceId": "oracle",
+    "targetId": "talen-energy",
+    "amountUsd": 800000000,
+    "type": "energy-contract",
+    "date": "2025-01-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-326",
+    "sourceId": "amazon",
+    "targetId": "nextera-energy",
+    "amountUsd": 1000000000,
+    "type": "energy-contract",
+    "date": "2025-02-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-327",
+    "sourceId": "google",
+    "targetId": "nextera-energy",
+    "amountUsd": 800000000,
+    "type": "energy-contract",
+    "date": "2025-03-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-328",
+    "sourceId": "meta",
+    "targetId": "brookfield-renewable",
+    "amountUsd": 600000000,
+    "type": "energy-contract",
+    "date": "2025-04-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-329",
+    "sourceId": "coreweave",
+    "targetId": "constellation-energy",
+    "amountUsd": 500000000,
+    "type": "energy-contract",
+    "date": "2024-08-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-330",
+    "sourceId": "coreweave",
+    "targetId": "vistra",
+    "amountUsd": 400000000,
+    "type": "energy-contract",
+    "date": "2024-09-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-331",
+    "sourceId": "crusoe",
+    "targetId": "fervo-energy",
+    "amountUsd": 300000000,
+    "type": "energy-contract",
+    "date": "2024-10-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-332",
+    "sourceId": "applied-digital",
+    "targetId": "vistra",
+    "amountUsd": 250000000,
+    "type": "energy-contract",
+    "date": "2024-11-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-333",
+    "sourceId": "lambda",
+    "targetId": "nextera-energy",
+    "amountUsd": 200000000,
+    "type": "energy-contract",
+    "date": "2024-12-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-334",
+    "sourceId": "equinix",
+    "targetId": "ge-vernova",
+    "amountUsd": 1000000000,
+    "type": "partnership",
+    "date": "2025-01-01",
+    "dealStructure": "energy-infrastructure",
+    "verified": false
+  },
+  {
+    "id": "flow-335",
+    "sourceId": "digital-realty",
+    "targetId": "bloom-energy",
+    "amountUsd": 400000000,
+    "type": "energy-contract",
+    "date": "2025-02-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-336",
+    "sourceId": "google",
+    "targetId": "character-ai",
+    "amountUsd": 2700000000,
+    "type": "partnership",
+    "date": "2024-08-02",
+    "dealStructure": "platform-partnership",
+    "citations": [
+      {
+        "id": "google-character-ai",
+        "title": "Google strikes deal with Character.AI",
+        "url": "https://www.reuters.com/technology/google-strikes-deal-with-characterai-2024-08-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-08-02",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Google paid ~$2.7B to license Character.AI technology and hire its founders back to Google DeepMind."
+  },
+  {
+    "id": "flow-337",
+    "sourceId": "microsoft",
+    "targetId": "inflection-ai",
+    "amountUsd": 650000000,
+    "type": "partnership",
+    "date": "2024-03-19",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-338",
+    "sourceId": "meta",
+    "targetId": "mistral-ai",
+    "amountUsd": 400000000,
+    "type": "partnership",
+    "date": "2024-04-01",
+    "dealStructure": "platform-partnership",
+    "citations": [
+      {
+        "id": "ms-mistral-2024",
+        "title": "Microsoft and Mistral AI announce partnership",
+        "url": "https://azure.microsoft.com/en-us/blog/microsoft-and-mistral-ai-announce-partnership/",
+        "publisher": "Microsoft",
+        "publishedAt": "2024-02-26",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Microsoft invested €15M in Mistral AI and made Mistral models available on Azure."
+  },
+  {
+    "id": "flow-339",
+    "sourceId": "apple",
+    "targetId": "openai",
+    "amountUsd": 1000000000,
+    "type": "partnership",
+    "date": "2024-06-10",
+    "dealStructure": "platform-partnership",
+    "citations": [
+      {
+        "id": "apple-openai-wwdc",
+        "title": "Apple Intelligence integrates ChatGPT",
+        "url": "https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/",
+        "publisher": "Apple",
+        "publishedAt": "2024-06-10",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Apple integrated ChatGPT into iOS 18 via a platform partnership with OpenAI at WWDC 2024."
+  },
+  {
+    "id": "flow-340",
+    "sourceId": "salesforce",
+    "targetId": "cohere",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2024-07-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-341",
+    "sourceId": "ibm",
+    "targetId": "mistral-ai",
+    "amountUsd": 300000000,
+    "type": "partnership",
+    "date": "2024-10-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-342",
+    "sourceId": "oracle",
+    "targetId": "cohere",
+    "amountUsd": 400000000,
+    "type": "partnership",
+    "date": "2024-08-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-343",
+    "sourceId": "sap",
+    "targetId": "anthropic",
+    "amountUsd": 350000000,
+    "type": "partnership",
+    "date": "2024-09-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-344",
+    "sourceId": "adobe",
+    "targetId": "openai",
+    "amountUsd": 200000000,
+    "type": "partnership",
+    "date": "2024-10-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-345",
+    "sourceId": "servicenow",
+    "targetId": "nvidia",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2024-11-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-346",
+    "sourceId": "tesla",
+    "targetId": "nvidia",
+    "amountUsd": 1000000000,
+    "type": "supply",
+    "date": "2024-06-01",
+    "dealStructure": "gpu-supply-allocation",
+    "citations": [
+      {
+        "id": "nvidia-tsmc-supply",
+        "title": "Nvidia relies on TSMC for H100/H200 production",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-annual-report-2024",
+        "publisher": "Nvidia",
+        "publishedAt": "2024-03-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "TSMC manufactures Nvidia's leading-edge AI accelerators on advanced process nodes."
+  },
+  {
+    "id": "flow-347",
+    "sourceId": "tesla",
+    "targetId": "samsung",
+    "amountUsd": 500000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-348",
+    "sourceId": "bytedance",
+    "targetId": "nvidia",
+    "amountUsd": 2000000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-349",
+    "sourceId": "tencent",
+    "targetId": "nvidia",
+    "amountUsd": 1500000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-350",
+    "sourceId": "alibaba",
+    "targetId": "nvidia",
+    "amountUsd": 1000000000,
+    "type": "supply",
+    "date": "2024-10-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-351",
+    "sourceId": "baidu",
+    "targetId": "nvidia",
+    "amountUsd": 800000000,
+    "type": "supply",
+    "date": "2024-11-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-352",
+    "sourceId": "united-states",
+    "targetId": "oracle",
+    "amountUsd": 100000000000,
+    "type": "partnership",
+    "date": "2025-01-21",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-353",
+    "sourceId": "united-states",
+    "targetId": "openai",
+    "amountUsd": 100000000000,
+    "type": "partnership",
+    "date": "2025-01-21",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-354",
+    "sourceId": "united-states",
+    "targetId": "intel",
+    "amountUsd": 8500000000,
+    "type": "grant",
+    "date": "2024-03-20",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-355",
+    "sourceId": "united-states",
+    "targetId": "tsmc",
+    "amountUsd": 6600000000,
+    "type": "grant",
+    "date": "2024-04-08",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-356",
+    "sourceId": "united-states",
+    "targetId": "micron",
+    "amountUsd": 6100000000,
+    "type": "grant",
+    "date": "2024-12-10",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-357",
+    "sourceId": "united-states",
+    "targetId": "samsung",
+    "amountUsd": 6400000000,
+    "type": "grant",
+    "date": "2024-04-15",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-358",
+    "sourceId": "japan",
+    "targetId": "softbank",
+    "amountUsd": 10000000000,
+    "type": "grant",
+    "date": "2025-02-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-359",
+    "sourceId": "japan",
+    "targetId": "samsung",
+    "amountUsd": 5000000000,
+    "type": "grant",
+    "date": "2024-09-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-360",
+    "sourceId": "japan",
+    "targetId": "tsmc",
+    "amountUsd": 4000000000,
+    "type": "grant",
+    "date": "2024-10-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-361",
+    "sourceId": "south-korea",
+    "targetId": "sk-hynix",
+    "amountUsd": 7000000000,
+    "type": "grant",
+    "date": "2024-05-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-362",
+    "sourceId": "south-korea",
+    "targetId": "samsung",
+    "amountUsd": 6000000000,
+    "type": "grant",
+    "date": "2024-05-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-363",
+    "sourceId": "india",
+    "targetId": "g42",
+    "amountUsd": 2000000000,
+    "type": "partnership",
+    "date": "2025-03-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-364",
+    "sourceId": "india",
+    "targetId": "nvidia",
+    "amountUsd": 1000000000,
+    "type": "partnership",
+    "date": "2025-02-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-365",
+    "sourceId": "france",
+    "targetId": "mistral-ai",
+    "amountUsd": 1000000000,
+    "type": "partnership",
+    "date": "2025-02-10",
+    "dealStructure": "sovereign-partnership",
+    "citations": [
+      {
+        "id": "france-mistral",
+        "title": "France backs Mistral AI in sovereign AI push",
+        "url": "https://www.reuters.com/technology/france-backs-mistral-ai-2025-02-10/",
+        "publisher": "Reuters",
+        "publishedAt": "2025-02-10",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "France committed sovereign AI funding to Mistral as part of its national AI strategy."
+  },
+  {
+    "id": "flow-366",
+    "sourceId": "germany",
+    "targetId": "mistral-ai",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2025-03-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-367",
+    "sourceId": "united-arab-emirates",
+    "targetId": "g42",
+    "amountUsd": 5000000000,
+    "type": "grant",
+    "date": "2024-01-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-368",
+    "sourceId": "saudi-arabia",
+    "targetId": "humain",
+    "amountUsd": 15000000000,
+    "type": "grant",
+    "date": "2025-05-12",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-369",
+    "sourceId": "saudi-arabia",
+    "targetId": "nvidia",
+    "amountUsd": 3000000000,
+    "type": "partnership",
+    "date": "2025-05-13",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-370",
+    "sourceId": "european-union",
+    "targetId": "mistral-ai",
+    "amountUsd": 800000000,
+    "type": "grant",
+    "date": "2025-01-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-371",
+    "sourceId": "european-union",
+    "targetId": "asml",
+    "amountUsd": 500000000,
+    "type": "grant",
+    "date": "2024-06-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-372",
+    "sourceId": "united-kingdom",
+    "targetId": "wayve",
+    "amountUsd": 400000000,
+    "type": "grant",
+    "date": "2024-07-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-373",
+    "sourceId": "canada",
+    "targetId": "cohere",
+    "amountUsd": 300000000,
+    "type": "grant",
+    "date": "2024-08-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-374",
+    "sourceId": "singapore",
+    "targetId": "gic",
+    "amountUsd": 1000000000,
+    "type": "partnership",
+    "date": "2024-09-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-375",
+    "sourceId": "china",
+    "targetId": "zhipu-ai",
+    "amountUsd": 1000000000,
+    "type": "grant",
+    "date": "2024-10-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-376",
+    "sourceId": "china",
+    "targetId": "moonshot-ai",
+    "amountUsd": 800000000,
+    "type": "grant",
+    "date": "2024-11-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-377",
+    "sourceId": "qatar",
+    "targetId": "g42",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2025-01-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-378",
+    "sourceId": "public-investment-fund",
+    "targetId": "humain",
+    "amountUsd": 10000000000,
+    "type": "investment",
+    "date": "2025-05-12",
+    "dealStructure": "infrastructure-commitment",
+    "verified": false
+  },
+  {
+    "id": "flow-379",
+    "sourceId": "public-investment-fund",
+    "targetId": "softbank",
+    "amountUsd": 5000000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-380",
+    "sourceId": "mubadala",
+    "targetId": "g42",
+    "amountUsd": 2000000000,
+    "type": "investment",
+    "date": "2024-01-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-381",
+    "sourceId": "mubadala",
+    "targetId": "mistral-ai",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-382",
+    "sourceId": "gic",
+    "targetId": "databricks",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-383",
+    "sourceId": "temasek",
+    "targetId": "scale-ai",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-05-21",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-384",
+    "sourceId": "temasek",
+    "targetId": "cohere",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-07-21",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-385",
+    "sourceId": "qatar-investment-authority",
+    "targetId": "xai",
+    "amountUsd": 500000000,
+    "type": "investment",
+    "date": "2025-07-01",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "xai-series-c-2025",
+        "title": "xAI raises $6B Series C",
+        "url": "https://x.ai/blog/series-c",
+        "publisher": "xAI",
+        "publishedAt": "2025-07-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Saudi PIF participated in xAI's Series C alongside Valor, Fidelity, and Qatar Investment Authority."
+  },
+  {
+    "id": "flow-386",
+    "sourceId": "qatar-investment-authority",
+    "targetId": "coreweave",
+    "amountUsd": 400000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "dealStructure": "debt-financing",
+    "citations": [
+      {
+        "id": "nvidia-coreweave-invest",
+        "title": "Nvidia invests in CoreWeave",
+        "url": "https://www.reuters.com/technology/nvidia-invests-coreweave-2024-05-01/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-05-01",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia invested in CoreWeave as part of its AI infrastructure ecosystem strategy."
+  },
+  {
+    "id": "flow-387",
+    "sourceId": "nvidia",
+    "targetId": "humain",
+    "amountUsd": 5000000000,
+    "type": "supply",
+    "date": "2025-05-13",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-388",
+    "sourceId": "amd",
+    "targetId": "humain",
+    "amountUsd": 10000000000,
+    "type": "supply",
+    "date": "2025-11-19",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-389",
+    "sourceId": "humain",
+    "targetId": "nvidia",
+    "amountUsd": 3000000000,
+    "type": "supply",
+    "date": "2025-05-13",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-390",
+    "sourceId": "g42",
+    "targetId": "coreweave",
+    "amountUsd": 1000000000,
+    "type": "compute-deal",
+    "date": "2024-08-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-391",
+    "sourceId": "andreessen-horowitz",
+    "targetId": "harvey",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-392",
+    "sourceId": "thrive-capital",
+    "targetId": "harvey",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-393",
+    "sourceId": "general-catalyst",
+    "targetId": "harvey",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-394",
+    "sourceId": "index-ventures",
+    "targetId": "mistral-ai",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-06-11",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-395",
+    "sourceId": "iconiq",
+    "targetId": "glean",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-396",
+    "sourceId": "fidelity",
+    "targetId": "coreweave",
+    "amountUsd": 1100000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "nvidia-coreweave-invest",
+        "title": "Nvidia invests in CoreWeave",
+        "url": "https://www.reuters.com/technology/nvidia-invests-coreweave-2024-05-01/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-05-01",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia invested in CoreWeave as part of its AI infrastructure ecosystem strategy."
+  },
+  {
+    "id": "flow-397",
+    "sourceId": "baillie-gifford",
+    "targetId": "openai",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      },
+      {
+        "id": "openai-funding-oct-2024",
+        "title": "OpenAI raises $6.6 billion in funding",
+        "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
+        "publisher": "OpenAI",
+        "publishedAt": "2024-10-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+  },
+  {
+    "id": "flow-398",
+    "sourceId": "openai",
+    "targetId": "oracle",
+    "amountUsd": 20000000000,
+    "type": "compute-deal",
+    "date": "2025-07-15",
+    "dealStructure": "compute-capacity-agreement",
+    "citations": [
+      {
+        "id": "oracle-stargate-2025",
+        "title": "Oracle, OpenAI, and SoftBank announce Stargate AI infrastructure",
+        "url": "https://www.oracle.com/news/announcement/oracle-openai-softbank-stargate-2025-01-21/",
+        "publisher": "Oracle",
+        "publishedAt": "2025-01-21",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "OpenAI signed a major Stargate-related compute agreement with Oracle, part of the broader hyperscaler buildout."
+  },
+  {
+    "id": "flow-399",
+    "sourceId": "xai",
+    "targetId": "nvidia",
+    "amountUsd": 1000000000,
+    "type": "compute-deal",
+    "date": "2024-12-01",
+    "dealStructure": "compute-capacity-agreement",
+    "citations": [
+      {
+        "id": "nvidia-xai-colossus",
+        "title": "Nvidia and xAI expand Colossus supercomputer",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-xai-colossus",
+        "publisher": "Nvidia",
+        "publishedAt": "2024-12-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "xAI contracted Nvidia GPU capacity for its Colossus training cluster in Memphis."
+  },
+  {
+    "id": "flow-400",
+    "sourceId": "mistral-ai",
+    "targetId": "microsoft",
+    "amountUsd": 500000000,
+    "type": "compute-deal",
+    "date": "2024-04-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-401",
+    "sourceId": "cohere",
+    "targetId": "oracle",
+    "amountUsd": 300000000,
+    "type": "compute-deal",
+    "date": "2024-08-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-402",
+    "sourceId": "perplexity",
+    "targetId": "nvidia",
+    "amountUsd": 200000000,
+    "type": "compute-deal",
+    "date": "2024-12-01",
+    "dealStructure": "compute-capacity-agreement",
+    "citations": [
+      {
+        "id": "nvidia-xai-colossus",
+        "title": "Nvidia and xAI expand Colossus supercomputer",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-xai-colossus",
+        "publisher": "Nvidia",
+        "publishedAt": "2024-12-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "xAI contracted Nvidia GPU capacity for its Colossus training cluster in Memphis."
+  },
+  {
+    "id": "flow-403",
+    "sourceId": "deepseek",
+    "targetId": "nvidia",
+    "amountUsd": 500000000,
+    "type": "supply",
+    "date": "2024-11-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-404",
+    "sourceId": "moonshot-ai",
+    "targetId": "alibaba",
+    "amountUsd": 400000000,
+    "type": "compute-deal",
+    "date": "2024-08-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-405",
+    "sourceId": "zhipu-ai",
+    "targetId": "tencent",
+    "amountUsd": 300000000,
+    "type": "compute-deal",
+    "date": "2024-12-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-406",
+    "sourceId": "palantir",
+    "targetId": "anduril",
+    "amountUsd": 200000000,
+    "type": "partnership",
+    "date": "2024-09-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-407",
+    "sourceId": "anduril",
+    "targetId": "shield-ai",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "strategic-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-408",
+    "sourceId": "shield-ai",
+    "targetId": "nvidia",
+    "amountUsd": 100000000,
+    "type": "supply",
+    "date": "2024-11-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-409",
+    "sourceId": "united-states",
+    "targetId": "anduril",
+    "amountUsd": 500000000,
+    "type": "grant",
+    "date": "2024-08-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-410",
+    "sourceId": "united-states",
+    "targetId": "palantir",
+    "amountUsd": 800000000,
+    "type": "grant",
+    "date": "2024-07-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-411",
+    "sourceId": "united-states",
+    "targetId": "shield-ai",
+    "amountUsd": 300000000,
+    "type": "grant",
+    "date": "2024-09-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-412",
+    "sourceId": "google",
+    "targetId": "waymo",
+    "amountUsd": 5000000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "strategic-equity",
+    "citations": [
+      {
+        "id": "waymo-funding-2024",
+        "title": "Waymo raises $5.6B led by Alphabet",
+        "url": "https://waymo.com/blog/2024/10/waymo-raises-5-6b/",
+        "publisher": "Waymo",
+        "publishedAt": "2024-10-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Alphabet committed additional capital to Waymo for autonomous ride-hail expansion."
+  },
+  {
+    "id": "flow-413",
+    "sourceId": "waymo",
+    "targetId": "nvidia",
+    "amountUsd": 500000000,
+    "type": "supply",
+    "date": "2024-11-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-414",
+    "sourceId": "jpmorgan-chase",
+    "targetId": "applied-digital",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "dealStructure": "debt-financing",
+    "verified": false
+  },
+  {
+    "id": "flow-415",
+    "sourceId": "goldman-sachs",
+    "targetId": "applied-digital",
+    "amountUsd": 800000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "debt-financing",
+    "verified": false
+  },
+  {
+    "id": "flow-416",
+    "sourceId": "morgan-stanley",
+    "targetId": "crusoe",
+    "amountUsd": 600000000,
+    "type": "investment",
+    "date": "2024-11-01",
+    "dealStructure": "debt-financing",
+    "verified": false
+  },
+  {
+    "id": "flow-417",
+    "sourceId": "blackrock",
+    "targetId": "equinix",
+    "amountUsd": 2000000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "dealStructure": "debt-financing",
+    "verified": false
+  },
+  {
+    "id": "flow-418",
+    "sourceId": "blackrock",
+    "targetId": "digital-realty",
+    "amountUsd": 1500000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "dealStructure": "debt-financing",
+    "verified": false
+  },
+  {
+    "id": "flow-419",
+    "sourceId": "jpmorgan-chase",
+    "targetId": "equinix",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "dealStructure": "debt-financing",
+    "verified": false
+  },
+  {
+    "id": "flow-420",
+    "sourceId": "amd",
+    "targetId": "microsoft",
+    "amountUsd": 3000000000,
+    "type": "supply",
+    "date": "2024-10-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-421",
+    "sourceId": "amd",
+    "targetId": "meta",
+    "amountUsd": 2000000000,
+    "type": "supply",
+    "date": "2024-11-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-422",
+    "sourceId": "amd",
+    "targetId": "oracle",
+    "amountUsd": 1500000000,
+    "type": "supply",
+    "date": "2024-12-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-423",
+    "sourceId": "intel",
+    "targetId": "microsoft",
+    "amountUsd": 2000000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-424",
+    "sourceId": "intel",
+    "targetId": "google",
+    "amountUsd": 1000000000,
+    "type": "supply",
+    "date": "2024-10-01",
+    "dealStructure": "hardware-supply",
+    "citations": [
+      {
+        "id": "google-anthropic-cloud",
+        "title": "Google and Anthropic expand AI partnership",
+        "url": "https://blog.google/technology/ai/google-anthropic-partnership/",
+        "publisher": "Google",
+        "publishedAt": "2024-10-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Anthropic committed to expanded Google Cloud / TPU compute capacity for Claude training and inference."
+  },
+  {
+    "id": "flow-425",
+    "sourceId": "cerebras",
+    "targetId": "g42",
+    "amountUsd": 500000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-426",
+    "sourceId": "groq",
+    "targetId": "meta",
+    "amountUsd": 300000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-427",
+    "sourceId": "tenstorrent",
+    "targetId": "samsung",
+    "amountUsd": 200000000,
+    "type": "supply",
+    "date": "2024-12-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-428",
+    "sourceId": "tsmc",
+    "targetId": "nvidia",
+    "amountUsd": 8000000000,
+    "type": "supply",
+    "date": "2024-06-01",
+    "dealStructure": "hardware-supply",
+    "citations": [
+      {
+        "id": "nvidia-tsmc-supply",
+        "title": "Nvidia relies on TSMC for H100/H200 production",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-annual-report-2024",
+        "publisher": "Nvidia",
+        "publishedAt": "2024-03-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "TSMC manufactures Nvidia's leading-edge AI accelerators on advanced process nodes."
+  },
+  {
+    "id": "flow-429",
+    "sourceId": "tsmc",
+    "targetId": "amd",
+    "amountUsd": 4000000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-430",
+    "sourceId": "tsmc",
+    "targetId": "broadcom",
+    "amountUsd": 3000000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-431",
+    "sourceId": "asml",
+    "targetId": "tsmc",
+    "amountUsd": 2000000000,
+    "type": "supply",
+    "date": "2024-05-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-432",
+    "sourceId": "asml",
+    "targetId": "samsung",
+    "amountUsd": 1500000000,
+    "type": "supply",
+    "date": "2024-06-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-433",
+    "sourceId": "asml",
+    "targetId": "intel",
+    "amountUsd": 1000000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-434",
+    "sourceId": "micron",
+    "targetId": "nvidia",
+    "amountUsd": 2000000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-435",
+    "sourceId": "sk-hynix",
+    "targetId": "nvidia",
+    "amountUsd": 1500000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-436",
+    "sourceId": "samsung",
+    "targetId": "nvidia",
+    "amountUsd": 1500000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-437",
+    "sourceId": "arm",
+    "targetId": "nvidia",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2024-10-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-438",
+    "sourceId": "marvell",
+    "targetId": "nvidia",
+    "amountUsd": 400000000,
+    "type": "supply",
+    "date": "2024-11-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-439",
+    "sourceId": "broadcom",
+    "targetId": "google",
+    "amountUsd": 2000000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-440",
+    "sourceId": "broadcom",
+    "targetId": "meta",
+    "amountUsd": 1500000000,
+    "type": "supply",
+    "date": "2024-10-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-441",
+    "sourceId": "google",
+    "targetId": "apptronik",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "dealStructure": "strategic-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-442",
+    "sourceId": "bain-capital-ventures",
+    "targetId": "harvey",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-443",
+    "sourceId": "bain-capital-ventures",
+    "targetId": "glean",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-444",
+    "sourceId": "bain-capital-ventures",
+    "targetId": "databricks",
+    "amountUsd": 200000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-445",
+    "sourceId": "benchmark",
+    "targetId": "openai",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      },
+      {
+        "id": "openai-funding-oct-2024",
+        "title": "OpenAI raises $6.6 billion in funding",
+        "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
+        "publisher": "OpenAI",
+        "publishedAt": "2024-10-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+  },
+  {
+    "id": "flow-446",
+    "sourceId": "benchmark",
+    "targetId": "harvey",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-447",
+    "sourceId": "benchmark",
+    "targetId": "sierra",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-448",
+    "sourceId": "benchmark",
+    "targetId": "langchain",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-449",
+    "sourceId": "google",
+    "targetId": "boston-dynamics",
+    "amountUsd": 200000000,
+    "type": "partnership",
+    "date": "2024-08-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-450",
+    "sourceId": "united-states",
+    "targetId": "boston-dynamics",
+    "amountUsd": 400000000,
+    "type": "grant",
+    "date": "2024-09-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-451",
+    "sourceId": "conviction",
+    "targetId": "harvey",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-452",
+    "sourceId": "conviction",
+    "targetId": "cognition",
+    "amountUsd": 25000000,
+    "type": "investment",
+    "date": "2025-03-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-453",
+    "sourceId": "conviction",
+    "targetId": "mercor",
+    "amountUsd": 20000000,
+    "type": "investment",
+    "date": "2025-02-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-454",
+    "sourceId": "amazon",
+    "targetId": "covariant",
+    "amountUsd": 300000000,
+    "type": "acquisition",
+    "date": "2024-08-01",
+    "dealStructure": "acquisition",
+    "verified": false
+  },
+  {
+    "id": "flow-455",
+    "sourceId": "adobe",
+    "targetId": "figma",
+    "amountUsd": 20000000000,
+    "type": "acquisition",
+    "date": "2022-09-15",
+    "dealStructure": "acquisition",
+    "verified": false
+  },
+  {
+    "id": "flow-456",
+    "sourceId": "nvidia",
+    "targetId": "figma",
+    "amountUsd": 100000000,
+    "type": "partnership",
+    "date": "2024-10-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-457",
+    "sourceId": "greylock",
+    "targetId": "harvey",
+    "amountUsd": 35000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-458",
+    "sourceId": "greylock",
+    "targetId": "sierra",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-459",
+    "sourceId": "greylock",
+    "targetId": "abridge",
+    "amountUsd": 25000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-460",
+    "sourceId": "gv",
+    "targetId": "harvey",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-461",
+    "sourceId": "gv",
+    "targetId": "vercel",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-462",
+    "sourceId": "microsoft",
+    "targetId": "iren",
+    "amountUsd": 2000000000,
+    "type": "compute-deal",
+    "date": "2024-11-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-463",
+    "sourceId": "nvidia",
+    "targetId": "iren",
+    "amountUsd": 500000000,
+    "type": "supply",
+    "date": "2024-10-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-464",
+    "sourceId": "ivp",
+    "targetId": "databricks",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-465",
+    "sourceId": "ivp",
+    "targetId": "glean",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-466",
+    "sourceId": "ivp",
+    "targetId": "sierra",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-467",
+    "sourceId": "livekit",
+    "targetId": "nvidia",
+    "amountUsd": 50000000,
+    "type": "partnership",
+    "date": "2024-09-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-468",
+    "sourceId": "nvidia",
+    "targetId": "llamaindex",
+    "amountUsd": 25000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "dealStructure": "strategic-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-469",
+    "sourceId": "google",
+    "targetId": "midjourney",
+    "amountUsd": 100000000,
+    "type": "partnership",
+    "date": "2024-06-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-470",
+    "sourceId": "nvidia",
+    "targetId": "midjourney",
+    "amountUsd": 80000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-471",
+    "sourceId": "google",
+    "targetId": "nuro",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-09-01",
+    "dealStructure": "strategic-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-472",
+    "sourceId": "united-states",
+    "targetId": "nuscale-power",
+    "amountUsd": 400000000,
+    "type": "grant",
+    "date": "2024-10-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-473",
+    "sourceId": "amazon",
+    "targetId": "nuscale-power",
+    "amountUsd": 300000000,
+    "type": "partnership",
+    "date": "2024-11-01",
+    "dealStructure": "energy-infrastructure",
+    "verified": false
+  },
+  {
+    "id": "flow-474",
+    "sourceId": "microsoft",
+    "targetId": "oklo",
+    "amountUsd": 400000000,
+    "type": "partnership",
+    "date": "2024-09-01",
+    "dealStructure": "energy-infrastructure",
+    "citations": [
+      {
+        "id": "msft-oklo-ppa",
+        "title": "Microsoft and Oklo announce nuclear power agreement",
+        "url": "https://www.oklo.com/news/microsoft-oklo-ppa",
+        "publisher": "Oklo",
+        "publishedAt": "2024-09-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Microsoft signed a power purchase agreement with Oklo for nuclear energy to supply AI datacenters."
+  },
+  {
+    "id": "flow-475",
+    "sourceId": "amazon",
+    "targetId": "oklo",
+    "amountUsd": 350000000,
+    "type": "partnership",
+    "date": "2024-10-01",
+    "dealStructure": "energy-infrastructure",
+    "verified": false
+  },
+  {
+    "id": "flow-476",
+    "sourceId": "qualcomm",
+    "targetId": "meta",
+    "amountUsd": 500000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-477",
+    "sourceId": "qualcomm",
+    "targetId": "google",
+    "amountUsd": 400000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-478",
+    "sourceId": "qualcomm",
+    "targetId": "microsoft",
+    "amountUsd": 300000000,
+    "type": "supply",
+    "date": "2024-10-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-479",
+    "sourceId": "qualcomm",
+    "targetId": "nvidia",
+    "amountUsd": 200000000,
+    "type": "partnership",
+    "date": "2024-11-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-480",
+    "sourceId": "redpoint-ventures",
+    "targetId": "langchain",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-481",
+    "sourceId": "redpoint-ventures",
+    "targetId": "fireworks-ai",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-482",
+    "sourceId": "redpoint-ventures",
+    "targetId": "together-ai",
+    "amountUsd": 35000000,
+    "type": "investment",
+    "date": "2024-03-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-483",
+    "sourceId": "nvidia",
+    "targetId": "sambanova",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-07-01",
+    "dealStructure": "strategic-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-484",
+    "sourceId": "google",
+    "targetId": "sambanova",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "dealStructure": "strategic-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-485",
+    "sourceId": "microsoft",
+    "targetId": "sanctuary-ai",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "strategic-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-486",
+    "sourceId": "spark-capital",
+    "targetId": "harvey",
+    "amountUsd": 25000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-487",
+    "sourceId": "spark-capital",
+    "targetId": "sierra",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-488",
+    "sourceId": "spark-capital",
+    "targetId": "decagon",
+    "amountUsd": 20000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-489",
+    "sourceId": "t-rowe-price",
+    "targetId": "openai",
+    "amountUsd": 300000000,
+    "type": "investment",
+    "date": "2024-10-02",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      },
+      {
+        "id": "openai-funding-oct-2024",
+        "title": "OpenAI raises $6.6 billion in funding",
+        "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
+        "publisher": "OpenAI",
+        "publishedAt": "2024-10-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+  },
+  {
+    "id": "flow-490",
+    "sourceId": "t-rowe-price",
+    "targetId": "databricks",
+    "amountUsd": 400000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-491",
+    "sourceId": "microsoft",
+    "targetId": "terrapower",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2024-06-01",
+    "dealStructure": "energy-infrastructure",
+    "verified": false
+  },
+  {
+    "id": "flow-492",
+    "sourceId": "united-states",
+    "targetId": "terrapower",
+    "amountUsd": 800000000,
+    "type": "grant",
+    "date": "2024-07-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-493",
+    "sourceId": "deepseek",
+    "targetId": "coreweave",
+    "amountUsd": 300000000,
+    "type": "compute-deal",
+    "date": "2024-12-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-494",
+    "sourceId": "deepseek",
+    "targetId": "microsoft",
+    "amountUsd": 200000000,
+    "type": "partnership",
+    "date": "2024-10-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-495",
+    "sourceId": "deepseek",
+    "targetId": "amd",
+    "amountUsd": 150000000,
+    "type": "supply",
+    "date": "2024-11-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-496",
+    "sourceId": "brookfield-renewable",
+    "targetId": "microsoft",
+    "amountUsd": 500000000,
+    "type": "energy-contract",
+    "date": "2025-03-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-497",
+    "sourceId": "brookfield-renewable",
+    "targetId": "amazon",
+    "amountUsd": 400000000,
+    "type": "energy-contract",
+    "date": "2025-04-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-498",
+    "sourceId": "united-kingdom",
+    "targetId": "waymo",
+    "amountUsd": 200000000,
+    "type": "grant",
+    "date": "2024-10-01",
+    "dealStructure": "government-grant",
+    "citations": [
+      {
+        "id": "waymo-funding-2024",
+        "title": "Waymo raises $5.6B led by Alphabet",
+        "url": "https://waymo.com/blog/2024/10/waymo-raises-5-6b/",
+        "publisher": "Waymo",
+        "publishedAt": "2024-10-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Alphabet committed additional capital to Waymo for autonomous ride-hail expansion."
+  },
+  {
+    "id": "flow-499",
+    "sourceId": "united-kingdom",
+    "targetId": "stability-ai",
+    "amountUsd": 150000000,
+    "type": "grant",
+    "date": "2024-08-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-500",
+    "sourceId": "canada",
+    "targetId": "cohere",
+    "amountUsd": 200000000,
+    "type": "grant",
+    "date": "2025-01-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-501",
+    "sourceId": "canada",
+    "targetId": "sanctuary-ai",
+    "amountUsd": 100000000,
+    "type": "grant",
+    "date": "2024-11-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-502",
+    "sourceId": "united-arab-emirates",
+    "targetId": "g42",
+    "amountUsd": 2000000000,
+    "type": "partnership",
+    "date": "2024-06-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-503",
+    "sourceId": "united-arab-emirates",
+    "targetId": "microsoft",
+    "amountUsd": 1500000000,
+    "type": "partnership",
+    "date": "2024-07-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-504",
+    "sourceId": "united-arab-emirates",
+    "targetId": "openai",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2024-10-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-505",
+    "sourceId": "singapore",
+    "targetId": "nvidia",
+    "amountUsd": 400000000,
+    "type": "partnership",
+    "date": "2024-11-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-506",
+    "sourceId": "singapore",
+    "targetId": "gic",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2025-01-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-507",
+    "sourceId": "apple",
+    "targetId": "anthropic",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2024-12-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-508",
+    "sourceId": "apple",
+    "targetId": "google",
+    "amountUsd": 300000000,
+    "type": "partnership",
+    "date": "2024-08-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-509",
+    "sourceId": "apple",
+    "targetId": "tsmc",
+    "amountUsd": 2000000000,
+    "type": "supply",
+    "date": "2024-06-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-510",
+    "sourceId": "arm",
+    "targetId": "apple",
+    "amountUsd": 800000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-511",
+    "sourceId": "arm",
+    "targetId": "amazon",
+    "amountUsd": 400000000,
+    "type": "supply",
+    "date": "2024-10-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-512",
+    "sourceId": "arm",
+    "targetId": "qualcomm",
+    "amountUsd": 300000000,
+    "type": "partnership",
+    "date": "2024-11-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-513",
+    "sourceId": "marvell",
+    "targetId": "amazon",
+    "amountUsd": 350000000,
+    "type": "supply",
+    "date": "2024-10-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-514",
+    "sourceId": "marvell",
+    "targetId": "google",
+    "amountUsd": 250000000,
+    "type": "supply",
+    "date": "2024-11-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-515",
+    "sourceId": "supermicro",
+    "targetId": "microsoft",
+    "amountUsd": 1500000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-516",
+    "sourceId": "supermicro",
+    "targetId": "meta",
+    "amountUsd": 1000000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-517",
+    "sourceId": "supermicro",
+    "targetId": "coreweave",
+    "amountUsd": 500000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-518",
+    "sourceId": "ge-vernova",
+    "targetId": "microsoft",
+    "amountUsd": 600000000,
+    "type": "partnership",
+    "date": "2025-02-01",
+    "dealStructure": "energy-infrastructure",
+    "verified": false
+  },
+  {
+    "id": "flow-519",
+    "sourceId": "ge-vernova",
+    "targetId": "amazon",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2025-03-01",
+    "dealStructure": "energy-infrastructure",
+    "verified": false
+  },
+  {
+    "id": "flow-520",
+    "sourceId": "bloom-energy",
+    "targetId": "google",
+    "amountUsd": 350000000,
+    "type": "energy-contract",
+    "date": "2025-03-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-521",
+    "sourceId": "bloom-energy",
+    "targetId": "equinix",
+    "amountUsd": 250000000,
+    "type": "energy-contract",
+    "date": "2025-01-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-522",
+    "sourceId": "ibm",
+    "targetId": "nvidia",
+    "amountUsd": 400000000,
+    "type": "partnership",
+    "date": "2024-11-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-523",
+    "sourceId": "ibm",
+    "targetId": "meta",
+    "amountUsd": 250000000,
+    "type": "partnership",
+    "date": "2024-12-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-524",
+    "sourceId": "servicenow",
+    "targetId": "anthropic",
+    "amountUsd": 300000000,
+    "type": "partnership",
+    "date": "2024-12-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-525",
+    "sourceId": "servicenow",
+    "targetId": "openai",
+    "amountUsd": 250000000,
+    "type": "partnership",
+    "date": "2024-11-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-526",
+    "sourceId": "sap",
+    "targetId": "openai",
+    "amountUsd": 400000000,
+    "type": "partnership",
+    "date": "2024-10-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-527",
+    "sourceId": "sap",
+    "targetId": "cohere",
+    "amountUsd": 200000000,
+    "type": "partnership",
+    "date": "2024-11-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-528",
+    "sourceId": "bytedance",
+    "targetId": "broadcom",
+    "amountUsd": 500000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-529",
+    "sourceId": "bytedance",
+    "targetId": "coreweave",
+    "amountUsd": 300000000,
+    "type": "compute-deal",
+    "date": "2024-10-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-530",
+    "sourceId": "baidu",
+    "targetId": "amd",
+    "amountUsd": 400000000,
+    "type": "supply",
+    "date": "2024-10-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-531",
+    "sourceId": "dell-technologies",
+    "targetId": "coreweave",
+    "amountUsd": 800000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-532",
+    "sourceId": "dell-technologies",
+    "targetId": "microsoft",
+    "amountUsd": 600000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-533",
+    "sourceId": "hewlett-packard-enterprise",
+    "targetId": "nvidia",
+    "amountUsd": 1000000000,
+    "type": "supply",
+    "date": "2024-06-01",
+    "dealStructure": "hardware-supply",
+    "citations": [
+      {
+        "id": "nvidia-tsmc-supply",
+        "title": "Nvidia relies on TSMC for H100/H200 production",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-annual-report-2024",
+        "publisher": "Nvidia",
+        "publishedAt": "2024-03-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "TSMC manufactures Nvidia's leading-edge AI accelerators on advanced process nodes."
+  },
+  {
+    "id": "flow-534",
+    "sourceId": "hewlett-packard-enterprise",
+    "targetId": "microsoft",
+    "amountUsd": 700000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-535",
+    "sourceId": "hewlett-packard-enterprise",
+    "targetId": "coreweave",
+    "amountUsd": 400000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  },
+  {
+    "id": "flow-536",
+    "sourceId": "character-ai",
+    "targetId": "nvidia",
+    "amountUsd": 200000000,
+    "type": "supply",
+    "date": "2024-09-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-537",
+    "sourceId": "character-ai",
+    "targetId": "oracle",
+    "amountUsd": 150000000,
+    "type": "compute-deal",
+    "date": "2024-10-01",
+    "dealStructure": "compute-capacity-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-538",
+    "sourceId": "millennium",
+    "targetId": "coreweave",
+    "amountUsd": 300000000,
+    "type": "supply",
+    "date": "2024-12-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-539",
+    "sourceId": "millennium",
+    "targetId": "lambda",
+    "amountUsd": 200000000,
+    "type": "supply",
+    "date": "2024-11-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-540",
+    "sourceId": "point72",
+    "targetId": "coreweave",
+    "amountUsd": 250000000,
+    "type": "supply",
+    "date": "2025-01-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-541",
+    "sourceId": "point72",
+    "targetId": "crusoe",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "debt-financing",
+    "verified": false
+  },
+  {
+    "id": "flow-542",
+    "sourceId": "france",
+    "targetId": "scale-ai",
+    "amountUsd": 300000000,
+    "type": "grant",
+    "date": "2025-01-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-543",
+    "sourceId": "france",
+    "targetId": "hugging-face",
+    "amountUsd": 200000000,
+    "type": "grant",
+    "date": "2025-02-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-544",
+    "sourceId": "germany",
+    "targetId": "black-forest-labs",
+    "amountUsd": 250000000,
+    "type": "grant",
+    "date": "2025-01-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-545",
+    "sourceId": "germany",
+    "targetId": "mistral-ai",
+    "amountUsd": 300000000,
+    "type": "grant",
+    "date": "2025-03-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-546",
+    "sourceId": "qatar",
+    "targetId": "coreweave",
+    "amountUsd": 300000000,
+    "type": "partnership",
+    "date": "2025-02-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-547",
+    "sourceId": "qatar",
+    "targetId": "openai",
+    "amountUsd": 200000000,
+    "type": "partnership",
+    "date": "2025-03-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-548",
+    "sourceId": "greenoaks",
+    "targetId": "ramp",
+    "amountUsd": 60000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-549",
+    "sourceId": "greenoaks",
+    "targetId": "databricks",
+    "amountUsd": 150000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-550",
+    "sourceId": "covariant",
+    "targetId": "nvidia",
+    "amountUsd": 80000000,
+    "type": "partnership",
+    "date": "2023-06-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-551",
+    "sourceId": "covariant",
+    "targetId": "softbank",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2023-05-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-552",
+    "sourceId": "1x-technologies",
+    "targetId": "openai",
+    "amountUsd": 50000000,
+    "type": "partnership",
+    "date": "2024-06-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-553",
+    "sourceId": "1x-technologies",
+    "targetId": "nvidia",
+    "amountUsd": 40000000,
+    "type": "supply",
+    "date": "2024-08-01",
+    "dealStructure": "gpu-supply-allocation",
+    "verified": false
+  },
+  {
+    "id": "flow-554",
+    "sourceId": "bessemer-venture-partners",
+    "targetId": "canva",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-555",
+    "sourceId": "bessemer-venture-partners",
+    "targetId": "gong",
+    "amountUsd": 40000000,
+    "type": "investment",
+    "date": "2024-05-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-556",
+    "sourceId": "new-enterprise-associates",
+    "targetId": "databricks",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-12-17",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "flow-557",
+    "sourceId": "new-enterprise-associates",
+    "targetId": "sierra",
+    "amountUsd": 50000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-558",
+    "sourceId": "kairos-power",
+    "targetId": "microsoft",
+    "amountUsd": 300000000,
+    "type": "partnership",
+    "date": "2025-01-01",
+    "dealStructure": "energy-infrastructure",
+    "verified": false
+  },
+  {
+    "id": "flow-559",
+    "sourceId": "kairos-power",
+    "targetId": "united-states",
+    "amountUsd": 250000000,
+    "type": "grant",
+    "date": "2024-11-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-560",
+    "sourceId": "x-energy",
+    "targetId": "google",
+    "amountUsd": 200000000,
+    "type": "partnership",
+    "date": "2025-01-01",
+    "dealStructure": "energy-infrastructure",
+    "verified": false
+  },
+  {
+    "id": "flow-561",
+    "sourceId": "x-energy",
+    "targetId": "united-states",
+    "amountUsd": 300000000,
+    "type": "grant",
+    "date": "2024-12-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-562",
+    "sourceId": "cisco",
+    "targetId": "nvidia",
+    "amountUsd": 500000000,
+    "type": "partnership",
+    "date": "2024-11-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-563",
+    "sourceId": "cisco",
+    "targetId": "mistral-ai",
+    "amountUsd": 150000000,
+    "type": "partnership",
+    "date": "2024-10-01",
+    "dealStructure": "platform-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-564",
+    "sourceId": "snowflake",
+    "targetId": "nvidia",
+    "amountUsd": 200000000,
+    "type": "partnership",
+    "date": "2024-09-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-565",
+    "sourceId": "snowflake",
+    "targetId": "databricks",
+    "amountUsd": 150000000,
+    "type": "partnership",
+    "date": "2024-10-01",
+    "dealStructure": "strategic-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-566",
+    "sourceId": "helion-energy",
+    "targetId": "openai",
+    "amountUsd": 400000000,
+    "type": "energy-contract",
+    "date": "2024-08-01",
+    "dealStructure": "power-purchase-agreement",
+    "verified": false
+  },
+  {
+    "id": "flow-567",
+    "sourceId": "helion-energy",
+    "targetId": "amazon",
+    "amountUsd": 300000000,
+    "type": "partnership",
+    "date": "2025-01-01",
+    "dealStructure": "energy-infrastructure",
+    "verified": false
+  },
+  {
+    "id": "flow-568",
+    "sourceId": "menlo-ventures",
+    "targetId": "harvey",
+    "amountUsd": 35000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-569",
+    "sourceId": "menlo-ventures",
+    "targetId": "sierra",
+    "amountUsd": 30000000,
+    "type": "investment",
+    "date": "2024-10-01",
+    "dealStructure": "growth-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-570",
+    "sourceId": "public-investment-fund",
+    "targetId": "xai",
+    "amountUsd": 1000000000,
+    "type": "investment",
+    "date": "2025-07-01",
+    "dealStructure": "growth-equity",
+    "citations": [
+      {
+        "id": "xai-series-c-2025",
+        "title": "xAI raises $6B Series C",
+        "url": "https://x.ai/blog/series-c",
+        "publisher": "xAI",
+        "publishedAt": "2025-07-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Saudi PIF participated in xAI's Series C alongside Valor, Fidelity, and Qatar Investment Authority."
+  },
+  {
+    "id": "flow-571",
+    "sourceId": "nvidia",
+    "targetId": "harvey",
+    "amountUsd": 100000000,
+    "type": "investment",
+    "date": "2024-12-01",
+    "dealStructure": "strategic-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-572",
+    "sourceId": "united-states",
+    "targetId": "openai",
+    "amountUsd": 200000000,
+    "type": "grant",
+    "date": "2024-07-01",
+    "dealStructure": "government-grant",
+    "verified": false
+  },
+  {
+    "id": "flow-573",
+    "sourceId": "intel",
+    "targetId": "hugging-face",
+    "amountUsd": 80000000,
+    "type": "investment",
+    "date": "2024-08-01",
+    "dealStructure": "strategic-equity",
+    "verified": false
+  },
+  {
+    "id": "flow-574",
+    "sourceId": "microsoft",
+    "targetId": "g42",
+    "amountUsd": 1500000000,
+    "type": "partnership",
+    "date": "2024-04-01",
+    "dealStructure": "sovereign-partnership",
+    "verified": false
+  },
+  {
+    "id": "flow-575",
+    "sourceId": "nvidia",
+    "targetId": "g42",
+    "amountUsd": 500000000,
+    "type": "supply",
+    "date": "2024-07-01",
+    "dealStructure": "hardware-supply",
+    "verified": false
+  }
+]

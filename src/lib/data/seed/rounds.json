@@ -1,0 +1,1403 @@
+[
+  {
+    "id": "round-1",
+    "targetId": "openai",
+    "date": "2024-10-02",
+    "roundType": "Series E+",
+    "amountUsd": 6600000000,
+    "valuationUsd": 157000000000,
+    "leadInvestorId": "thrive-capital",
+    "investorIds": [
+      "thrive-capital",
+      "microsoft",
+      "nvidia",
+      "softbank",
+      "mgx",
+      "tiger-global",
+      "coatue",
+      "sequoia-capital",
+      "khosla-ventures"
+    ],
+    "citations": [
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
+      },
+      {
+        "id": "openai-funding-oct-2024",
+        "title": "OpenAI raises $6.6 billion in funding",
+        "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
+        "publisher": "OpenAI",
+        "publishedAt": "2024-10-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+  },
+  {
+    "id": "round-2",
+    "targetId": "openai",
+    "date": "2025-03-31",
+    "roundType": "Growth",
+    "amountUsd": 40000000000,
+    "valuationUsd": 300000000000,
+    "leadInvestorId": "softbank",
+    "investorIds": [
+      "softbank",
+      "mgx",
+      "microsoft",
+      "coatue"
+    ],
+    "citations": [
+      {
+        "id": "reuters-openai-softbank-2025",
+        "title": "OpenAI finalizes $40 billion SoftBank-led funding round",
+        "url": "https://www.reuters.com/technology/openai-finalizes-40-billion-softbank-led-funding-round-2025-03-31/",
+        "publisher": "Reuters",
+        "publishedAt": "2025-03-31",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "SoftBank led a $40B investment in OpenAI at a $300B valuation, with participation from Microsoft, Coatue, and MGX."
+  },
+  {
+    "id": "round-3",
+    "targetId": "anthropic",
+    "date": "2025-11-18",
+    "roundType": "Strategic",
+    "amountUsd": 15000000000,
+    "valuationUsd": 350000000000,
+    "leadInvestorId": "nvidia",
+    "investorIds": [
+      "nvidia",
+      "microsoft"
+    ],
+    "citations": [
+      {
+        "id": "msft-anthropic-nov-2025",
+        "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships",
+        "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+        "publisher": "Microsoft",
+        "publishedAt": "2025-11-18",
+        "type": "press-release"
+      },
+      {
+        "id": "cnbc-anthropic-nov-2025",
+        "title": "Anthropic valued in range of $350 billion following investment deal with Microsoft, Nvidia",
+        "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html",
+        "publisher": "CNBC",
+        "publishedAt": "2025-11-18",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia committed up to $10B to Anthropic and a deep technology partnership for Grace Blackwell / Vera Rubin systems."
+  },
+  {
+    "id": "round-4",
+    "targetId": "anthropic",
+    "date": "2024-11-22",
+    "roundType": "Strategic",
+    "amountUsd": 4000000000,
+    "valuationUsd": 183000000000,
+    "leadInvestorId": "amazon",
+    "investorIds": [
+      "amazon"
+    ],
+    "citations": [
+      {
+        "id": "amazon-anthropic-4b",
+        "title": "Amazon completes $4B investment in Anthropic",
+        "url": "https://www.aboutamazon.com/news/company-news/amazon-anthropic-ai-investment",
+        "publisher": "Amazon",
+        "publishedAt": "2024-11-22",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Amazon completed its second $4B investment in Anthropic, bringing Amazon's total commitment to $8B."
+  },
+  {
+    "id": "round-5",
+    "targetId": "anthropic",
+    "date": "2024-10-01",
+    "roundType": "Strategic",
+    "amountUsd": 1000000000,
+    "valuationUsd": 183000000000,
+    "leadInvestorId": "google",
+    "investorIds": [
+      "google"
+    ],
+    "citations": [
+      {
+        "id": "google-anthropic-cloud",
+        "title": "Google and Anthropic expand AI partnership",
+        "url": "https://blog.google/technology/ai/google-anthropic-partnership/",
+        "publisher": "Google",
+        "publishedAt": "2024-10-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Google invested an additional $1B in Anthropic alongside expanded Google Cloud / TPU partnership."
+  },
+  {
+    "id": "round-6",
+    "targetId": "anthropic",
+    "date": "2024-03-27",
+    "roundType": "Series D",
+    "amountUsd": 1500000000,
+    "valuationUsd": 18400000000,
+    "leadInvestorId": "google",
+    "investorIds": [
+      "google",
+      "salesforce",
+      "lightspeed-venture-partners",
+      "iconiq",
+      "tiger-global"
+    ]
+  },
+  {
+    "id": "round-7",
+    "targetId": "xai",
+    "date": "2025-07-01",
+    "roundType": "Series E+",
+    "amountUsd": 10000000000,
+    "valuationUsd": 80000000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "sequoia-capital",
+      "fidelity",
+      "mgx",
+      "blackrock",
+      "nvidia"
+    ],
+    "citations": [
+      {
+        "id": "xai-series-c-2025",
+        "title": "xAI raises $6B Series C",
+        "url": "https://x.ai/blog/series-c",
+        "publisher": "xAI",
+        "publishedAt": "2025-07-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Saudi PIF participated in xAI's Series C alongside Valor, Fidelity, and Qatar Investment Authority."
+  },
+  {
+    "id": "round-8",
+    "targetId": "xai",
+    "date": "2024-05-26",
+    "roundType": "Series B",
+    "amountUsd": 6000000000,
+    "valuationUsd": 24000000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "sequoia-capital",
+      "fidelity",
+      "tiger-global",
+      "blackrock"
+    ]
+  },
+  {
+    "id": "round-9",
+    "targetId": "mistral-ai",
+    "date": "2024-06-11",
+    "roundType": "Series B",
+    "amountUsd": 640000000,
+    "valuationUsd": 6000000000,
+    "leadInvestorId": "general-catalyst",
+    "investorIds": [
+      "general-catalyst",
+      "andreessen-horowitz",
+      "lightspeed-venture-partners",
+      "nvidia",
+      "salesforce"
+    ]
+  },
+  {
+    "id": "round-10",
+    "targetId": "mistral-ai",
+    "date": "2025-09-09",
+    "roundType": "Series C",
+    "amountUsd": 2000000000,
+    "valuationUsd": 14000000000,
+    "leadInvestorId": "general-catalyst",
+    "investorIds": [
+      "general-catalyst",
+      "nvidia",
+      "cisco",
+      "andreessen-horowitz",
+      "salesforce"
+    ]
+  },
+  {
+    "id": "round-11",
+    "targetId": "cohere",
+    "date": "2024-07-21",
+    "roundType": "Series D",
+    "amountUsd": 500000000,
+    "valuationUsd": 5500000000,
+    "leadInvestorId": "insight-partners",
+    "investorIds": [
+      "insight-partners",
+      "nvidia",
+      "oracle",
+      "salesforce",
+      "tiger-global"
+    ]
+  },
+  {
+    "id": "round-12",
+    "targetId": "perplexity",
+    "date": "2024-12-17",
+    "roundType": "Series D",
+    "amountUsd": 500000000,
+    "valuationUsd": 18000000000,
+    "leadInvestorId": "coatue",
+    "investorIds": [
+      "nvidia",
+      "softbank",
+      "new-enterprise-associates",
+      "coatue",
+      "bessemer-venture-partners"
+    ],
+    "citations": [
+      {
+        "id": "perplexity-series-d",
+        "title": "Perplexity raises $500M Series D",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-raises-series-d",
+        "publisher": "Perplexity",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia participated in Perplexity's $500M round at a $9B valuation."
+  },
+  {
+    "id": "round-13",
+    "targetId": "safe-superintelligence",
+    "date": "2024-09-04",
+    "roundType": "Series A",
+    "amountUsd": 1000000000,
+    "valuationUsd": 5000000000,
+    "leadInvestorId": "sequoia-capital",
+    "investorIds": [
+      "sequoia-capital",
+      "andreessen-horowitz",
+      "dst-global",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-14",
+    "targetId": "safe-superintelligence",
+    "date": "2025-03-01",
+    "roundType": "Series B",
+    "amountUsd": 2000000000,
+    "valuationUsd": 32000000000,
+    "leadInvestorId": "sequoia-capital",
+    "investorIds": [
+      "sequoia-capital",
+      "andreessen-horowitz",
+      "dst-global",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-15",
+    "targetId": "inflection-ai",
+    "date": "2023-06-29",
+    "roundType": "Series B",
+    "amountUsd": 1300000000,
+    "valuationUsd": 4000000000,
+    "leadInvestorId": "microsoft",
+    "investorIds": [
+      "microsoft",
+      "nvidia",
+      "greylock"
+    ]
+  },
+  {
+    "id": "round-16",
+    "targetId": "moonshot-ai",
+    "date": "2024-08-01",
+    "roundType": "Series C",
+    "amountUsd": 1000000000,
+    "valuationUsd": 3300000000,
+    "leadInvestorId": "tencent",
+    "investorIds": [
+      "tencent",
+      "alibaba",
+      "sequoia-capital"
+    ]
+  },
+  {
+    "id": "round-17",
+    "targetId": "zhipu-ai",
+    "date": "2024-12-01",
+    "roundType": "Series D",
+    "amountUsd": 700000000,
+    "valuationUsd": 4000000000,
+    "leadInvestorId": "tencent",
+    "investorIds": [
+      "tencent",
+      "alibaba",
+      "sequoia-capital"
+    ]
+  },
+  {
+    "id": "round-18",
+    "targetId": "black-forest-labs",
+    "date": "2024-08-01",
+    "roundType": "Series A",
+    "amountUsd": 100000000,
+    "valuationUsd": 1000000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "general-catalyst"
+    ]
+  },
+  {
+    "id": "round-19",
+    "targetId": "world-labs",
+    "date": "2024-09-13",
+    "roundType": "Series A",
+    "amountUsd": 230000000,
+    "valuationUsd": 1000000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "nvidia",
+      "lux-capital"
+    ]
+  },
+  {
+    "id": "round-20",
+    "targetId": "liquid-ai",
+    "date": "2024-12-01",
+    "roundType": "Series A",
+    "amountUsd": 250000000,
+    "valuationUsd": 2300000000,
+    "leadInvestorId": "general-catalyst",
+    "investorIds": [
+      "general-catalyst",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-21",
+    "targetId": "stability-ai",
+    "date": "2024-06-01",
+    "roundType": "Series C",
+    "amountUsd": 80000000,
+    "valuationUsd": 1000000000,
+    "leadInvestorId": "coatue",
+    "investorIds": [
+      "coatue",
+      "lightspeed-venture-partners"
+    ]
+  },
+  {
+    "id": "round-22",
+    "targetId": "ai21-labs",
+    "date": "2024-03-01",
+    "roundType": "Series C",
+    "amountUsd": 300000000,
+    "valuationUsd": 1400000000,
+    "leadInvestorId": "intel",
+    "investorIds": [
+      "intel",
+      "nvidia",
+      "google"
+    ]
+  },
+  {
+    "id": "round-23",
+    "targetId": "reka-ai",
+    "date": "2024-07-01",
+    "roundType": "Series B",
+    "amountUsd": 60000000,
+    "valuationUsd": 1000000000,
+    "leadInvestorId": "dst-global",
+    "investorIds": [
+      "dst-global",
+      "snowflake"
+    ]
+  },
+  {
+    "id": "round-24",
+    "targetId": "luma-ai",
+    "date": "2024-11-01",
+    "roundType": "Series B",
+    "amountUsd": 90000000,
+    "valuationUsd": 400000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-25",
+    "targetId": "cerebras",
+    "date": "2024-11-01",
+    "roundType": "Series E+",
+    "amountUsd": 1100000000,
+    "valuationUsd": 8000000000,
+    "leadInvestorId": "coatue",
+    "investorIds": [
+      "coatue",
+      "nvidia",
+      "tiger-global"
+    ]
+  },
+  {
+    "id": "round-26",
+    "targetId": "groq",
+    "date": "2024-08-01",
+    "roundType": "Series D",
+    "amountUsd": 640000000,
+    "valuationUsd": 6900000000,
+    "leadInvestorId": "blackrock",
+    "investorIds": [
+      "blackrock",
+      "tiger-global",
+      "samsung"
+    ]
+  },
+  {
+    "id": "round-27",
+    "targetId": "tenstorrent",
+    "date": "2024-12-01",
+    "roundType": "Series D",
+    "amountUsd": 693000000,
+    "valuationUsd": 2600000000,
+    "leadInvestorId": "samsung",
+    "investorIds": [
+      "samsung",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-28",
+    "targetId": "etched",
+    "date": "2024-06-01",
+    "roundType": "Series A",
+    "amountUsd": 120000000,
+    "valuationUsd": 750000000,
+    "leadInvestorId": "nvidia",
+    "investorIds": [
+      "nvidia",
+      "lux-capital"
+    ]
+  },
+  {
+    "id": "round-29",
+    "targetId": "coreweave",
+    "date": "2024-05-01",
+    "roundType": "Debt",
+    "amountUsd": 7500000000,
+    "valuationUsd": 19000000000,
+    "leadInvestorId": "blackrock",
+    "investorIds": [
+      "blackrock",
+      "jpmorgan-chase",
+      "goldman-sachs"
+    ],
+    "citations": [
+      {
+        "id": "nvidia-coreweave-invest",
+        "title": "Nvidia invests in CoreWeave",
+        "url": "https://www.reuters.com/technology/nvidia-invests-coreweave-2024-05-01/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-05-01",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia invested in CoreWeave as part of its AI infrastructure ecosystem strategy."
+  },
+  {
+    "id": "round-30",
+    "targetId": "coreweave",
+    "date": "2024-05-17",
+    "roundType": "Series C",
+    "amountUsd": 1100000000,
+    "valuationUsd": 19000000000,
+    "leadInvestorId": "coatue",
+    "investorIds": [
+      "coatue",
+      "fidelity",
+      "jane-street",
+      "jpmorgan-chase",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-31",
+    "targetId": "crusoe",
+    "date": "2024-12-01",
+    "roundType": "Series D",
+    "amountUsd": 600000000,
+    "valuationUsd": 10000000000,
+    "leadInvestorId": "founders-fund",
+    "investorIds": [
+      "founders-fund",
+      "nvidia",
+      "lux-capital"
+    ]
+  },
+  {
+    "id": "round-32",
+    "targetId": "lambda",
+    "date": "2024-02-01",
+    "roundType": "Series C",
+    "amountUsd": 320000000,
+    "valuationUsd": 4000000000,
+    "leadInvestorId": "nvidia",
+    "investorIds": [
+      "nvidia",
+      "tiger-global"
+    ]
+  },
+  {
+    "id": "round-33",
+    "targetId": "together-ai",
+    "date": "2024-03-01",
+    "roundType": "Series A",
+    "amountUsd": 106000000,
+    "valuationUsd": 1250000000,
+    "leadInvestorId": "lux-capital",
+    "investorIds": [
+      "lux-capital",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-34",
+    "targetId": "fireworks-ai",
+    "date": "2024-07-01",
+    "roundType": "Series B",
+    "amountUsd": 250000000,
+    "valuationUsd": 4000000000,
+    "leadInvestorId": "sequoia-capital",
+    "investorIds": [
+      "sequoia-capital",
+      "nvidia",
+      "tiger-global"
+    ]
+  },
+  {
+    "id": "round-35",
+    "targetId": "baseten",
+    "date": "2024-06-01",
+    "roundType": "Series B",
+    "amountUsd": 150000000,
+    "valuationUsd": 2100000000,
+    "leadInvestorId": "nvidia",
+    "investorIds": [
+      "nvidia",
+      "insight-partners"
+    ]
+  },
+  {
+    "id": "round-36",
+    "targetId": "modal",
+    "date": "2024-10-01",
+    "roundType": "Series B",
+    "amountUsd": 87000000,
+    "valuationUsd": 1100000000,
+    "leadInvestorId": "lux-capital",
+    "investorIds": [
+      "lux-capital",
+      "general-catalyst"
+    ]
+  },
+  {
+    "id": "round-37",
+    "targetId": "nebius",
+    "date": "2024-12-02",
+    "roundType": "Strategic",
+    "amountUsd": 700000000,
+    "valuationUsd": 14000000000,
+    "leadInvestorId": "nvidia",
+    "investorIds": [
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-38",
+    "targetId": "g42",
+    "date": "2024-04-16",
+    "roundType": "Strategic",
+    "amountUsd": 1500000000,
+    "valuationUsd": 30000000000,
+    "leadInvestorId": "microsoft",
+    "investorIds": [
+      "microsoft"
+    ]
+  },
+  {
+    "id": "round-39",
+    "targetId": "kairos-power",
+    "date": "2024-10-14",
+    "roundType": "Series D",
+    "amountUsd": 500000000,
+    "leadInvestorId": "google",
+    "investorIds": [
+      "google"
+    ],
+    "citations": [
+      {
+        "id": "google-kairos",
+        "title": "Google orders nuclear reactors from Kairos Power",
+        "url": "https://blog.google/inside-google/infrastructure/google-kairos-power-nuclear/",
+        "publisher": "Google",
+        "publishedAt": "2024-10-14",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Google ordered small modular reactors from Kairos Power for datacenter power."
+  },
+  {
+    "id": "round-40",
+    "targetId": "x-energy",
+    "date": "2024-10-16",
+    "roundType": "Series D",
+    "amountUsd": 500000000,
+    "leadInvestorId": "amazon",
+    "investorIds": [
+      "amazon"
+    ]
+  },
+  {
+    "id": "round-41",
+    "targetId": "commonwealth-fusion",
+    "date": "2024-12-01",
+    "roundType": "Series B",
+    "amountUsd": 1800000000,
+    "valuationUsd": 4000000000,
+    "leadInvestorId": "google",
+    "investorIds": [
+      "google",
+      "microsoft"
+    ]
+  },
+  {
+    "id": "round-42",
+    "targetId": "helion-energy",
+    "date": "2024-05-01",
+    "roundType": "Series E+",
+    "amountUsd": 500000000,
+    "valuationUsd": 5400000000,
+    "leadInvestorId": "microsoft",
+    "investorIds": [
+      "microsoft"
+    ]
+  },
+  {
+    "id": "round-43",
+    "targetId": "fervo-energy",
+    "date": "2024-08-01",
+    "roundType": "Series D",
+    "amountUsd": 244000000,
+    "valuationUsd": 1400000000,
+    "leadInvestorId": "google",
+    "investorIds": [
+      "google",
+      "softbank"
+    ]
+  },
+  {
+    "id": "round-44",
+    "targetId": "figure",
+    "date": "2024-02-29",
+    "roundType": "Series B",
+    "amountUsd": 675000000,
+    "valuationUsd": 2600000000,
+    "leadInvestorId": "microsoft",
+    "investorIds": [
+      "microsoft",
+      "nvidia",
+      "openai",
+      "intel",
+      "amazon"
+    ]
+  },
+  {
+    "id": "round-45",
+    "targetId": "figure",
+    "date": "2025-09-01",
+    "roundType": "Series C",
+    "amountUsd": 1000000000,
+    "valuationUsd": 39000000000,
+    "leadInvestorId": "nvidia",
+    "investorIds": [
+      "nvidia",
+      "microsoft",
+      "openai",
+      "intel"
+    ]
+  },
+  {
+    "id": "round-46",
+    "targetId": "physical-intelligence",
+    "date": "2024-11-01",
+    "roundType": "Series A",
+    "amountUsd": 400000000,
+    "valuationUsd": 2400000000,
+    "leadInvestorId": "thrive-capital",
+    "investorIds": [
+      "thrive-capital",
+      "sequoia-capital",
+      "lux-capital"
+    ]
+  },
+  {
+    "id": "round-47",
+    "targetId": "skild-ai",
+    "date": "2024-07-01",
+    "roundType": "Series A",
+    "amountUsd": 300000000,
+    "valuationUsd": 4500000000,
+    "leadInvestorId": "lightspeed-venture-partners",
+    "investorIds": [
+      "lightspeed-venture-partners",
+      "coatue",
+      "softbank"
+    ]
+  },
+  {
+    "id": "round-48",
+    "targetId": "anduril",
+    "date": "2024-08-01",
+    "roundType": "Series E+",
+    "amountUsd": 1500000000,
+    "valuationUsd": 30000000000,
+    "leadInvestorId": "founders-fund",
+    "investorIds": [
+      "founders-fund",
+      "andreessen-horowitz",
+      "lux-capital",
+      "thrive-capital"
+    ]
+  },
+  {
+    "id": "round-49",
+    "targetId": "wayve",
+    "date": "2024-05-01",
+    "roundType": "Series C",
+    "amountUsd": 1050000000,
+    "valuationUsd": 2700000000,
+    "leadInvestorId": "softbank",
+    "investorIds": [
+      "softbank",
+      "nvidia",
+      "microsoft"
+    ]
+  },
+  {
+    "id": "round-50",
+    "targetId": "agility-robotics",
+    "date": "2024-04-01",
+    "roundType": "Series B",
+    "amountUsd": 150000000,
+    "valuationUsd": 1000000000,
+    "leadInvestorId": "amazon",
+    "investorIds": [
+      "amazon",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-51",
+    "targetId": "1x-technologies",
+    "date": "2024-01-01",
+    "roundType": "Series B",
+    "amountUsd": 100000000,
+    "valuationUsd": 4000000000,
+    "leadInvestorId": "samsung",
+    "investorIds": [
+      "samsung"
+    ]
+  },
+  {
+    "id": "round-52",
+    "targetId": "databricks",
+    "date": "2024-12-17",
+    "roundType": "Series E+",
+    "amountUsd": 10000000000,
+    "valuationUsd": 100000000000,
+    "leadInvestorId": "thrive-capital",
+    "investorIds": [
+      "thrive-capital",
+      "andreessen-horowitz",
+      "nvidia",
+      "microsoft",
+      "tiger-global",
+      "coatue",
+      "insight-partners"
+    ],
+    "citations": [
+      {
+        "id": "databricks-series-j",
+        "title": "Databricks raises $10B Series J",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+  },
+  {
+    "id": "round-53",
+    "targetId": "scale-ai",
+    "date": "2024-05-21",
+    "roundType": "Series E+",
+    "amountUsd": 1000000000,
+    "valuationUsd": 14000000000,
+    "leadInvestorId": "accel",
+    "investorIds": [
+      "accel",
+      "nvidia",
+      "amazon",
+      "intel",
+      "tiger-global"
+    ]
+  },
+  {
+    "id": "round-54",
+    "targetId": "scale-ai",
+    "date": "2025-06-12",
+    "roundType": "Strategic",
+    "amountUsd": 14300000000,
+    "valuationUsd": 29000000000,
+    "leadInvestorId": "meta",
+    "investorIds": [
+      "meta"
+    ]
+  },
+  {
+    "id": "round-55",
+    "targetId": "hugging-face",
+    "date": "2024-08-01",
+    "roundType": "Series D",
+    "amountUsd": 235000000,
+    "valuationUsd": 4500000000,
+    "leadInvestorId": "salesforce",
+    "investorIds": [
+      "salesforce",
+      "google",
+      "nvidia",
+      "amazon"
+    ]
+  },
+  {
+    "id": "round-56",
+    "targetId": "langchain",
+    "date": "2024-10-01",
+    "roundType": "Series A",
+    "amountUsd": 125000000,
+    "valuationUsd": 1250000000,
+    "leadInvestorId": "sequoia-capital",
+    "investorIds": [
+      "sequoia-capital",
+      "andreessen-horowitz"
+    ]
+  },
+  {
+    "id": "round-57",
+    "targetId": "pinecone",
+    "date": "2024-04-01",
+    "roundType": "Series B",
+    "amountUsd": 100000000,
+    "valuationUsd": 750000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "iconiq"
+    ]
+  },
+  {
+    "id": "round-58",
+    "targetId": "vercel",
+    "date": "2024-05-01",
+    "roundType": "Series E",
+    "amountUsd": 250000000,
+    "valuationUsd": 9000000000,
+    "leadInvestorId": "accel",
+    "investorIds": [
+      "accel",
+      "google"
+    ]
+  },
+  {
+    "id": "round-59",
+    "targetId": "weights-and-biases",
+    "date": "2024-06-01",
+    "roundType": "Series C",
+    "amountUsd": 250000000,
+    "valuationUsd": 1300000000,
+    "leadInvestorId": "insight-partners",
+    "investorIds": [
+      "insight-partners",
+      "coatue"
+    ]
+  },
+  {
+    "id": "round-60",
+    "targetId": "cursor",
+    "date": "2025-06-01",
+    "roundType": "Series C",
+    "amountUsd": 900000000,
+    "valuationUsd": 29000000000,
+    "leadInvestorId": "thrive-capital",
+    "investorIds": [
+      "thrive-capital",
+      "andreessen-horowitz",
+      "google",
+      "openai"
+    ]
+  },
+  {
+    "id": "round-61",
+    "targetId": "harvey",
+    "date": "2024-12-01",
+    "roundType": "Series D",
+    "amountUsd": 300000000,
+    "valuationUsd": 8000000000,
+    "leadInvestorId": "sequoia-capital",
+    "investorIds": [
+      "sequoia-capital",
+      "kleiner-perkins",
+      "openai",
+      "coatue"
+    ]
+  },
+  {
+    "id": "round-62",
+    "targetId": "glean",
+    "date": "2024-09-01",
+    "roundType": "Series E",
+    "amountUsd": 260000000,
+    "valuationUsd": 7200000000,
+    "leadInvestorId": "kleiner-perkins",
+    "investorIds": [
+      "kleiner-perkins",
+      "lightspeed-venture-partners",
+      "sequoia-capital"
+    ]
+  },
+  {
+    "id": "round-63",
+    "targetId": "sierra",
+    "date": "2024-10-01",
+    "roundType": "Series B",
+    "amountUsd": 175000000,
+    "valuationUsd": 10000000000,
+    "leadInvestorId": "greenoaks",
+    "investorIds": [
+      "greenoaks",
+      "sequoia-capital"
+    ]
+  },
+  {
+    "id": "round-64",
+    "targetId": "abridge",
+    "date": "2024-06-01",
+    "roundType": "Series D",
+    "amountUsd": 150000000,
+    "valuationUsd": 5300000000,
+    "leadInvestorId": "kleiner-perkins",
+    "investorIds": [
+      "kleiner-perkins",
+      "andreessen-horowitz"
+    ]
+  },
+  {
+    "id": "round-65",
+    "targetId": "cognition",
+    "date": "2025-03-01",
+    "roundType": "Series B",
+    "amountUsd": 175000000,
+    "valuationUsd": 4000000000,
+    "leadInvestorId": "founders-fund",
+    "investorIds": [
+      "founders-fund",
+      "lux-capital",
+      "khosla-ventures"
+    ]
+  },
+  {
+    "id": "round-66",
+    "targetId": "elevenlabs",
+    "date": "2024-09-01",
+    "roundType": "Series C",
+    "amountUsd": 180000000,
+    "valuationUsd": 3300000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "sequoia-capital",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-67",
+    "targetId": "runway",
+    "date": "2024-06-01",
+    "roundType": "Series D",
+    "amountUsd": 308000000,
+    "valuationUsd": 3000000000,
+    "leadInvestorId": "general-catalyst",
+    "investorIds": [
+      "general-catalyst",
+      "nvidia",
+      "google"
+    ]
+  },
+  {
+    "id": "round-68",
+    "targetId": "replit",
+    "date": "2024-09-01",
+    "roundType": "Series C",
+    "amountUsd": 200000000,
+    "valuationUsd": 3000000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "coatue"
+    ]
+  },
+  {
+    "id": "round-69",
+    "targetId": "mercor",
+    "date": "2025-02-01",
+    "roundType": "Series B",
+    "amountUsd": 100000000,
+    "valuationUsd": 2000000000,
+    "leadInvestorId": "general-catalyst",
+    "investorIds": [
+      "general-catalyst",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-70",
+    "targetId": "decagon",
+    "date": "2024-10-01",
+    "roundType": "Series B",
+    "amountUsd": 150000000,
+    "valuationUsd": 1500000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "accel"
+    ]
+  },
+  {
+    "id": "round-71",
+    "targetId": "hebbia",
+    "date": "2024-07-01",
+    "roundType": "Series B",
+    "amountUsd": 130000000,
+    "valuationUsd": 700000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "index-ventures"
+    ]
+  },
+  {
+    "id": "round-72",
+    "targetId": "synthesia",
+    "date": "2024-06-01",
+    "roundType": "Series D",
+    "amountUsd": 180000000,
+    "valuationUsd": 2100000000,
+    "leadInvestorId": "accel",
+    "investorIds": [
+      "accel",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-73",
+    "targetId": "ramp",
+    "date": "2024-04-01",
+    "roundType": "Series D",
+    "amountUsd": 650000000,
+    "valuationUsd": 22000000000,
+    "leadInvestorId": "founders-fund",
+    "investorIds": [
+      "founders-fund",
+      "thrive-capital",
+      "coatue"
+    ]
+  },
+  {
+    "id": "round-74",
+    "targetId": "notion",
+    "date": "2024-10-01",
+    "roundType": "Series C",
+    "amountUsd": 275000000,
+    "valuationUsd": 10000000000,
+    "leadInvestorId": "coatue",
+    "investorIds": [
+      "coatue",
+      "sequoia-capital"
+    ]
+  },
+  {
+    "id": "round-75",
+    "targetId": "canva",
+    "date": "2024-05-01",
+    "roundType": "Series D",
+    "amountUsd": 200000000,
+    "valuationUsd": 32000000000,
+    "leadInvestorId": "sequoia-capital",
+    "investorIds": [
+      "sequoia-capital",
+      "blackrock"
+    ]
+  },
+  {
+    "id": "round-76",
+    "targetId": "browserbase",
+    "date": "2024-10-01",
+    "roundType": "Series A",
+    "amountUsd": 40000000,
+    "valuationUsd": 300000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "greylock"
+    ]
+  },
+  {
+    "id": "round-77",
+    "targetId": "crewai",
+    "date": "2024-11-01",
+    "roundType": "Series A",
+    "amountUsd": 18000000,
+    "valuationUsd": 150000000,
+    "leadInvestorId": "insight-partners",
+    "investorIds": [
+      "insight-partners",
+      "greylock"
+    ]
+  },
+  {
+    "id": "round-78",
+    "targetId": "livekit",
+    "date": "2024-08-01",
+    "roundType": "Series B",
+    "amountUsd": 45000000,
+    "valuationUsd": 700000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "greylock",
+      "spark-capital"
+    ]
+  },
+  {
+    "id": "round-79",
+    "targetId": "llamaindex",
+    "date": "2024-07-01",
+    "roundType": "Series A",
+    "amountUsd": 27000000,
+    "valuationUsd": 200000000,
+    "leadInvestorId": "greylock",
+    "investorIds": [
+      "greylock",
+      "andreessen-horowitz"
+    ]
+  },
+  {
+    "id": "round-80",
+    "targetId": "nuro",
+    "date": "2024-08-01",
+    "roundType": "Series E+",
+    "amountUsd": 500000000,
+    "valuationUsd": 6000000000,
+    "leadInvestorId": "softbank",
+    "investorIds": [
+      "softbank",
+      "google"
+    ]
+  },
+  {
+    "id": "round-81",
+    "targetId": "sambanova",
+    "date": "2024-06-01",
+    "roundType": "Series E+",
+    "amountUsd": 350000000,
+    "valuationUsd": 5000000000,
+    "leadInvestorId": "softbank",
+    "investorIds": [
+      "softbank",
+      "nvidia",
+      "google"
+    ]
+  },
+  {
+    "id": "round-82",
+    "targetId": "sanctuary-ai",
+    "date": "2024-09-01",
+    "roundType": "Series A",
+    "amountUsd": 140000000,
+    "valuationUsd": 500000000,
+    "leadInvestorId": "nvidia",
+    "investorIds": [
+      "nvidia",
+      "microsoft"
+    ]
+  },
+  {
+    "id": "round-83",
+    "targetId": "suno",
+    "date": "2024-05-01",
+    "roundType": "Series B",
+    "amountUsd": 125000000,
+    "valuationUsd": 500000000,
+    "leadInvestorId": "andreessen-horowitz",
+    "investorIds": [
+      "andreessen-horowitz",
+      "lightspeed-venture-partners"
+    ]
+  },
+  {
+    "id": "round-84",
+    "targetId": "vast-data",
+    "date": "2024-08-01",
+    "roundType": "Series E",
+    "amountUsd": 380000000,
+    "valuationUsd": 9000000000,
+    "leadInvestorId": "tiger-global",
+    "investorIds": [
+      "tiger-global",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-85",
+    "targetId": "weaviate",
+    "date": "2024-09-01",
+    "roundType": "Series B",
+    "amountUsd": 68000000,
+    "valuationUsd": 200000000,
+    "leadInvestorId": "index-ventures",
+    "investorIds": [
+      "index-ventures",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-86",
+    "targetId": "writer",
+    "date": "2024-06-01",
+    "roundType": "Series C",
+    "amountUsd": 200000000,
+    "valuationUsd": 1900000000,
+    "leadInvestorId": "iconiq",
+    "investorIds": [
+      "iconiq",
+      "salesforce",
+      "tiger-global"
+    ]
+  },
+  {
+    "id": "round-87",
+    "targetId": "glean-health",
+    "date": "2024-06-01",
+    "roundType": "Series B",
+    "amountUsd": 120000000,
+    "valuationUsd": 900000000,
+    "leadInvestorId": "kleiner-perkins",
+    "investorIds": [
+      "kleiner-perkins",
+      "general-catalyst"
+    ]
+  },
+  {
+    "id": "round-88",
+    "targetId": "gong",
+    "date": "2024-05-01",
+    "roundType": "Series E",
+    "amountUsd": 583000000,
+    "valuationUsd": 7250000000,
+    "leadInvestorId": "ivp",
+    "investorIds": [
+      "ivp",
+      "tiger-global",
+      "salesforce"
+    ]
+  },
+  {
+    "id": "round-89",
+    "targetId": "grammarly",
+    "date": "2024-07-01",
+    "roundType": "Series E+",
+    "amountUsd": 550000000,
+    "valuationUsd": 13000000000,
+    "leadInvestorId": "blackrock",
+    "investorIds": [
+      "blackrock",
+      "general-catalyst"
+    ]
+  },
+  {
+    "id": "round-90",
+    "targetId": "apptronik",
+    "date": "2024-06-01",
+    "roundType": "Series B",
+    "amountUsd": 350000000,
+    "valuationUsd": 1600000000,
+    "leadInvestorId": "amazon",
+    "investorIds": [
+      "amazon",
+      "google",
+      "nvidia"
+    ]
+  },
+  {
+    "id": "round-91",
+    "targetId": "covariant",
+    "date": "2024-08-01",
+    "roundType": "Strategic",
+    "amountUsd": 300000000,
+    "leadInvestorId": "amazon",
+    "investorIds": [
+      "amazon"
+    ]
+  },
+  {
+    "id": "round-92",
+    "targetId": "iren",
+    "date": "2024-11-01",
+    "roundType": "Strategic",
+    "amountUsd": 2000000000,
+    "valuationUsd": 10000000000,
+    "leadInvestorId": "microsoft",
+    "investorIds": [
+      "microsoft",
+      "nvidia"
+    ]
+  }
+]

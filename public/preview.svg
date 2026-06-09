@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="78%" cy="-10%" r="90%">
+      <stop offset="0%" stop-color="#0e1726"/>
+      <stop offset="55%" stop-color="#070b12"/>
+      <stop offset="100%" stop-color="#06080d"/>
+    </radialGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="55%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <linearGradient id="e1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5b301"/><stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="e2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="e3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="480" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04">
+    <path d="M0 120H1200M0 240H1200M0 360H1200"/>
+    <path d="M200 0V480M440 0V480M680 0V480M920 0V480"/>
+  </g>
+
+  <!-- edges -->
+  <g stroke-width="2" fill="none" opacity="0.8">
+    <path d="M250 360 C 420 300, 520 220, 700 200" stroke="url(#e1)"/>
+    <path d="M700 200 C 820 180, 900 150, 980 120" stroke="url(#e2)"/>
+    <path d="M700 200 C 760 280, 820 320, 900 360" stroke="url(#e3)"/>
+    <path d="M250 360 C 380 380, 520 380, 620 330" stroke="url(#e1)" opacity="0.5"/>
+  </g>
+
+  <!-- nodes -->
+  <g>
+    <circle cx="250" cy="360" r="26" fill="#f5b301" opacity="0.95"/>
+    <circle cx="700" cy="200" r="34" fill="#8b5cf6"/>
+    <circle cx="980" cy="120" r="20" fill="#22d3ee"/>
+    <circle cx="900" cy="360" r="22" fill="#10b981"/>
+    <circle cx="620" cy="330" r="16" fill="#e879f9"/>
+    <circle cx="430" cy="160" r="14" fill="#fb923c"/>
+  </g>
+
+  <!-- headline -->
+  <text x="64" y="120" font-family="Inter, system-ui, sans-serif" font-size="46" font-weight="700" fill="#e6edf3">Where Is AI Capital</text>
+  <text x="64" y="174" font-family="Inter, system-ui, sans-serif" font-size="46" font-weight="700" fill="url(#head)">Flowing?</text>
+  <text x="66" y="210" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#8b97a8">AI Capital Flow Observatory · 2024 — Present</text>
+</svg>

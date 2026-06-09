@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-06-01T00:00:00.000Z",
+  "counts": {
+    "entities": 201,
+    "rounds": 92,
+    "flows": 575,
+    "graphNodes": 201,
+    "graphEdges": 516
+  }
+}

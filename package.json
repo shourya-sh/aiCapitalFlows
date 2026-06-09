@@ -1,0 +1,45 @@
+{
+  "name": "ai-capital-flow-observatory",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "seed": "tsx scripts/generate-seed.ts",
+    "validate-seed": "tsx scripts/validate-seed.ts",
+    "validate-flows": "tsx scripts/validate-flows.ts",
+    "ingest": "tsx scripts/ingest.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.107.0",
+    "@xyflow/react": "^12.11.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "d3-force": "^3.0.0",
+    "d3-sankey": "^0.12.3",
+    "d3-shape": "^3.2.0",
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.17.0",
+    "next": "16.2.7",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "recharts": "^3.8.1",
+    "tailwind-merge": "^3.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/d3-force": "^3.0.10",
+    "@types/d3-sankey": "^0.12.5",
+    "@types/d3-shape": "^3.1.8",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.7",
+    "tailwindcss": "^4",
+    "tsx": "^4.22.4",
+    "typescript": "^5"
+  }
+}

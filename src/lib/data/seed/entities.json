@@ -1,0 +1,3490 @@
+[
+  {
+    "id": "andreessen-horowitz",
+    "name": "Andreessen Horowitz",
+    "sector": "investor",
+    "description": "Multistage venture firm and the most active backer of AI infrastructure and applications.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "multistage",
+      "lead"
+    ],
+    "totalFundingUsd": 44000000000,
+    "founded": 2009,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "sequoia-capital",
+    "name": "Sequoia Capital",
+    "sector": "investor",
+    "description": "Storied venture firm with concentrated early bets across the AI stack.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "early-stage",
+      "lead"
+    ],
+    "totalFundingUsd": 28000000000,
+    "founded": 1972,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "accel",
+    "name": "Accel",
+    "sector": "investor",
+    "description": "Global venture firm investing from seed through growth in AI software.",
+    "headquarters": "Palo Alto, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "growth"
+    ],
+    "totalFundingUsd": 21000000000,
+    "founded": 1983,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "general-catalyst",
+    "name": "General Catalyst",
+    "sector": "investor",
+    "description": "Venture and growth investor backing applied and enterprise AI at scale.",
+    "headquarters": "Cambridge, MA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "growth"
+    ],
+    "totalFundingUsd": 32000000000,
+    "founded": 2000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "khosla-ventures",
+    "name": "Khosla Ventures",
+    "sector": "investor",
+    "description": "Deep-tech focused firm and an early institutional backer of OpenAI.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "deep-tech"
+    ],
+    "totalFundingUsd": 15000000000,
+    "founded": 2004,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "softbank",
+    "name": "SoftBank",
+    "sector": "investor",
+    "description": "Conglomerate and Vision Fund deploying mega-checks into compute and frontier AI.",
+    "headquarters": "Tokyo",
+    "country": "Japan",
+    "region": "Asia",
+    "tags": [
+      "sovereign-scale",
+      "growth"
+    ],
+    "totalFundingUsd": 100000000000,
+    "founded": 1981,
+    "marketCapUsd": 90000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "tiger-global",
+    "name": "Tiger Global",
+    "sector": "investor",
+    "description": "Crossover hedge fund and prolific late-stage AI investor.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "crossover",
+      "late-stage"
+    ],
+    "totalFundingUsd": 30000000000,
+    "founded": 2001,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "coatue",
+    "name": "Coatue",
+    "sector": "investor",
+    "description": "Technology-focused crossover investor active across foundation models and infra.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "crossover",
+      "late-stage"
+    ],
+    "totalFundingUsd": 25000000000,
+    "founded": 1999,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "thrive-capital",
+    "name": "Thrive Capital",
+    "sector": "investor",
+    "description": "Concentrated growth investor and repeat lead in OpenAI financings.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "growth",
+      "lead"
+    ],
+    "totalFundingUsd": 18000000000,
+    "founded": 2010,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "lightspeed-venture-partners",
+    "name": "Lightspeed Venture Partners",
+    "sector": "investor",
+    "description": "Global multistage firm with broad AI infrastructure and apps portfolio.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "multistage"
+    ],
+    "totalFundingUsd": 25000000000,
+    "founded": 2000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "founders-fund",
+    "name": "Founders Fund",
+    "sector": "investor",
+    "description": "Contrarian venture firm backing frontier compute, defense, and AI.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "deep-tech"
+    ],
+    "totalFundingUsd": 14000000000,
+    "founded": 2005,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "index-ventures",
+    "name": "Index Ventures",
+    "sector": "investor",
+    "description": "Transatlantic venture firm investing across European and US AI.",
+    "headquarters": "London",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "tags": [
+      "VC",
+      "europe"
+    ],
+    "totalFundingUsd": 16000000000,
+    "founded": 1996,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "greenoaks",
+    "name": "Greenoaks",
+    "sector": "investor",
+    "description": "Concentrated growth fund with large positions in AI leaders.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "growth",
+      "lead"
+    ],
+    "totalFundingUsd": 15000000000,
+    "founded": 2012,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "mgx",
+    "name": "MGX",
+    "sector": "investor",
+    "description": "Abu Dhabi AI and compute investment vehicle deploying sovereign capital.",
+    "headquarters": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "tags": [
+      "sovereign",
+      "compute"
+    ],
+    "totalFundingUsd": 100000000000,
+    "founded": 2024,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "sector": "foundation-model",
+    "description": "Creator of GPT and ChatGPT; the most capitalized frontier AI lab.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "frontier",
+      "LLM",
+      "chatgpt"
+    ],
+    "totalFundingUsd": 64000000000,
+    "founded": 2015,
+    "latestValuationUsd": 300000000000,
+    "revenueUsd": 12000000000,
+    "users": 800000000,
+    "enterpriseCustomers": 1000000,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "sector": "foundation-model",
+    "description": "Safety-focused frontier lab and developer of the Claude model family.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "frontier",
+      "LLM",
+      "claude",
+      "safety"
+    ],
+    "totalFundingUsd": 33000000000,
+    "founded": 2021,
+    "latestValuationUsd": 183000000000,
+    "revenueUsd": 5000000000,
+    "enterpriseCustomers": 300000,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "sector": "foundation-model",
+    "description": "Elon Musk's frontier lab building Grok, integrated with X and Colossus compute.",
+    "headquarters": "Palo Alto, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "frontier",
+      "grok",
+      "compute"
+    ],
+    "totalFundingUsd": 22000000000,
+    "founded": 2023,
+    "latestValuationUsd": 80000000000,
+    "revenueUsd": 1000000000,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "mistral-ai",
+    "name": "Mistral AI",
+    "sector": "foundation-model",
+    "description": "European open-weight model champion building frontier and edge models.",
+    "headquarters": "Paris",
+    "country": "France",
+    "region": "Europe",
+    "tags": [
+      "open-weight",
+      "europe",
+      "LLM"
+    ],
+    "totalFundingUsd": 3000000000,
+    "founded": 2023,
+    "latestValuationUsd": 14000000000,
+    "revenueUsd": 200000000,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "sector": "foundation-model",
+    "description": "Enterprise-focused LLM provider specializing in secure RAG deployments.",
+    "headquarters": "Toronto",
+    "country": "Canada",
+    "region": "North America",
+    "tags": [
+      "enterprise",
+      "LLM",
+      "RAG"
+    ],
+    "totalFundingUsd": 1500000000,
+    "founded": 2019,
+    "latestValuationUsd": 7000000000,
+    "revenueUsd": 100000000,
+    "enterpriseCustomers": 400,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "sector": "foundation-model",
+    "description": "Chinese lab whose efficient open models reset cost expectations for frontier AI.",
+    "headquarters": "Hangzhou",
+    "country": "China",
+    "region": "Asia",
+    "tags": [
+      "open-weight",
+      "efficient",
+      "china"
+    ],
+    "totalFundingUsd": 1500000000,
+    "founded": 2023,
+    "latestValuationUsd": 10000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "sector": "foundation-model",
+    "description": "AI answer engine reframing search around conversational retrieval.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "search",
+      "consumer",
+      "RAG"
+    ],
+    "totalFundingUsd": 1500000000,
+    "founded": 2022,
+    "latestValuationUsd": 18000000000,
+    "revenueUsd": 150000000,
+    "users": 30000000,
+    "dataQuality": "partial"
+  },
+  {
+    "id": "safe-superintelligence",
+    "name": "Safe Superintelligence",
+    "sector": "foundation-model",
+    "description": "Ilya Sutskever's lab pursuing safe superintelligence with no near-term product.",
+    "headquarters": "Palo Alto, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "frontier",
+      "safety",
+      "stealth"
+    ],
+    "totalFundingUsd": 3000000000,
+    "founded": 2024,
+    "latestValuationUsd": 32000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "reka-ai",
+    "name": "Reka AI",
+    "sector": "foundation-model",
+    "description": "Multimodal foundation model lab serving enterprise deployments.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "multimodal",
+      "LLM"
+    ],
+    "totalFundingUsd": 60000000,
+    "founded": 2022,
+    "latestValuationUsd": 1000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "ai21-labs",
+    "name": "AI21 Labs",
+    "sector": "foundation-model",
+    "description": "Enterprise LLM provider behind the Jamba model family.",
+    "headquarters": "Tel Aviv",
+    "country": "Israel",
+    "region": "Middle East",
+    "tags": [
+      "enterprise",
+      "LLM"
+    ],
+    "totalFundingUsd": 540000000,
+    "founded": 2017,
+    "latestValuationUsd": 1400000000,
+    "enterpriseCustomers": 200,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "sector": "infrastructure",
+    "description": "Dominant AI accelerator and CUDA platform powering the global compute buildout.",
+    "headquarters": "Santa Clara, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "GPU",
+      "public",
+      "platform"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1993,
+    "marketCapUsd": 3300000000000,
+    "revenueUsd": 130000000000,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "amd",
+    "name": "AMD",
+    "sector": "infrastructure",
+    "description": "Challenger accelerator vendor scaling the MI300 family for AI training.",
+    "headquarters": "Santa Clara, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "GPU",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1969,
+    "marketCapUsd": 270000000000,
+    "revenueUsd": 26000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "cerebras",
+    "name": "Cerebras",
+    "sector": "infrastructure",
+    "description": "Wafer-scale AI compute company targeting fast inference and training.",
+    "headquarters": "Sunnyvale, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "wafer-scale",
+      "inference"
+    ],
+    "totalFundingUsd": 1100000000,
+    "founded": 2015,
+    "latestValuationUsd": 8000000000,
+    "revenueUsd": 250000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "sector": "infrastructure",
+    "description": "LPU inference hardware company delivering high-throughput token serving.",
+    "headquarters": "Mountain View, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "inference",
+      "LPU"
+    ],
+    "totalFundingUsd": 1000000000,
+    "founded": 2016,
+    "latestValuationUsd": 6900000000,
+    "revenueUsd": 100000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "sambanova",
+    "name": "SambaNova",
+    "sector": "infrastructure",
+    "description": "Full-stack AI hardware and model platform for enterprises.",
+    "headquarters": "Palo Alto, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "inference",
+      "enterprise"
+    ],
+    "totalFundingUsd": 1100000000,
+    "founded": 2017,
+    "latestValuationUsd": 5000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "tsmc",
+    "name": "TSMC",
+    "sector": "infrastructure",
+    "description": "World's leading foundry manufacturing the advanced nodes behind AI silicon.",
+    "headquarters": "Hsinchu",
+    "country": "Taiwan",
+    "region": "Asia",
+    "tags": [
+      "foundry",
+      "public",
+      "manufacturing"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1987,
+    "marketCapUsd": 900000000000,
+    "revenueUsd": 90000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "broadcom",
+    "name": "Broadcom",
+    "sector": "infrastructure",
+    "description": "Custom AI silicon and networking provider for hyperscale datacenters.",
+    "headquarters": "Palo Alto, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "networking",
+      "ASIC",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1991,
+    "marketCapUsd": 800000000000,
+    "revenueUsd": 51000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "coreweave",
+    "name": "CoreWeave",
+    "sector": "compute",
+    "description": "GPU-first neocloud providing dedicated AI training and inference capacity.",
+    "headquarters": "Livingston, NJ",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "neocloud",
+      "GPU",
+      "public"
+    ],
+    "totalFundingUsd": 12000000000,
+    "founded": 2017,
+    "marketCapUsd": 35000000000,
+    "revenueUsd": 2000000000,
+    "enterpriseCustomers": 100,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "crusoe",
+    "name": "Crusoe",
+    "sector": "compute",
+    "description": "Vertically integrated AI datacenter and clean-compute developer.",
+    "headquarters": "Denver, CO",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "datacenter",
+      "clean-compute"
+    ],
+    "totalFundingUsd": 3000000000,
+    "founded": 2018,
+    "latestValuationUsd": 10000000000,
+    "revenueUsd": 500000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "applied-digital",
+    "name": "Applied Digital",
+    "sector": "compute",
+    "description": "Datacenter developer converting power capacity into AI compute campuses.",
+    "headquarters": "Dallas, TX",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "datacenter",
+      "public"
+    ],
+    "totalFundingUsd": 1000000000,
+    "founded": 2001,
+    "marketCapUsd": 3000000000,
+    "revenueUsd": 250000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "lambda",
+    "name": "Lambda",
+    "sector": "compute",
+    "description": "AI cloud and workstation provider offering on-demand GPU clusters.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "neocloud",
+      "GPU"
+    ],
+    "totalFundingUsd": 1300000000,
+    "founded": 2012,
+    "latestValuationUsd": 4000000000,
+    "revenueUsd": 400000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "together-ai",
+    "name": "Together AI",
+    "sector": "compute",
+    "description": "Inference and fine-tuning cloud optimized for open models.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "inference",
+      "open-models"
+    ],
+    "totalFundingUsd": 530000000,
+    "founded": 2022,
+    "latestValuationUsd": 3300000000,
+    "revenueUsd": 130000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "nebius",
+    "name": "Nebius",
+    "sector": "compute",
+    "description": "European AI cloud spun out of Yandex, building large GPU regions.",
+    "headquarters": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Europe",
+    "tags": [
+      "neocloud",
+      "europe",
+      "public"
+    ],
+    "totalFundingUsd": 700000000,
+    "founded": 2024,
+    "marketCapUsd": 14000000000,
+    "revenueUsd": 300000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "vast-data",
+    "name": "Vast Data",
+    "sector": "compute",
+    "description": "Data platform powering AI storage and retrieval for large clusters.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "storage",
+      "data-platform"
+    ],
+    "totalFundingUsd": 380000000,
+    "founded": 2016,
+    "latestValuationUsd": 9000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "constellation-energy",
+    "name": "Constellation Energy",
+    "sector": "energy",
+    "description": "Largest US nuclear operator contracting baseload power for AI datacenters.",
+    "headquarters": "Baltimore, MD",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "nuclear",
+      "public",
+      "baseload"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2022,
+    "marketCapUsd": 90000000000,
+    "revenueUsd": 24000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "vistra",
+    "name": "Vistra",
+    "sector": "energy",
+    "description": "Integrated power producer expanding nuclear and gas for AI demand.",
+    "headquarters": "Irving, TX",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "nuclear",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2016,
+    "marketCapUsd": 60000000000,
+    "revenueUsd": 17000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "nextera-energy",
+    "name": "NextEra Energy",
+    "sector": "energy",
+    "description": "Largest US renewables developer supplying AI datacenter power.",
+    "headquarters": "Juno Beach, FL",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "renewables",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1925,
+    "marketCapUsd": 150000000000,
+    "revenueUsd": 25000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "brookfield-renewable",
+    "name": "Brookfield Renewable",
+    "sector": "energy",
+    "description": "Global renewable platform signing multi-gigawatt AI power deals.",
+    "headquarters": "Toronto",
+    "country": "Canada",
+    "region": "North America",
+    "tags": [
+      "renewables",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1999,
+    "marketCapUsd": 18000000000,
+    "revenueUsd": 6000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "oklo",
+    "name": "Oklo",
+    "sector": "energy",
+    "description": "Advanced small modular reactor developer targeting datacenter power.",
+    "headquarters": "Santa Clara, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "nuclear",
+      "SMR",
+      "public"
+    ],
+    "totalFundingUsd": 500000000,
+    "founded": 2013,
+    "marketCapUsd": 6000000000,
+    "dataQuality": "partial"
+  },
+  {
+    "id": "fervo-energy",
+    "name": "Fervo Energy",
+    "sector": "energy",
+    "description": "Next-generation geothermal developer powering 24/7 clean compute.",
+    "headquarters": "Houston, TX",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "geothermal",
+      "clean"
+    ],
+    "totalFundingUsd": 950000000,
+    "founded": 2017,
+    "latestValuationUsd": 1400000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "figure",
+    "name": "Figure",
+    "sector": "robotics",
+    "description": "Humanoid robotics company deploying general-purpose robots in industry.",
+    "headquarters": "Sunnyvale, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "humanoid",
+      "embodied"
+    ],
+    "totalFundingUsd": 1700000000,
+    "founded": 2022,
+    "latestValuationUsd": 39000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "physical-intelligence",
+    "name": "Physical Intelligence",
+    "sector": "robotics",
+    "description": "Foundation models for robots, building cross-embodiment control.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "robot-foundation-model",
+      "embodied"
+    ],
+    "totalFundingUsd": 470000000,
+    "founded": 2024,
+    "latestValuationUsd": 2400000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "skild-ai",
+    "name": "Skild AI",
+    "sector": "robotics",
+    "description": "General-purpose robotic brain trained for broad physical tasks.",
+    "headquarters": "Pittsburgh, PA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "robot-foundation-model"
+    ],
+    "totalFundingUsd": 500000000,
+    "founded": 2023,
+    "latestValuationUsd": 4500000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "covariant",
+    "name": "Covariant",
+    "sector": "robotics",
+    "description": "Warehouse manipulation AI for pick-and-place automation.",
+    "headquarters": "Emeryville, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "manipulation",
+      "warehouse"
+    ],
+    "totalFundingUsd": 222000000,
+    "founded": 2017,
+    "latestValuationUsd": 625000000,
+    "enterpriseCustomers": 50,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "apptronik",
+    "name": "Apptronik",
+    "sector": "robotics",
+    "description": "Humanoid robot maker partnering with manufacturers and logistics.",
+    "headquarters": "Austin, TX",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "humanoid"
+    ],
+    "totalFundingUsd": 440000000,
+    "founded": 2016,
+    "latestValuationUsd": 1600000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "1x-technologies",
+    "name": "1X Technologies",
+    "sector": "robotics",
+    "description": "Humanoid robotics company building androids for home and work.",
+    "headquarters": "Oslo",
+    "country": "Norway",
+    "region": "Europe",
+    "tags": [
+      "humanoid",
+      "europe"
+    ],
+    "totalFundingUsd": 600000000,
+    "founded": 2014,
+    "latestValuationUsd": 4000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "sector": "agent-infra",
+    "description": "Framework and observability platform (LangSmith) for LLM agents.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "framework",
+      "observability"
+    ],
+    "totalFundingUsd": 135000000,
+    "founded": 2022,
+    "latestValuationUsd": 1250000000,
+    "enterpriseCustomers": 1500,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "llamaindex",
+    "name": "LlamaIndex",
+    "sector": "agent-infra",
+    "description": "Data framework for connecting LLMs to enterprise knowledge.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "framework",
+      "RAG"
+    ],
+    "totalFundingUsd": 27000000,
+    "founded": 2023,
+    "latestValuationUsd": 200000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "sector": "agent-infra",
+    "description": "Multi-agent orchestration platform for automating workflows.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "multi-agent",
+      "orchestration"
+    ],
+    "totalFundingUsd": 18000000,
+    "founded": 2023,
+    "latestValuationUsd": 150000000,
+    "enterpriseCustomers": 150,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "pinecone",
+    "name": "Pinecone",
+    "sector": "agent-infra",
+    "description": "Managed vector database powering retrieval for AI applications.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "vector-db",
+      "RAG"
+    ],
+    "totalFundingUsd": 138000000,
+    "founded": 2019,
+    "latestValuationUsd": 750000000,
+    "enterpriseCustomers": 5000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "livekit",
+    "name": "LiveKit",
+    "sector": "agent-infra",
+    "description": "Realtime infrastructure powering voice agents and multimodal apps.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "realtime",
+      "voice"
+    ],
+    "totalFundingUsd": 83000000,
+    "founded": 2021,
+    "latestValuationUsd": 700000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "browserbase",
+    "name": "Browserbase",
+    "sector": "agent-infra",
+    "description": "Headless browser infrastructure for web-browsing AI agents.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "browser",
+      "agents"
+    ],
+    "totalFundingUsd": 67000000,
+    "founded": 2024,
+    "latestValuationUsd": 300000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "harvey",
+    "name": "Harvey",
+    "sector": "enterprise-ai",
+    "description": "Domain-specific AI for legal work used by elite law firms.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "legal",
+      "vertical"
+    ],
+    "totalFundingUsd": 800000000,
+    "founded": 2022,
+    "latestValuationUsd": 8000000000,
+    "revenueUsd": 100000000,
+    "enterpriseCustomers": 350,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "glean",
+    "name": "Glean",
+    "sector": "enterprise-ai",
+    "description": "Enterprise search and work assistant unifying company knowledge.",
+    "headquarters": "Palo Alto, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "search",
+      "horizontal"
+    ],
+    "totalFundingUsd": 600000000,
+    "founded": 2019,
+    "latestValuationUsd": 7200000000,
+    "revenueUsd": 100000000,
+    "enterpriseCustomers": 250,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "abridge",
+    "name": "Abridge",
+    "sector": "enterprise-ai",
+    "description": "Clinical documentation AI generating notes from patient conversations.",
+    "headquarters": "Pittsburgh, PA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "healthcare",
+      "vertical"
+    ],
+    "totalFundingUsd": 460000000,
+    "founded": 2018,
+    "latestValuationUsd": 5300000000,
+    "enterpriseCustomers": 150,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "sierra",
+    "name": "Sierra",
+    "sector": "enterprise-ai",
+    "description": "Conversational AI agents for customer experience, founded by Bret Taylor.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "customer-service",
+      "agents"
+    ],
+    "totalFundingUsd": 285000000,
+    "founded": 2023,
+    "latestValuationUsd": 10000000000,
+    "enterpriseCustomers": 100,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "writer",
+    "name": "Writer",
+    "sector": "enterprise-ai",
+    "description": "Full-stack generative AI platform for enterprise workflows.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "platform",
+      "horizontal"
+    ],
+    "totalFundingUsd": 326000000,
+    "founded": 2020,
+    "latestValuationUsd": 1900000000,
+    "enterpriseCustomers": 300,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "sector": "enterprise-ai",
+    "description": "AI-native code editor (Anysphere) driving rapid developer adoption.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "coding",
+      "developer"
+    ],
+    "totalFundingUsd": 1000000000,
+    "founded": 2022,
+    "latestValuationUsd": 29000000000,
+    "revenueUsd": 500000000,
+    "enterpriseCustomers": 50000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "glean-health",
+    "name": "Glean Health",
+    "sector": "enterprise-ai",
+    "description": "AI revenue-cycle automation for healthcare providers.",
+    "headquarters": "Boston, MA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "healthcare",
+      "vertical"
+    ],
+    "totalFundingUsd": 120000000,
+    "founded": 2021,
+    "latestValuationUsd": 900000000,
+    "enterpriseCustomers": 80,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "decagon",
+    "name": "Decagon",
+    "sector": "enterprise-ai",
+    "description": "AI customer support agents for consumer brands.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "customer-service",
+      "agents"
+    ],
+    "totalFundingUsd": 230000000,
+    "founded": 2023,
+    "latestValuationUsd": 1500000000,
+    "enterpriseCustomers": 120,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "united-states",
+    "name": "United States",
+    "sector": "government",
+    "description": "Federal AI initiatives spanning research, defense, and the Stargate compute program.",
+    "headquarters": "Washington, D.C.",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "sovereign",
+      "stargate",
+      "defense"
+    ],
+    "totalFundingUsd": 50000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "european-union",
+    "name": "European Union",
+    "sector": "government",
+    "description": "InvestAI and Horizon programs mobilizing public capital for European AI.",
+    "headquarters": "Brussels",
+    "country": "Belgium",
+    "region": "Europe",
+    "tags": [
+      "sovereign",
+      "investai"
+    ],
+    "totalFundingUsd": 22000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "united-kingdom",
+    "name": "United Kingdom",
+    "sector": "government",
+    "description": "AI Opportunities Action Plan funding compute, talent, and safety.",
+    "headquarters": "London",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "tags": [
+      "sovereign",
+      "compute"
+    ],
+    "totalFundingUsd": 18000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "canada",
+    "name": "Canada",
+    "sector": "government",
+    "description": "Pan-Canadian AI Strategy and sovereign compute investments.",
+    "headquarters": "Ottawa",
+    "country": "Canada",
+    "region": "North America",
+    "tags": [
+      "sovereign"
+    ],
+    "totalFundingUsd": 2000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "sector": "government",
+    "description": "HUMAIN and PIF-backed programs building sovereign AI and compute.",
+    "headquarters": "Riyadh",
+    "country": "Saudi Arabia",
+    "region": "Middle East",
+    "tags": [
+      "sovereign",
+      "humain",
+      "compute"
+    ],
+    "totalFundingUsd": 40000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "united-arab-emirates",
+    "name": "United Arab Emirates",
+    "sector": "government",
+    "description": "National AI strategy anchored by G42 and sovereign compute clusters.",
+    "headquarters": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "tags": [
+      "sovereign",
+      "g42",
+      "compute"
+    ],
+    "totalFundingUsd": 35000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "sector": "government",
+    "description": "National AI Strategy 2.0 funding compute, talent, and adoption.",
+    "headquarters": "Singapore",
+    "country": "Singapore",
+    "region": "Asia",
+    "tags": [
+      "sovereign"
+    ],
+    "totalFundingUsd": 5000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "sector": "big-tech",
+    "description": "Azure hyperscaler and OpenAI's largest strategic partner; Copilot across its product suite.",
+    "headquarters": "Redmond, WA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "hyperscaler",
+      "azure",
+      "copilot",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1975,
+    "marketCapUsd": 3300000000000,
+    "revenueUsd": 250000000000,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "sector": "big-tech",
+    "description": "Alphabet's AI engine: Gemini models, TPUs, DeepMind, and a major Anthropic backer.",
+    "headquarters": "Mountain View, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "hyperscaler",
+      "gemini",
+      "tpu",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1998,
+    "marketCapUsd": 2300000000000,
+    "revenueUsd": 350000000000,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "sector": "big-tech",
+    "description": "AWS hyperscaler, Anthropic's largest investor, and builder of Trainium/Inferentia silicon.",
+    "headquarters": "Seattle, WA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "hyperscaler",
+      "aws",
+      "trainium",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1994,
+    "marketCapUsd": 2200000000000,
+    "revenueUsd": 620000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "sector": "big-tech",
+    "description": "Open-weight Llama developer investing tens of billions in AI training infrastructure.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "llama",
+      "open-weight",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2004,
+    "marketCapUsd": 1500000000000,
+    "revenueUsd": 160000000000,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "sector": "big-tech",
+    "description": "Consumer platform embedding on-device intelligence across its devices and services.",
+    "headquarters": "Cupertino, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "consumer",
+      "on-device",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1976,
+    "marketCapUsd": 3400000000000,
+    "revenueUsd": 390000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "sector": "big-tech",
+    "description": "Cloud infrastructure provider and a core compute partner in the Stargate program.",
+    "headquarters": "Austin, TX",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "cloud",
+      "oci",
+      "stargate",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1977,
+    "marketCapUsd": 500000000000,
+    "revenueUsd": 53000000000,
+    "dataQuality": "partial"
+  },
+  {
+    "id": "tesla",
+    "name": "Tesla",
+    "sector": "big-tech",
+    "description": "EV and robotics company building the Optimus humanoid and Dojo AI training compute.",
+    "headquarters": "Austin, TX",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "optimus",
+      "dojo",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2003,
+    "marketCapUsd": 1000000000000,
+    "revenueUsd": 98000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "jpmorgan-chase",
+    "name": "JPMorgan Chase",
+    "sector": "investor",
+    "description": "Largest US bank financing AI infrastructure, datacenters, and energy at scale.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "bank",
+      "debt",
+      "infrastructure"
+    ],
+    "totalFundingUsd": 60000000000,
+    "founded": 2000,
+    "marketCapUsd": 700000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "goldman-sachs",
+    "name": "Goldman Sachs",
+    "sector": "investor",
+    "description": "Investment bank underwriting AI IPOs and financing compute buildouts.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "bank",
+      "growth"
+    ],
+    "totalFundingUsd": 30000000000,
+    "founded": 1869,
+    "marketCapUsd": 180000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "morgan-stanley",
+    "name": "Morgan Stanley",
+    "sector": "investor",
+    "description": "Global bank advising and financing AI infrastructure and growth equity.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "bank",
+      "growth"
+    ],
+    "totalFundingUsd": 22000000000,
+    "founded": 1935,
+    "marketCapUsd": 200000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "blackrock",
+    "name": "BlackRock",
+    "sector": "investor",
+    "description": "World's largest asset manager deploying infrastructure funds into AI datacenters and power.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "asset-manager",
+      "infrastructure"
+    ],
+    "totalFundingUsd": 80000000000,
+    "founded": 1988,
+    "marketCapUsd": 150000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "jane-street",
+    "name": "Jane Street",
+    "sector": "investor",
+    "description": "Quant trading firm and a major consumer of AI compute, talent, and research.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "quant",
+      "trading"
+    ],
+    "totalFundingUsd": 18000000000,
+    "founded": 2000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "citadel",
+    "name": "Citadel",
+    "sector": "investor",
+    "description": "Hedge fund and market maker investing heavily in AI-driven trading and compute.",
+    "headquarters": "Miami, FL",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "quant",
+      "hedge-fund"
+    ],
+    "totalFundingUsd": 16000000000,
+    "founded": 1990,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "two-sigma",
+    "name": "Two Sigma",
+    "sector": "investor",
+    "description": "Quantitative investment manager applying machine learning across markets.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "quant",
+      "ml"
+    ],
+    "totalFundingUsd": 10000000000,
+    "founded": 2001,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "insight-partners",
+    "name": "Insight Partners",
+    "sector": "investor",
+    "description": "Global software-focused growth investor backing applied and enterprise AI.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "growth",
+      "software"
+    ],
+    "totalFundingUsd": 20000000000,
+    "founded": 1995,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "iconiq",
+    "name": "ICONIQ",
+    "sector": "investor",
+    "description": "Growth and capital-management firm backing late-stage AI leaders.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "growth"
+    ],
+    "totalFundingUsd": 14000000000,
+    "founded": 2011,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "bessemer-venture-partners",
+    "name": "Bessemer Venture Partners",
+    "sector": "investor",
+    "description": "Multistage venture firm investing across cloud and AI infrastructure.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC"
+    ],
+    "totalFundingUsd": 12000000000,
+    "founded": 1911,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "kleiner-perkins",
+    "name": "Kleiner Perkins",
+    "sector": "investor",
+    "description": "Storied venture firm backing foundational and applied AI startups.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC"
+    ],
+    "totalFundingUsd": 9000000000,
+    "founded": 1972,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "new-enterprise-associates",
+    "name": "New Enterprise Associates",
+    "sector": "investor",
+    "description": "One of the largest venture firms with broad AI software exposure.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC"
+    ],
+    "totalFundingUsd": 13000000000,
+    "founded": 1977,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "dst-global",
+    "name": "DST Global",
+    "sector": "investor",
+    "description": "Late-stage crossover investor in global technology and AI leaders.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "crossover",
+      "late-stage"
+    ],
+    "totalFundingUsd": 11000000000,
+    "founded": 2009,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "temasek",
+    "name": "Temasek",
+    "sector": "investor",
+    "description": "Singapore state investor allocating into global AI infrastructure and applications.",
+    "headquarters": "Singapore",
+    "country": "Singapore",
+    "region": "Asia",
+    "tags": [
+      "sovereign",
+      "growth"
+    ],
+    "totalFundingUsd": 30000000000,
+    "founded": 1974,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "inflection-ai",
+    "name": "Inflection AI",
+    "sector": "foundation-model",
+    "description": "Foundation model lab refocused on enterprise after a Microsoft talent deal.",
+    "headquarters": "Palo Alto, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "LLM",
+      "enterprise"
+    ],
+    "totalFundingUsd": 1500000000,
+    "founded": 2022,
+    "latestValuationUsd": 4000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "moonshot-ai",
+    "name": "Moonshot AI",
+    "sector": "foundation-model",
+    "description": "Chinese lab behind the Kimi long-context models.",
+    "headquarters": "Beijing",
+    "country": "China",
+    "region": "Asia",
+    "tags": [
+      "LLM",
+      "china",
+      "long-context"
+    ],
+    "totalFundingUsd": 1300000000,
+    "founded": 2023,
+    "latestValuationUsd": 3300000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "zhipu-ai",
+    "name": "Zhipu AI",
+    "sector": "foundation-model",
+    "description": "Leading Chinese foundation model developer (GLM family).",
+    "headquarters": "Beijing",
+    "country": "China",
+    "region": "Asia",
+    "tags": [
+      "LLM",
+      "china"
+    ],
+    "totalFundingUsd": 1500000000,
+    "founded": 2019,
+    "latestValuationUsd": 4000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "black-forest-labs",
+    "name": "Black Forest Labs",
+    "sector": "foundation-model",
+    "description": "Generative image foundation models (FLUX) from the Stable Diffusion founders.",
+    "headquarters": "Freiburg",
+    "country": "Germany",
+    "region": "Europe",
+    "tags": [
+      "image",
+      "europe",
+      "open-weight"
+    ],
+    "totalFundingUsd": 330000000,
+    "founded": 2024,
+    "latestValuationUsd": 1000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "world-labs",
+    "name": "World Labs",
+    "sector": "foundation-model",
+    "description": "Spatial-intelligence lab building large world models, founded by Fei-Fei Li.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "world-model",
+      "spatial"
+    ],
+    "totalFundingUsd": 230000000,
+    "founded": 2024,
+    "latestValuationUsd": 1000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "liquid-ai",
+    "name": "Liquid AI",
+    "sector": "foundation-model",
+    "description": "MIT spinout building efficient liquid foundation models for the edge.",
+    "headquarters": "Cambridge, MA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "efficient",
+      "edge"
+    ],
+    "totalFundingUsd": 250000000,
+    "founded": 2023,
+    "latestValuationUsd": 2300000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "intel",
+    "name": "Intel",
+    "sector": "infrastructure",
+    "description": "Integrated device manufacturer building Gaudi AI accelerators and foundry capacity.",
+    "headquarters": "Santa Clara, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "GPU",
+      "foundry",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1968,
+    "marketCapUsd": 90000000000,
+    "revenueUsd": 54000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "micron",
+    "name": "Micron",
+    "sector": "infrastructure",
+    "description": "Memory maker supplying high-bandwidth memory critical to AI accelerators.",
+    "headquarters": "Boise, ID",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "memory",
+      "HBM",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1978,
+    "marketCapUsd": 120000000000,
+    "revenueUsd": 25000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "arm",
+    "name": "Arm",
+    "sector": "infrastructure",
+    "description": "Chip IP licensor whose designs underpin datacenter and edge AI silicon.",
+    "headquarters": "Cambridge",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "tags": [
+      "IP",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1990,
+    "marketCapUsd": 140000000000,
+    "revenueUsd": 4000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "marvell",
+    "name": "Marvell",
+    "sector": "infrastructure",
+    "description": "Custom silicon and interconnect provider for AI datacenters.",
+    "headquarters": "Santa Clara, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "networking",
+      "ASIC",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1995,
+    "marketCapUsd": 90000000000,
+    "revenueUsd": 6000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "asml",
+    "name": "ASML",
+    "sector": "infrastructure",
+    "description": "Sole supplier of EUV lithography enabling advanced AI chip manufacturing.",
+    "headquarters": "Veldhoven",
+    "country": "Netherlands",
+    "region": "Europe",
+    "tags": [
+      "litho",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1984,
+    "marketCapUsd": 320000000000,
+    "revenueUsd": 30000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "supermicro",
+    "name": "Supermicro",
+    "sector": "infrastructure",
+    "description": "AI server and rack-scale systems integrator for GPU clusters.",
+    "headquarters": "San Jose, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "servers",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1993,
+    "marketCapUsd": 25000000000,
+    "revenueUsd": 22000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "tenstorrent",
+    "name": "Tenstorrent",
+    "sector": "infrastructure",
+    "description": "RISC-V based AI accelerator startup led by Jim Keller.",
+    "headquarters": "Toronto",
+    "country": "Canada",
+    "region": "North America",
+    "tags": [
+      "accelerator",
+      "risc-v"
+    ],
+    "totalFundingUsd": 1000000000,
+    "founded": 2016,
+    "latestValuationUsd": 2600000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "etched",
+    "name": "Etched",
+    "sector": "infrastructure",
+    "description": "Transformer-specialized ASIC startup targeting ultra-fast inference.",
+    "headquarters": "Cupertino, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "ASIC",
+      "inference"
+    ],
+    "totalFundingUsd": 125000000,
+    "founded": 2022,
+    "latestValuationUsd": 750000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "equinix",
+    "name": "Equinix",
+    "sector": "compute",
+    "description": "Global datacenter and interconnection REIT hosting AI infrastructure.",
+    "headquarters": "Redwood City, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "datacenter",
+      "REIT",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1998,
+    "marketCapUsd": 85000000000,
+    "revenueUsd": 9000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "digital-realty",
+    "name": "Digital Realty",
+    "sector": "compute",
+    "description": "Hyperscale datacenter REIT leasing capacity for AI workloads.",
+    "headquarters": "Austin, TX",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "datacenter",
+      "REIT",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2004,
+    "marketCapUsd": 60000000000,
+    "revenueUsd": 6000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "fireworks-ai",
+    "name": "Fireworks AI",
+    "sector": "compute",
+    "description": "Fast inference cloud for open models and compound AI systems.",
+    "headquarters": "Redwood City, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "inference",
+      "open-models"
+    ],
+    "totalFundingUsd": 327000000,
+    "founded": 2022,
+    "latestValuationUsd": 4000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "baseten",
+    "name": "Baseten",
+    "sector": "compute",
+    "description": "Inference infrastructure for deploying and scaling AI models.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "inference"
+    ],
+    "totalFundingUsd": 350000000,
+    "founded": 2019,
+    "latestValuationUsd": 2100000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "modal",
+    "name": "Modal",
+    "sector": "compute",
+    "description": "Serverless compute platform for AI and data workloads.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "serverless"
+    ],
+    "totalFundingUsd": 110000000,
+    "founded": 2021,
+    "latestValuationUsd": 1100000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "iren",
+    "name": "Iren",
+    "sector": "compute",
+    "description": "Renewable-powered datacenter operator pivoting to AI cloud.",
+    "headquarters": "Sydney",
+    "country": "Australia",
+    "region": "Oceania",
+    "tags": [
+      "datacenter",
+      "renewable",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2018,
+    "marketCapUsd": 10000000000,
+    "revenueUsd": 500000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "ge-vernova",
+    "name": "GE Vernova",
+    "sector": "energy",
+    "description": "Power-generation and grid equipment supplier scaling for AI electricity demand.",
+    "headquarters": "Cambridge, MA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "grid",
+      "gas",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2024,
+    "marketCapUsd": 130000000000,
+    "revenueUsd": 35000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "talen-energy",
+    "name": "Talen Energy",
+    "sector": "energy",
+    "description": "Independent power producer with nuclear capacity contracted to datacenters.",
+    "headquarters": "Houston, TX",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "nuclear",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2015,
+    "marketCapUsd": 14000000000,
+    "revenueUsd": 2000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "bloom-energy",
+    "name": "Bloom Energy",
+    "sector": "energy",
+    "description": "Fuel-cell maker providing on-site power for datacenters.",
+    "headquarters": "San Jose, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "fuel-cell",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2001,
+    "marketCapUsd": 12000000000,
+    "revenueUsd": 1500000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "kairos-power",
+    "name": "Kairos Power",
+    "sector": "energy",
+    "description": "Advanced nuclear developer with reactors contracted to Google.",
+    "headquarters": "Alameda, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "nuclear",
+      "SMR"
+    ],
+    "totalFundingUsd": 900000000,
+    "founded": 2016,
+    "dataQuality": "partial"
+  },
+  {
+    "id": "commonwealth-fusion",
+    "name": "Commonwealth Fusion",
+    "sector": "energy",
+    "description": "Fusion energy company targeting commercial reactors for clean baseload power.",
+    "headquarters": "Devens, MA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "fusion",
+      "clean"
+    ],
+    "totalFundingUsd": 2000000000,
+    "founded": 2018,
+    "latestValuationUsd": 4000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "x-energy",
+    "name": "X-Energy",
+    "sector": "energy",
+    "description": "Small modular reactor developer backed by Amazon for datacenter power.",
+    "headquarters": "Rockville, MD",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "nuclear",
+      "SMR"
+    ],
+    "totalFundingUsd": 1200000000,
+    "founded": 2009,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "boston-dynamics",
+    "name": "Boston Dynamics",
+    "sector": "robotics",
+    "description": "Pioneering robotics company (Atlas, Spot) owned by Hyundai.",
+    "headquarters": "Waltham, MA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "humanoid",
+      "quadruped"
+    ],
+    "totalFundingUsd": 400000000,
+    "founded": 1992,
+    "latestValuationUsd": 1100000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "agility-robotics",
+    "name": "Agility Robotics",
+    "sector": "robotics",
+    "description": "Maker of the Digit humanoid robot for warehouse logistics.",
+    "headquarters": "Salem, OR",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "humanoid",
+      "logistics"
+    ],
+    "totalFundingUsd": 320000000,
+    "founded": 2015,
+    "latestValuationUsd": 1000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "waymo",
+    "name": "Waymo",
+    "sector": "robotics",
+    "description": "Alphabet's autonomous driving unit operating commercial robotaxis.",
+    "headquarters": "Mountain View, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "autonomous",
+      "robotaxi"
+    ],
+    "totalFundingUsd": 11000000000,
+    "founded": 2009,
+    "latestValuationUsd": 45000000000,
+    "dataQuality": "partial"
+  },
+  {
+    "id": "wayve",
+    "name": "Wayve",
+    "sector": "robotics",
+    "description": "End-to-end embodied AI for autonomous driving.",
+    "headquarters": "London",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "tags": [
+      "autonomous",
+      "europe"
+    ],
+    "totalFundingUsd": 1300000000,
+    "founded": 2017,
+    "latestValuationUsd": 2700000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "sanctuary-ai",
+    "name": "Sanctuary AI",
+    "sector": "robotics",
+    "description": "General-purpose humanoid robotics company.",
+    "headquarters": "Vancouver",
+    "country": "Canada",
+    "region": "North America",
+    "tags": [
+      "humanoid"
+    ],
+    "totalFundingUsd": 140000000,
+    "founded": 2018,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "hugging-face",
+    "name": "Hugging Face",
+    "sector": "agent-infra",
+    "description": "The open-source hub and platform for models, datasets, and inference.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "platform",
+      "open-source"
+    ],
+    "totalFundingUsd": 400000000,
+    "founded": 2016,
+    "latestValuationUsd": 4500000000,
+    "enterpriseCustomers": 10000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "scale-ai",
+    "name": "Scale AI",
+    "sector": "agent-infra",
+    "description": "Data labeling and model evaluation platform for frontier labs and enterprises.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "data",
+      "eval"
+    ],
+    "totalFundingUsd": 1600000000,
+    "founded": 2016,
+    "latestValuationUsd": 14000000000,
+    "enterpriseCustomers": 300,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "weights-and-biases",
+    "name": "Weights & Biases",
+    "sector": "agent-infra",
+    "description": "Experiment tracking and MLOps platform for AI teams.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "mlops"
+    ],
+    "totalFundingUsd": 250000000,
+    "founded": 2017,
+    "latestValuationUsd": 1300000000,
+    "enterpriseCustomers": 1000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "weaviate",
+    "name": "Weaviate",
+    "sector": "agent-infra",
+    "description": "Open-source vector database for AI-native search and retrieval.",
+    "headquarters": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Europe",
+    "tags": [
+      "vector-db",
+      "europe"
+    ],
+    "totalFundingUsd": 68000000,
+    "founded": 2019,
+    "latestValuationUsd": 200000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "sector": "agent-infra",
+    "description": "Frontend cloud and the AI SDK powering AI-native apps.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "platform",
+      "developer"
+    ],
+    "totalFundingUsd": 560000000,
+    "founded": 2015,
+    "latestValuationUsd": 9000000000,
+    "enterpriseCustomers": 4000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "cognition",
+    "name": "Cognition",
+    "sector": "enterprise-ai",
+    "description": "Maker of Devin, an autonomous software engineer.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "coding",
+      "agents"
+    ],
+    "totalFundingUsd": 200000000,
+    "founded": 2023,
+    "latestValuationUsd": 4000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "sector": "enterprise-ai",
+    "description": "Leading AI voice and audio platform for developers and media.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "voice",
+      "audio"
+    ],
+    "totalFundingUsd": 280000000,
+    "founded": 2022,
+    "latestValuationUsd": 3300000000,
+    "enterpriseCustomers": 5000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "sector": "enterprise-ai",
+    "description": "Generative video models and creative tools for filmmakers.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "video",
+      "creative"
+    ],
+    "totalFundingUsd": 540000000,
+    "founded": 2018,
+    "latestValuationUsd": 3000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "sector": "enterprise-ai",
+    "description": "AI avatar video platform for enterprise communications.",
+    "headquarters": "London",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "tags": [
+      "video",
+      "europe"
+    ],
+    "totalFundingUsd": 330000000,
+    "founded": 2017,
+    "latestValuationUsd": 2100000000,
+    "enterpriseCustomers": 60000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "sector": "enterprise-ai",
+    "description": "Generative music creation platform.",
+    "headquarters": "Cambridge, MA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "music",
+      "consumer"
+    ],
+    "totalFundingUsd": 125000000,
+    "founded": 2022,
+    "latestValuationUsd": 500000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "hebbia",
+    "name": "Hebbia",
+    "sector": "enterprise-ai",
+    "description": "AI document analysis platform for finance and law.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "finance",
+      "vertical"
+    ],
+    "totalFundingUsd": 160000000,
+    "founded": 2020,
+    "latestValuationUsd": 700000000,
+    "enterpriseCustomers": 200,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "sector": "enterprise-ai",
+    "description": "Browser-based AI coding platform building software from natural language.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "coding",
+      "developer"
+    ],
+    "totalFundingUsd": 220000000,
+    "founded": 2016,
+    "latestValuationUsd": 3000000000,
+    "enterpriseCustomers": 5000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "mercor",
+    "name": "Mercor",
+    "sector": "enterprise-ai",
+    "description": "AI-powered hiring and talent marketplace for training data experts.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "talent",
+      "data"
+    ],
+    "totalFundingUsd": 130000000,
+    "founded": 2023,
+    "latestValuationUsd": 2000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "sector": "big-tech",
+    "description": "Enterprise computing incumbent with the watsonx platform and hybrid-cloud AI.",
+    "headquarters": "Armonk, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "enterprise",
+      "watsonx",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1911,
+    "marketCapUsd": 250000000000,
+    "revenueUsd": 62000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "sector": "big-tech",
+    "description": "CRM platform embedding Agentforce AI agents across the enterprise.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "crm",
+      "agentforce",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1999,
+    "marketCapUsd": 260000000000,
+    "revenueUsd": 38000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "servicenow",
+    "name": "ServiceNow",
+    "sector": "big-tech",
+    "description": "Enterprise workflow platform infusing generative AI across IT and operations.",
+    "headquarters": "Santa Clara, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "workflow",
+      "enterprise",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2004,
+    "marketCapUsd": 200000000000,
+    "revenueUsd": 11000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "adobe",
+    "name": "Adobe",
+    "sector": "big-tech",
+    "description": "Creative software leader with the Firefly generative media models.",
+    "headquarters": "San Jose, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "creative",
+      "firefly",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1982,
+    "marketCapUsd": 170000000000,
+    "revenueUsd": 22000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "sap",
+    "name": "SAP",
+    "sector": "big-tech",
+    "description": "Enterprise resource planning leader embedding the Joule AI copilot.",
+    "headquarters": "Walldorf",
+    "country": "Germany",
+    "region": "Europe",
+    "tags": [
+      "erp",
+      "europe",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1972,
+    "marketCapUsd": 320000000000,
+    "revenueUsd": 37000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "bytedance",
+    "name": "ByteDance",
+    "sector": "big-tech",
+    "description": "TikTok parent and Chinese AI powerhouse building the Doubao model family.",
+    "headquarters": "Beijing",
+    "country": "China",
+    "region": "Asia",
+    "tags": [
+      "consumer",
+      "doubao",
+      "china"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2012,
+    "latestValuationUsd": 300000000000,
+    "revenueUsd": 110000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "tencent",
+    "name": "Tencent",
+    "sector": "big-tech",
+    "description": "Chinese super-app and cloud giant developing the Hunyuan models.",
+    "headquarters": "Shenzhen",
+    "country": "China",
+    "region": "Asia",
+    "tags": [
+      "cloud",
+      "hunyuan",
+      "china",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1998,
+    "marketCapUsd": 500000000000,
+    "revenueUsd": 90000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "sector": "big-tech",
+    "description": "Chinese cloud leader behind the open Qwen model family.",
+    "headquarters": "Hangzhou",
+    "country": "China",
+    "region": "Asia",
+    "tags": [
+      "cloud",
+      "qwen",
+      "china",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1999,
+    "marketCapUsd": 300000000000,
+    "revenueUsd": 130000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "baidu",
+    "name": "Baidu",
+    "sector": "big-tech",
+    "description": "Chinese search and cloud company developing the Ernie models.",
+    "headquarters": "Beijing",
+    "country": "China",
+    "region": "Asia",
+    "tags": [
+      "search",
+      "ernie",
+      "china",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2000,
+    "marketCapUsd": 35000000000,
+    "revenueUsd": 19000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "sector": "infrastructure",
+    "description": "Memory and foundry giant supplying HBM and advanced nodes for AI chips.",
+    "headquarters": "Suwon",
+    "country": "South Korea",
+    "region": "Asia",
+    "tags": [
+      "memory",
+      "HBM",
+      "foundry",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1969,
+    "marketCapUsd": 380000000000,
+    "revenueUsd": 200000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "sk-hynix",
+    "name": "SK Hynix",
+    "sector": "infrastructure",
+    "description": "Leading high-bandwidth memory supplier for AI accelerators.",
+    "headquarters": "Icheon",
+    "country": "South Korea",
+    "region": "Asia",
+    "tags": [
+      "memory",
+      "HBM",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1983,
+    "marketCapUsd": 120000000000,
+    "revenueUsd": 45000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "qualcomm",
+    "name": "Qualcomm",
+    "sector": "infrastructure",
+    "description": "Mobile and edge silicon leader expanding into datacenter AI inference.",
+    "headquarters": "San Diego, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "edge",
+      "inference",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1985,
+    "marketCapUsd": 180000000000,
+    "revenueUsd": 39000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "cisco",
+    "name": "Cisco",
+    "sector": "infrastructure",
+    "description": "Networking incumbent building Ethernet fabrics for AI datacenters.",
+    "headquarters": "San Jose, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "networking",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1984,
+    "marketCapUsd": 240000000000,
+    "revenueUsd": 54000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "dell-technologies",
+    "name": "Dell Technologies",
+    "sector": "infrastructure",
+    "description": "Server and systems integrator shipping AI-optimized GPU racks.",
+    "headquarters": "Round Rock, TX",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "servers",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 1984,
+    "marketCapUsd": 90000000000,
+    "revenueUsd": 96000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "hewlett-packard-enterprise",
+    "name": "Hewlett Packard Enterprise",
+    "sector": "infrastructure",
+    "description": "Enterprise systems and supercomputing vendor for AI infrastructure.",
+    "headquarters": "Spring, TX",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "servers",
+      "HPC",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2015,
+    "marketCapUsd": 28000000000,
+    "revenueUsd": 30000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "sector": "agent-infra",
+    "description": "Data and AI lakehouse platform for building and serving models at scale.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "data",
+      "lakehouse"
+    ],
+    "totalFundingUsd": 19000000000,
+    "founded": 2013,
+    "latestValuationUsd": 100000000000,
+    "revenueUsd": 3000000000,
+    "enterpriseCustomers": 10000,
+    "dataQuality": "verified"
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "sector": "agent-infra",
+    "description": "Data cloud platform with Cortex AI for enterprise analytics.",
+    "headquarters": "Bozeman, MT",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "data",
+      "cortex",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2012,
+    "marketCapUsd": 60000000000,
+    "revenueUsd": 3500000000,
+    "enterpriseCustomers": 10000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "stability-ai",
+    "name": "Stability AI",
+    "sector": "foundation-model",
+    "description": "Open generative media lab behind Stable Diffusion.",
+    "headquarters": "London",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "tags": [
+      "image",
+      "open-weight",
+      "europe"
+    ],
+    "totalFundingUsd": 250000000,
+    "founded": 2019,
+    "latestValuationUsd": 1000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "character-ai",
+    "name": "Character.AI",
+    "sector": "foundation-model",
+    "description": "Consumer companion chatbot platform after a Google licensing deal.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "consumer",
+      "LLM"
+    ],
+    "totalFundingUsd": 193000000,
+    "founded": 2021,
+    "latestValuationUsd": 1000000000,
+    "users": 20000000,
+    "dataQuality": "partial"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "sector": "foundation-model",
+    "description": "Bootstrapped generative image platform with a large creator base.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "image",
+      "consumer"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2021,
+    "revenueUsd": 300000000,
+    "users": 20000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "luma-ai",
+    "name": "Luma AI",
+    "sector": "foundation-model",
+    "description": "Generative video and 3D foundation models (Dream Machine).",
+    "headquarters": "Palo Alto, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "video",
+      "3d"
+    ],
+    "totalFundingUsd": 110000000,
+    "founded": 2021,
+    "latestValuationUsd": 400000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "palantir",
+    "name": "Palantir",
+    "sector": "enterprise-ai",
+    "description": "Data and AI operating systems for governments and enterprises (AIP).",
+    "headquarters": "Denver, CO",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "defense",
+      "platform",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2003,
+    "marketCapUsd": 300000000000,
+    "revenueUsd": 3000000000,
+    "enterpriseCustomers": 600,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "anduril",
+    "name": "Anduril",
+    "sector": "robotics",
+    "description": "Defense technology company building autonomous systems and the Lattice OS.",
+    "headquarters": "Costa Mesa, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "defense",
+      "autonomy"
+    ],
+    "totalFundingUsd": 6000000000,
+    "founded": 2017,
+    "latestValuationUsd": 30000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "shield-ai",
+    "name": "Shield AI",
+    "sector": "robotics",
+    "description": "Autonomy software (Hivemind) piloting aircraft without GPS or comms.",
+    "headquarters": "San Diego, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "defense",
+      "autonomy"
+    ],
+    "totalFundingUsd": 1300000000,
+    "founded": 2015,
+    "latestValuationUsd": 5300000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "nuro",
+    "name": "Nuro",
+    "sector": "robotics",
+    "description": "Autonomous driving company licensing its self-driving stack.",
+    "headquarters": "Mountain View, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "autonomous"
+    ],
+    "totalFundingUsd": 2100000000,
+    "founded": 2016,
+    "latestValuationUsd": 6000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "sector": "enterprise-ai",
+    "description": "Connected workspace embedding AI across docs, wikis, and projects.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "productivity",
+      "horizontal"
+    ],
+    "totalFundingUsd": 340000000,
+    "founded": 2013,
+    "latestValuationUsd": 10000000000,
+    "enterpriseCustomers": 4000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "sector": "enterprise-ai",
+    "description": "Design platform with generative Magic Studio AI tools.",
+    "headquarters": "Sydney",
+    "country": "Australia",
+    "region": "Oceania",
+    "tags": [
+      "creative",
+      "design"
+    ],
+    "totalFundingUsd": 580000000,
+    "founded": 2013,
+    "latestValuationUsd": 32000000000,
+    "users": 220000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "sector": "enterprise-ai",
+    "description": "Collaborative design platform adding generative design features.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "design",
+      "public"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2012,
+    "marketCapUsd": 20000000000,
+    "revenueUsd": 700000000,
+    "enterpriseCustomers": 1000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "sector": "enterprise-ai",
+    "description": "AI writing assistant expanding into an enterprise productivity suite.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "writing",
+      "productivity"
+    ],
+    "totalFundingUsd": 550000000,
+    "founded": 2009,
+    "latestValuationUsd": 13000000000,
+    "users": 30000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "gong",
+    "name": "Gong",
+    "sector": "enterprise-ai",
+    "description": "Revenue intelligence platform applying AI to sales conversations.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "sales",
+      "vertical"
+    ],
+    "totalFundingUsd": 583000000,
+    "founded": 2015,
+    "latestValuationUsd": 7250000000,
+    "enterpriseCustomers": 4000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "ramp",
+    "name": "Ramp",
+    "sector": "enterprise-ai",
+    "description": "Finance automation platform using AI to control corporate spend.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "fintech",
+      "vertical"
+    ],
+    "totalFundingUsd": 2000000000,
+    "founded": 2019,
+    "latestValuationUsd": 22000000000,
+    "enterpriseCustomers": 30000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "terrapower",
+    "name": "TerraPower",
+    "sector": "energy",
+    "description": "Advanced nuclear developer (Natrium) backed by Bill Gates.",
+    "headquarters": "Bellevue, WA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "nuclear",
+      "SMR"
+    ],
+    "totalFundingUsd": 1000000000,
+    "founded": 2008,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "helion-energy",
+    "name": "Helion Energy",
+    "sector": "energy",
+    "description": "Fusion developer with a power agreement to supply Microsoft.",
+    "headquarters": "Everett, WA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "fusion",
+      "clean"
+    ],
+    "totalFundingUsd": 1000000000,
+    "founded": 2013,
+    "latestValuationUsd": 5400000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "nuscale-power",
+    "name": "NuScale Power",
+    "sector": "energy",
+    "description": "Small modular reactor company licensed for US deployment.",
+    "headquarters": "Portland, OR",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "nuclear",
+      "SMR",
+      "public"
+    ],
+    "totalFundingUsd": 600000000,
+    "founded": 2007,
+    "marketCapUsd": 8000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "g42",
+    "name": "G42",
+    "sector": "compute",
+    "description": "Emirati AI and cloud champion building sovereign compute, backed by Microsoft.",
+    "headquarters": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "tags": [
+      "sovereign",
+      "cloud",
+      "compute"
+    ],
+    "totalFundingUsd": 0,
+    "founded": 2018,
+    "latestValuationUsd": 30000000000,
+    "revenueUsd": 2000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "humain",
+    "name": "HUMAIN",
+    "sector": "compute",
+    "description": "PIF-owned AI company building Saudi Arabia's national compute and models.",
+    "headquarters": "Riyadh",
+    "country": "Saudi Arabia",
+    "region": "Middle East",
+    "tags": [
+      "sovereign",
+      "compute"
+    ],
+    "totalFundingUsd": 10000000000,
+    "founded": 2025,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "fidelity",
+    "name": "Fidelity",
+    "sector": "investor",
+    "description": "Asset manager and frequent late-stage backer marking AI valuations.",
+    "headquarters": "Boston, MA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "asset-manager",
+      "late-stage"
+    ],
+    "totalFundingUsd": 40000000000,
+    "founded": 1946,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "t-rowe-price",
+    "name": "T. Rowe Price",
+    "sector": "investor",
+    "description": "Asset manager investing in late-stage AI growth rounds.",
+    "headquarters": "Baltimore, MD",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "asset-manager",
+      "late-stage"
+    ],
+    "totalFundingUsd": 18000000000,
+    "founded": 1937,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "baillie-gifford",
+    "name": "Baillie Gifford",
+    "sector": "investor",
+    "description": "Long-horizon growth investor with large positions in AI leaders.",
+    "headquarters": "Edinburgh",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "tags": [
+      "growth",
+      "europe"
+    ],
+    "totalFundingUsd": 20000000000,
+    "founded": 1908,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "d-e-shaw",
+    "name": "D.E. Shaw",
+    "sector": "investor",
+    "description": "Quantitative hedge fund and heavy consumer of AI compute and talent.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "quant",
+      "hedge-fund"
+    ],
+    "totalFundingUsd": 12000000000,
+    "founded": 1988,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "millennium",
+    "name": "Millennium",
+    "sector": "investor",
+    "description": "Multi-strategy hedge fund deploying AI across trading.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "quant",
+      "hedge-fund"
+    ],
+    "totalFundingUsd": 14000000000,
+    "founded": 1989,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "point72",
+    "name": "Point72",
+    "sector": "investor",
+    "description": "Hedge fund and venture arm investing across applied AI.",
+    "headquarters": "Stamford, CT",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "quant",
+      "hedge-fund"
+    ],
+    "totalFundingUsd": 9000000000,
+    "founded": 2014,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "susquehanna",
+    "name": "Susquehanna",
+    "sector": "investor",
+    "description": "Quant trading firm (SIG) and major buyer of AI compute.",
+    "headquarters": "Bala Cynwyd, PA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "quant",
+      "trading"
+    ],
+    "totalFundingUsd": 8000000000,
+    "founded": 1987,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "hudson-river-trading",
+    "name": "Hudson River Trading",
+    "sector": "investor",
+    "description": "Algorithmic trading firm investing in AI research and GPU capacity.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "quant",
+      "trading"
+    ],
+    "totalFundingUsd": 6000000000,
+    "founded": 2002,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "lux-capital",
+    "name": "Lux Capital",
+    "sector": "investor",
+    "description": "Deep-tech venture firm backing frontier AI, robotics, and defense.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "deep-tech"
+    ],
+    "totalFundingUsd": 5000000000,
+    "founded": 2000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "menlo-ventures",
+    "name": "Menlo Ventures",
+    "sector": "investor",
+    "description": "Venture firm and lead backer of Anthropic via the Anthology fund.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC"
+    ],
+    "totalFundingUsd": 6000000000,
+    "founded": 1976,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "public-investment-fund",
+    "name": "Public Investment Fund",
+    "sector": "investor",
+    "description": "Saudi sovereign wealth fund financing AI, compute, and HUMAIN.",
+    "headquarters": "Riyadh",
+    "country": "Saudi Arabia",
+    "region": "Middle East",
+    "tags": [
+      "sovereign",
+      "growth"
+    ],
+    "totalFundingUsd": 925000000000,
+    "founded": 1971,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "mubadala",
+    "name": "Mubadala",
+    "sector": "investor",
+    "description": "Emirati sovereign investor deploying capital across the global AI stack.",
+    "headquarters": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "tags": [
+      "sovereign",
+      "growth"
+    ],
+    "totalFundingUsd": 300000000000,
+    "founded": 2002,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "gic",
+    "name": "GIC",
+    "sector": "investor",
+    "description": "Singapore sovereign wealth fund backing AI infrastructure and growth.",
+    "headquarters": "Singapore",
+    "country": "Singapore",
+    "region": "Asia",
+    "tags": [
+      "sovereign",
+      "growth"
+    ],
+    "totalFundingUsd": 770000000000,
+    "founded": 1981,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "qatar-investment-authority",
+    "name": "Qatar Investment Authority",
+    "sector": "investor",
+    "description": "Qatari sovereign fund investing in global AI and compute.",
+    "headquarters": "Doha",
+    "country": "Qatar",
+    "region": "Middle East",
+    "tags": [
+      "sovereign",
+      "growth"
+    ],
+    "totalFundingUsd": 500000000000,
+    "founded": 2005,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "greylock",
+    "name": "Greylock",
+    "sector": "investor",
+    "description": "Early-stage venture firm backing infrastructure and applied AI.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "early-stage"
+    ],
+    "totalFundingUsd": 7000000000,
+    "founded": 1965,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "benchmark",
+    "name": "Benchmark",
+    "sector": "investor",
+    "description": "Concentrated early-stage firm with high-conviction AI bets.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "early-stage"
+    ],
+    "totalFundingUsd": 5000000000,
+    "founded": 1995,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "ivp",
+    "name": "IVP",
+    "sector": "investor",
+    "description": "Late-stage venture firm backing growth-stage AI companies.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "growth"
+    ],
+    "totalFundingUsd": 8000000000,
+    "founded": 1980,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "spark-capital",
+    "name": "Spark Capital",
+    "sector": "investor",
+    "description": "Multistage venture firm investing across AI applications and infra.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC"
+    ],
+    "totalFundingUsd": 6000000000,
+    "founded": 2005,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "gv",
+    "name": "GV",
+    "sector": "investor",
+    "description": "Alphabet's venture arm (Google Ventures) backing AI across stages.",
+    "headquarters": "Mountain View, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "corporate"
+    ],
+    "totalFundingUsd": 10000000000,
+    "founded": 2009,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "bain-capital-ventures",
+    "name": "Bain Capital Ventures",
+    "sector": "investor",
+    "description": "Venture arm of Bain Capital investing in enterprise and applied AI.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC"
+    ],
+    "totalFundingUsd": 9000000000,
+    "founded": 2001,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "redpoint-ventures",
+    "name": "Redpoint Ventures",
+    "sector": "investor",
+    "description": "Multistage venture firm backing AI infrastructure and apps.",
+    "headquarters": "Menlo Park, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC"
+    ],
+    "totalFundingUsd": 7000000000,
+    "founded": 1999,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "conviction",
+    "name": "Conviction",
+    "sector": "investor",
+    "description": "AI-focused venture firm founded by Sarah Guo.",
+    "headquarters": "San Francisco, CA",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "VC",
+      "AI-native"
+    ],
+    "totalFundingUsd": 1000000000,
+    "founded": 2022,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "sector": "government",
+    "description": "National program subsidizing domestic chips (Rapidus) and sovereign compute.",
+    "headquarters": "Tokyo",
+    "country": "Japan",
+    "region": "Asia",
+    "tags": [
+      "sovereign",
+      "semiconductors"
+    ],
+    "totalFundingUsd": 26000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "south-korea",
+    "name": "South Korea",
+    "sector": "government",
+    "description": "National AI and semiconductor strategy backing memory and compute leaders.",
+    "headquarters": "Seoul",
+    "country": "South Korea",
+    "region": "Asia",
+    "tags": [
+      "sovereign",
+      "semiconductors"
+    ],
+    "totalFundingUsd": 19000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "sector": "government",
+    "description": "IndiaAI Mission funding sovereign compute, datasets, and indigenous models.",
+    "headquarters": "New Delhi",
+    "country": "India",
+    "region": "Asia",
+    "tags": [
+      "sovereign",
+      "compute"
+    ],
+    "totalFundingUsd": 12000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "sector": "government",
+    "description": "National strategy anchoring European AI with compute and a €109B program.",
+    "headquarters": "Paris",
+    "country": "France",
+    "region": "Europe",
+    "tags": [
+      "sovereign",
+      "europe"
+    ],
+    "totalFundingUsd": 13000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "sector": "government",
+    "description": "Federal AI action plan funding research, compute, and industrial adoption.",
+    "headquarters": "Berlin",
+    "country": "Germany",
+    "region": "Europe",
+    "tags": [
+      "sovereign",
+      "europe"
+    ],
+    "totalFundingUsd": 11000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "sector": "government",
+    "description": "State-led AI strategy and Big Fund financing domestic compute and models.",
+    "headquarters": "Beijing",
+    "country": "China",
+    "region": "Asia",
+    "tags": [
+      "sovereign",
+      "compute",
+      "semiconductors"
+    ],
+    "totalFundingUsd": 70000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "qatar",
+    "name": "Qatar",
+    "sector": "government",
+    "description": "National AI strategy investing in sovereign compute and talent.",
+    "headquarters": "Doha",
+    "country": "Qatar",
+    "region": "Middle East",
+    "tags": [
+      "sovereign"
+    ],
+    "totalFundingUsd": 6000000000,
+    "dataQuality": "unverified"
+  }
+]

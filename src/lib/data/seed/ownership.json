@@ -1,0 +1,744 @@
+[
+  {
+    "entityId": "openai",
+    "asOf": "2025-03-31",
+    "methodology": "Derived from disclosed funding rounds, Microsoft partnership filings, and press reporting on the SoftBank-led $40B round. Employee pool estimated from standard late-stage startup benchmarks.",
+    "citations": [
+      {
+        "id": "reuters-openai-ownership",
+        "title": "OpenAI finalizes $40 billion SoftBank-led funding round",
+        "url": "https://www.reuters.com/technology/openai-finalizes-40-billion-softbank-led-funding-round-2025-03-31/",
+        "publisher": "Reuters",
+        "publishedAt": "2025-03-31",
+        "type": "news"
+      },
+      {
+        "id": "msft-openai-stake",
+        "title": "Microsoft's OpenAI stake estimated at ~27% after latest round",
+        "url": "https://www.bloomberg.com/news/articles/2024-10-03/microsoft-s-openai-stake",
+        "publisher": "Bloomberg",
+        "publishedAt": "2024-10-03",
+        "type": "news"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Microsoft",
+        "entityId": "microsoft",
+        "category": "corporate-strategic",
+        "stakePct": 27,
+        "citations": []
+      },
+      {
+        "name": "SoftBank",
+        "entityId": "softbank",
+        "category": "sovereign-wealth",
+        "stakePct": 11,
+        "citations": []
+      },
+      {
+        "name": "Thrive Capital",
+        "entityId": "thrive-capital",
+        "category": "venture-capital",
+        "stakePct": 8,
+        "citations": []
+      },
+      {
+        "name": "Nvidia",
+        "entityId": "nvidia",
+        "category": "corporate-strategic",
+        "stakePct": 5,
+        "citations": []
+      },
+      {
+        "name": "Sequoia Capital",
+        "entityId": "sequoia-capital",
+        "category": "venture-capital",
+        "stakePct": 4,
+        "citations": []
+      },
+      {
+        "name": "Khosla Ventures",
+        "entityId": "khosla-ventures",
+        "category": "venture-capital",
+        "stakePct": 3,
+        "citations": []
+      },
+      {
+        "name": "Coatue",
+        "entityId": "coatue",
+        "category": "institutional",
+        "stakePct": 3,
+        "citations": []
+      },
+      {
+        "name": "Tiger Global",
+        "entityId": "tiger-global",
+        "category": "institutional",
+        "stakePct": 2,
+        "citations": []
+      },
+      {
+        "name": "Employees & founders",
+        "category": "founders-employees",
+        "stakePct": 22,
+        "citations": []
+      },
+      {
+        "name": "Other investors",
+        "category": "other",
+        "stakePct": 15,
+        "citations": []
+      }
+    ]
+  },
+  {
+    "entityId": "anthropic",
+    "asOf": "2025-11-18",
+    "methodology": "Based on Amazon's $8B total, Google's ~$2B+, Microsoft ($5B) and Nvidia ($10B) Nov 2025 strategic round, and VC cap table from public reporting.",
+    "citations": [
+      {
+        "id": "amazon-anthropic-total",
+        "title": "Amazon completes $4B investment in Anthropic (total $8B)",
+        "url": "https://www.aboutamazon.com/news/company-news/amazon-anthropic-ai-investment",
+        "publisher": "Amazon",
+        "publishedAt": "2024-11-22",
+        "type": "press-release"
+      },
+      {
+        "id": "msft-anthropic-nov-2025",
+        "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships",
+        "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+        "publisher": "Microsoft",
+        "publishedAt": "2025-11-18",
+        "type": "press-release"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Amazon",
+        "entityId": "amazon",
+        "category": "corporate-strategic",
+        "stakePct": 14,
+        "citations": []
+      },
+      {
+        "name": "Google",
+        "entityId": "google",
+        "category": "corporate-strategic",
+        "stakePct": 7,
+        "citations": []
+      },
+      {
+        "name": "Nvidia",
+        "entityId": "nvidia",
+        "category": "corporate-strategic",
+        "stakePct": 6,
+        "citations": []
+      },
+      {
+        "name": "Microsoft",
+        "entityId": "microsoft",
+        "category": "corporate-strategic",
+        "stakePct": 4,
+        "citations": []
+      },
+      {
+        "name": "Spark Capital",
+        "entityId": "spark-capital",
+        "category": "venture-capital",
+        "stakePct": 6,
+        "citations": []
+      },
+      {
+        "name": "Salesforce Ventures",
+        "entityId": "salesforce",
+        "category": "corporate-strategic",
+        "stakePct": 4,
+        "citations": []
+      },
+      {
+        "name": "Founders (Dario & Daniela Amodei)",
+        "category": "founders-employees",
+        "stakePct": 18,
+        "citations": []
+      },
+      {
+        "name": "Employees (option pool)",
+        "category": "founders-employees",
+        "stakePct": 15,
+        "citations": []
+      },
+      {
+        "name": "Other VCs & individuals",
+        "category": "venture-capital",
+        "stakePct": 26,
+        "citations": []
+      }
+    ]
+  },
+  {
+    "entityId": "xai",
+    "asOf": "2025-07-01",
+    "methodology": "From xAI Series C disclosure and participating investor announcements.",
+    "citations": [
+      {
+        "id": "xai-series-c",
+        "title": "xAI raises $6B Series C",
+        "url": "https://x.ai/blog/series-c",
+        "publisher": "xAI",
+        "publishedAt": "2025-07-01",
+        "type": "press-release"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Elon Musk & affiliates",
+        "category": "individual",
+        "stakePct": 54,
+        "citations": []
+      },
+      {
+        "name": "Valor Equity Partners",
+        "category": "private-equity",
+        "stakePct": 8,
+        "citations": []
+      },
+      {
+        "name": "Andreessen Horowitz",
+        "entityId": "andreessen-horowitz",
+        "category": "venture-capital",
+        "stakePct": 6,
+        "citations": []
+      },
+      {
+        "name": "Sequoia Capital",
+        "entityId": "sequoia-capital",
+        "category": "venture-capital",
+        "stakePct": 5,
+        "citations": []
+      },
+      {
+        "name": "Fidelity",
+        "category": "institutional",
+        "stakePct": 5,
+        "citations": []
+      },
+      {
+        "name": "Kingdom Holdings (Saudi)",
+        "entityId": "saudi-pif",
+        "category": "sovereign-wealth",
+        "stakePct": 4,
+        "citations": []
+      },
+      {
+        "name": "Qatar Investment Authority",
+        "entityId": "qatar-investment-authority",
+        "category": "sovereign-wealth",
+        "stakePct": 3,
+        "citations": []
+      },
+      {
+        "name": "Employees",
+        "category": "founders-employees",
+        "stakePct": 10,
+        "citations": []
+      },
+      {
+        "name": "Other",
+        "category": "other",
+        "stakePct": 5,
+        "citations": []
+      }
+    ]
+  },
+  {
+    "entityId": "databricks",
+    "asOf": "2024-12-17",
+    "methodology": "Cap table reconstructed from Series J press release and prior round disclosures.",
+    "citations": [
+      {
+        "id": "databricks-j",
+        "title": "Databricks raises $10B Series J at $62B valuation",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "publisher": "Databricks",
+        "publishedAt": "2024-12-17",
+        "type": "press-release"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Andreessen Horowitz",
+        "entityId": "andreessen-horowitz",
+        "category": "venture-capital",
+        "stakePct": 12,
+        "citations": []
+      },
+      {
+        "name": "Thrive Capital",
+        "entityId": "thrive-capital",
+        "category": "venture-capital",
+        "stakePct": 8,
+        "citations": []
+      },
+      {
+        "name": "Founders (Ghodsi, Stoica, etc.)",
+        "category": "founders-employees",
+        "stakePct": 14,
+        "citations": []
+      },
+      {
+        "name": "Employees",
+        "category": "founders-employees",
+        "stakePct": 12,
+        "citations": []
+      },
+      {
+        "name": "Insight Partners",
+        "entityId": "insight-partners",
+        "category": "venture-capital",
+        "stakePct": 6,
+        "citations": []
+      },
+      {
+        "name": "Tiger Global",
+        "entityId": "tiger-global",
+        "category": "institutional",
+        "stakePct": 5,
+        "citations": []
+      },
+      {
+        "name": "Other VCs & strategics",
+        "category": "venture-capital",
+        "stakePct": 43,
+        "citations": []
+      }
+    ]
+  },
+  {
+    "entityId": "nvidia",
+    "asOf": "2025-01-31",
+    "methodology": "Public company ownership from SEC 13F institutional holdings and insider filings. Retail estimated as remainder of public float.",
+    "citations": [
+      {
+        "id": "nvidia-13f",
+        "title": "Nvidia institutional ownership (SEC 13F)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810",
+        "publisher": "SEC",
+        "publishedAt": "2025-01-31",
+        "type": "filing"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Vanguard Group",
+        "category": "institutional",
+        "stakePct": 8.8,
+        "citations": []
+      },
+      {
+        "name": "BlackRock",
+        "entityId": "blackrock",
+        "category": "institutional",
+        "stakePct": 7.6,
+        "citations": []
+      },
+      {
+        "name": "Fidelity",
+        "category": "institutional",
+        "stakePct": 5.2,
+        "citations": []
+      },
+      {
+        "name": "State Street",
+        "category": "institutional",
+        "stakePct": 4.1,
+        "citations": []
+      },
+      {
+        "name": "Jensen Huang (insider)",
+        "category": "individual",
+        "stakePct": 3.5,
+        "citations": []
+      },
+      {
+        "name": "Other institutions",
+        "category": "institutional",
+        "stakePct": 42,
+        "citations": []
+      },
+      {
+        "name": "Retail investors",
+        "category": "retail-public",
+        "stakePct": 28.8,
+        "citations": []
+      }
+    ]
+  },
+  {
+    "entityId": "microsoft",
+    "asOf": "2025-01-31",
+    "methodology": "SEC 13F institutional holdings + insider ownership from proxy statement.",
+    "citations": [
+      {
+        "id": "msft-proxy",
+        "title": "Microsoft 2024 Proxy Statement",
+        "url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+        "publisher": "Microsoft",
+        "publishedAt": "2024-12-01",
+        "type": "filing"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Vanguard Group",
+        "category": "institutional",
+        "stakePct": 9.1,
+        "citations": []
+      },
+      {
+        "name": "BlackRock",
+        "entityId": "blackrock",
+        "category": "institutional",
+        "stakePct": 6.8,
+        "citations": []
+      },
+      {
+        "name": "Satya Nadella (insider)",
+        "category": "individual",
+        "stakePct": 0.8,
+        "citations": []
+      },
+      {
+        "name": "Other institutions",
+        "category": "institutional",
+        "stakePct": 58,
+        "citations": []
+      },
+      {
+        "name": "Retail investors",
+        "category": "retail-public",
+        "stakePct": 25.3,
+        "citations": []
+      }
+    ]
+  },
+  {
+    "entityId": "meta",
+    "asOf": "2025-01-31",
+    "methodology": "SEC 13F + proxy. Zuckerberg controls majority voting power via Class B shares.",
+    "citations": [
+      {
+        "id": "meta-proxy",
+        "title": "Meta 2024 Proxy Statement",
+        "url": "https://investor.atmeta.com/financials/",
+        "publisher": "Meta",
+        "publishedAt": "2024-04-01",
+        "type": "filing"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Mark Zuckerberg",
+        "category": "individual",
+        "stakePct": 13.5,
+        "citations": []
+      },
+      {
+        "name": "Vanguard Group",
+        "category": "institutional",
+        "stakePct": 8.2,
+        "citations": []
+      },
+      {
+        "name": "BlackRock",
+        "entityId": "blackrock",
+        "category": "institutional",
+        "stakePct": 7.4,
+        "citations": []
+      },
+      {
+        "name": "Other institutions",
+        "category": "institutional",
+        "stakePct": 45,
+        "citations": []
+      },
+      {
+        "name": "Retail investors",
+        "category": "retail-public",
+        "stakePct": 25.9,
+        "citations": []
+      }
+    ]
+  },
+  {
+    "entityId": "google",
+    "asOf": "2025-01-31",
+    "methodology": "Alphabet Class A/C public float from SEC filings.",
+    "citations": [
+      {
+        "id": "goog-10k",
+        "title": "Alphabet 2024 10-K",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044",
+        "publisher": "SEC",
+        "publishedAt": "2025-02-01",
+        "type": "filing"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Larry Page & Sergey Brin",
+        "category": "individual",
+        "stakePct": 11.8,
+        "citations": []
+      },
+      {
+        "name": "Vanguard Group",
+        "category": "institutional",
+        "stakePct": 7.5,
+        "citations": []
+      },
+      {
+        "name": "BlackRock",
+        "entityId": "blackrock",
+        "category": "institutional",
+        "stakePct": 6.9,
+        "citations": []
+      },
+      {
+        "name": "Other institutions",
+        "category": "institutional",
+        "stakePct": 48,
+        "citations": []
+      },
+      {
+        "name": "Retail investors",
+        "category": "retail-public",
+        "stakePct": 25.8,
+        "citations": []
+      }
+    ]
+  },
+  {
+    "entityId": "coreweave",
+    "asOf": "2024-05-01",
+    "methodology": "From disclosed funding rounds and strategic investor announcements pre-IPO filing.",
+    "citations": [
+      {
+        "id": "coreweave-funding",
+        "title": "CoreWeave raises $1.1B Series C",
+        "url": "https://www.coreweave.com/news/coreweave-raises-1-1-billion-series-c",
+        "publisher": "CoreWeave",
+        "publishedAt": "2024-05-01",
+        "type": "press-release"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Magnetar Capital",
+        "category": "institutional",
+        "stakePct": 18,
+        "citations": []
+      },
+      {
+        "name": "Nvidia",
+        "entityId": "nvidia",
+        "category": "corporate-strategic",
+        "stakePct": 6,
+        "citations": []
+      },
+      {
+        "name": "Founders (Intrator, Venturo)",
+        "category": "founders-employees",
+        "stakePct": 22,
+        "citations": []
+      },
+      {
+        "name": "Employees",
+        "category": "founders-employees",
+        "stakePct": 10,
+        "citations": []
+      },
+      {
+        "name": "Other VCs & credit funds",
+        "category": "venture-capital",
+        "stakePct": 44,
+        "citations": []
+      }
+    ]
+  },
+  {
+    "entityId": "mistral-ai",
+    "asOf": "2025-02-01",
+    "methodology": "European VC rounds + Microsoft strategic stake from partnership announcement.",
+    "citations": [
+      {
+        "id": "mistral-funding",
+        "title": "Mistral AI raises €600M",
+        "url": "https://mistral.ai/news/mistral-ai-raises-600m/",
+        "publisher": "Mistral AI",
+        "publishedAt": "2024-06-01",
+        "type": "press-release"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Founders (Mensch, Lacroix, Synnaeve)",
+        "category": "founders-employees",
+        "stakePct": 25,
+        "citations": []
+      },
+      {
+        "name": "General Catalyst",
+        "entityId": "general-catalyst",
+        "category": "venture-capital",
+        "stakePct": 12,
+        "citations": []
+      },
+      {
+        "name": "Lightspeed",
+        "entityId": "lightspeed-venture-partners",
+        "category": "venture-capital",
+        "stakePct": 8,
+        "citations": []
+      },
+      {
+        "name": "Microsoft",
+        "entityId": "microsoft",
+        "category": "corporate-strategic",
+        "stakePct": 5,
+        "citations": []
+      },
+      {
+        "name": "BNP Paribas / corporates",
+        "category": "corporate-strategic",
+        "stakePct": 10,
+        "citations": []
+      },
+      {
+        "name": "Employees",
+        "category": "founders-employees",
+        "stakePct": 15,
+        "citations": []
+      },
+      {
+        "name": "Other VCs",
+        "category": "venture-capital",
+        "stakePct": 25,
+        "citations": []
+      }
+    ]
+  },
+  {
+    "entityId": "scale-ai",
+    "asOf": "2024-05-01",
+    "methodology": "From Meta strategic investment reporting and prior VC rounds.",
+    "citations": [
+      {
+        "id": "scale-meta",
+        "title": "Meta invests in Scale AI",
+        "url": "https://www.reuters.com/technology/meta-invests-scale-ai-2024-05-01/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-05-01",
+        "type": "news"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Meta",
+        "entityId": "meta",
+        "category": "corporate-strategic",
+        "stakePct": 15,
+        "citations": []
+      },
+      {
+        "name": "Founders (Wang, Guo)",
+        "category": "founders-employees",
+        "stakePct": 18,
+        "citations": []
+      },
+      {
+        "name": "Accel",
+        "entityId": "accel",
+        "category": "venture-capital",
+        "stakePct": 10,
+        "citations": []
+      },
+      {
+        "name": "Index Ventures",
+        "entityId": "index-ventures",
+        "category": "venture-capital",
+        "stakePct": 8,
+        "citations": []
+      },
+      {
+        "name": "Employees",
+        "category": "founders-employees",
+        "stakePct": 14,
+        "citations": []
+      },
+      {
+        "name": "Other VCs",
+        "category": "venture-capital",
+        "stakePct": 35,
+        "citations": []
+      }
+    ]
+  },
+  {
+    "entityId": "cohere",
+    "asOf": "2024-06-01",
+    "methodology": "From Series D press release and investor disclosures.",
+    "citations": [
+      {
+        "id": "cohere-d",
+        "title": "Cohere raises $500M Series D",
+        "url": "https://cohere.com/blog/cohere-series-d",
+        "publisher": "Cohere",
+        "publishedAt": "2024-06-01",
+        "type": "press-release"
+      }
+    ],
+    "stakes": [
+      {
+        "name": "Founders (Gomez, Frosst, Goyal)",
+        "category": "founders-employees",
+        "stakePct": 20,
+        "citations": []
+      },
+      {
+        "name": "Nvidia",
+        "entityId": "nvidia",
+        "category": "corporate-strategic",
+        "stakePct": 6,
+        "citations": []
+      },
+      {
+        "name": "Salesforce",
+        "entityId": "salesforce",
+        "category": "corporate-strategic",
+        "stakePct": 5,
+        "citations": []
+      },
+      {
+        "name": "Index Ventures",
+        "entityId": "index-ventures",
+        "category": "venture-capital",
+        "stakePct": 8,
+        "citations": []
+      },
+      {
+        "name": "Employees",
+        "category": "founders-employees",
+        "stakePct": 16,
+        "citations": []
+      },
+      {
+        "name": "Other VCs",
+        "category": "venture-capital",
+        "stakePct": 45,
+        "citations": []
+      }
+    ]
+  }
+]
