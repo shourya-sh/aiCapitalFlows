@@ -405,6 +405,7 @@ export const SOVEREIGN_PROGRAMS = [
     lng: 138.3,
     program: "Rapidus",
     commitment: "¥2T+",
+    scale: 13,
     mechanism: "Industrial policy",
     partners: [
       { entityId: "rapidus", name: "Rapidus", hqLat: 43.06, hqLng: 141.35 },

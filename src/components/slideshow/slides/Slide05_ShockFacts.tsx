@@ -36,20 +36,14 @@ const ICONS: Record<(typeof SHOCK_FACTS)[number]["icon"], LucideIcon> = {
 };
 
 type ShockFact = (typeof SHOCK_FACTS)[number];
+type DoubleFact = Extract<ShockFact, { readonly double: true }>;
+type StandardFact = Extract<ShockFact, { readonly stat: string }>;
 
-function isDoubleFact(fact: ShockFact): fact is ShockFact & {
-  double: true;
-  stats: readonly { value: string; label: string; tone: "primary" | "amber" }[];
-  bullets: readonly string[];
-} {
+function isDoubleFact(fact: ShockFact): fact is DoubleFact {
   return "double" in fact && fact.double === true;
 }
 
-function isStandardFact(fact: ShockFact): fact is ShockFact & {
-  stat: string;
-  statSub: string;
-  detail: string;
-} {
+function isStandardFact(fact: ShockFact): fact is StandardFact {
   return "stat" in fact && "statSub" in fact && "detail" in fact;
 }
 
