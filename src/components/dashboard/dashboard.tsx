@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Activity, LayoutGrid, Layers, Sparkles, X } from "lucide-react";
-import { InsightsSlideshow } from "@/components/slideshow/insights-slideshow";
+import { SlideshowModal } from "@/components/slideshow/SlideshowModal";
 import { NetworkGraph } from "@/components/graph/network-graph";
 import { MapSettingsModal } from "@/components/graph/map-settings-modal";
 import { WhatsHotGrid } from "@/components/insights/whats-hot";
@@ -135,7 +135,7 @@ export function Dashboard({ graphNodes, graphEdges, stats, insights, sectorBars,
         />
       </div>
 
-      {slideshowOpen && <InsightsSlideshow onClose={() => setSlideshowOpen(false)} />}
+      {slideshowOpen && <SlideshowModal onClose={() => setSlideshowOpen(false)} />}
 
       <MapSettingsModal
         open={settingsOpen}
