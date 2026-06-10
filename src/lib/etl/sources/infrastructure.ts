@@ -36,16 +36,7 @@ export const energySource: IngestionSource = {
 };
 
 /**
- * Press-release / funding-announcement connector (stub). NLP over company press
- * releases and newswires (CB Insights, Business Wire) to catch financings before
- * they land in structured databases.
+ * Press-release / funding-announcement connector — see `sources/press.ts`.
+ * Kept here as a re-export for backwards compatibility.
  */
-export const pressSource: IngestionSource = {
-  id: "press",
-  label: "Press Releases & CB Insights",
-  description: "Funding announcements parsed from newswires before structured data lands.",
-  live: false,
-  async fetch() {
-    return EMPTY_RESULT;
-  },
-};
+export { pressSource } from "./press";

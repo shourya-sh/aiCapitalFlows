@@ -3,63 +3,116 @@
 import { formatCountUp, useCountUp } from "../hooks/useCountUp";
 import { useSlideAnimation } from "../hooks/useSlideAnimation";
 import { GlassCard, InsightStrip, MonoStat, SourceNote } from "../shared/SlidePrimitives";
-import { HYPSCALER_CAPEX_2026 } from "../utils/slideData";
+import { CAPEX_ACTION_SIGNALS, CAPEX_HISTORICAL, HYPSCALER_CAPEX_2026 } from "../utils/slideData";
 import { SLIDE } from "../utils/slideTheme";
 
 const MAX = HYPSCALER_CAPEX_2026[0].value;
 const COMBINED = HYPSCALER_CAPEX_2026.reduce((s, h) => s + h.value, 0);
+const Y_AXIS_TICKS = [200, 150, 100, 50, 0];
 
 export function Slide03_CapexArmsRace({ isActive }: { isActive: boolean }) {
   const combined = useCountUp(COMBINED, 1600, isActive);
   const { visible, enter } = useSlideAnimation(isActive, 100);
 
   return (
-    <div className="flex h-full flex-col gap-4 px-6 py-6 lg:flex-row lg:gap-8 lg:px-10">
-      <div className={`flex min-h-0 flex-1 flex-col ${enter(0)}`}>
-        <h2 className="text-xl font-bold text-white sm:text-2xl">The CapEx Arms Race</h2>
-        <p className="mt-1 text-sm text-white/50">2026 hyperscaler capex — individual bars</p>
-        <div className="mt-4 flex h-52 items-end justify-around gap-2 pb-2">
-          {HYPSCALER_CAPEX_2026.map((h, i) => (
-            <div key={h.name} className="flex flex-1 flex-col items-center gap-2">
-              <span className="font-mono text-[10px] tabular text-white/50 sm:text-xs">
-                {formatCountUp(h.value, 0)}
-              </span>
-              <div className="relative flex h-full w-full max-w-[56px] items-end">
-                <div
-                  className="w-full rounded-t-md transition-all duration-700 ease-out"
-                  style={{
-                    height: visible ? `${(h.value / MAX) * 100}%` : "0%",
-                    minHeight: visible ? 8 : 0,
-                    background: `linear-gradient(to top, ${SLIDE.primary}, rgba(0,212,255,0.4))`,
-                    transitionDelay: `${i * 100}ms`,
-                  }}
-                />
-              </div>
-              <span className="text-[10px] text-white/60 sm:text-xs">{h.name}</span>
+    <div className="grid h-full grid-rows-[auto_minmax(0,1fr)_auto] gap-2 overflow-hidden px-5 py-3 sm:px-8">
+      <div className={`min-h-0 ${enter(0)}`}>
+        <h2 className="text-lg font-bold leading-tight text-white sm:text-xl">The CapEx Arms Race</h2>
+        <p className="text-xs text-white/50">2026 hyperscaler capex — unprecedented scale, unproven returns</p>
+      </div>
+
+      <div className={`grid min-h-0 grid-cols-[minmax(0,1fr)_248px] gap-3 ${enter(1)}`}>
+        <GlassCard className="flex min-h-0 flex-col p-3">
+          <div className="mb-2 flex shrink-0 items-center justify-between">
+            <span className="text-[10px] font-medium uppercase tracking-wide text-white/40">2026 capex ($B)</span>
+            <span className="font-mono text-[9px] text-white/30">company guidance</span>
+          </div>
+
+          <div className="flex min-h-0 flex-1 gap-1.5">
+            <div className="flex w-7 shrink-0 flex-col justify-between py-0.5">
+              {Y_AXIS_TICKS.map((tick) => (
+                <span key={tick} className="font-mono text-[9px] tabular leading-none text-white/30">
+                  ${tick}
+                </span>
+              ))}
             </div>
-          ))}
+
+            <div className="flex min-h-0 min-w-0 flex-1 flex-col">
+              <div className="relative min-h-0 flex-1">
+                <div className="pointer-events-none absolute inset-0 flex flex-col justify-between">
+                  {Y_AXIS_TICKS.map((tick) => (
+                    <div key={tick} className="border-t border-dashed border-white/[0.06]" />
+                  ))}
+                </div>
+
+                <div className="relative z-10 flex h-full items-end justify-around gap-1 border-b border-l border-white/10 px-1 pb-0">
+                  {HYPSCALER_CAPEX_2026.map((h, i) => (
+                    <div key={h.name} className="flex h-full min-w-0 flex-1 items-end justify-center">
+                      <div
+                        className="w-full max-w-[48px] rounded-t-sm transition-all duration-700 ease-out"
+                        style={{
+                          height: visible ? `${(h.value / MAX) * 100}%` : "0%",
+                          minHeight: visible ? 4 : 0,
+                          background: `linear-gradient(to top, ${h.color}, ${h.color}88)`,
+                          transitionDelay: `${i * 90}ms`,
+                        }}
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-1.5 grid shrink-0 grid-cols-5 gap-0.5">
+                {HYPSCALER_CAPEX_2026.map((h) => (
+                  <div key={h.name} className="min-w-0 text-center leading-tight">
+                    <div className="text-[9px] font-medium text-white/75">{h.name}</div>
+                    <div className="font-mono text-[9px] font-semibold tabular text-white/65">
+                      {formatCountUp(h.value, 0)}
+                    </div>
+                    <div className="font-mono text-[8px] tabular text-white/35">
+                      {h.yoy} · {h.capexPctRevenue}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </GlassCard>
+
+        <div className="flex min-h-0 flex-col justify-between gap-1.5">
+          <GlassCard className="p-2.5">
+            <MonoStat value={formatCountUp(combined, 0)} label="Big Five combined, 2026" color={SLIDE.amber} size="sm" />
+            <SourceNote>
+              +36% vs 2025 · {formatCountUp(CAPEX_HISTORICAL[0].value, 0)} → {formatCountUp(CAPEX_HISTORICAL[2].value, 0)}
+            </SourceNote>
+          </GlassCard>
+          <GlassCard className="p-2.5" borderTop={SLIDE.danger}>
+            <MonoStat value="45–57%" label="Revenue spent on capex" color={SLIDE.danger} size="sm" />
+            <p className="mt-0.5 text-[10px] leading-snug text-white/55">Meta 57% — utility territory.</p>
+          </GlassCard>
+          <InsightStrip variant="danger">
+            <span className="text-[10px] leading-snug">
+              Goldman: $1.15T capex 2025–27. Consensus undershot actuals ~50% two years running.
+            </span>
+          </InsightStrip>
         </div>
       </div>
 
-      <div className={`flex w-full flex-col gap-3 lg:w-[42%] ${enter(1)}`}>
-        <GlassCard className="p-4">
-          <MonoStat value={formatCountUp(combined, 0)} label="Combined Big Five capex in 2026" color={SLIDE.amber} />
-          <SourceNote>+36% vs 2025 · +325% vs 2022</SourceNote>
-        </GlassCard>
-        <GlassCard className="p-4" borderTop={SLIDE.danger}>
-          <MonoStat value="45–57%" label="Of revenue now spent on capex" color={SLIDE.danger} size="lg" />
-          <p className="mt-2 text-sm text-white/60">
-            Previously unthinkable for a tech company. This is utility-company territory.
-          </p>
-        </GlassCard>
-        <InsightStrip variant="danger">
-          ⚠️ Goldman Sachs projects $1.15T in hyperscaler capex 2025–2027 alone — more than double all capex spent in
-          the three prior years combined.
-        </InsightStrip>
-        <InsightStrip variant="amber">
-          Consensus capex estimates have been wrong — too low — for two years running. Each year actual spend exceeded
-          projections by ~50%.
-        </InsightStrip>
+      <div className={`grid grid-cols-3 gap-2 ${enter(2)}`}>
+        {CAPEX_ACTION_SIGNALS.map((item) => (
+          <GlassCard
+            key={item.title}
+            className="p-2"
+            borderTop={item.variant === "danger" ? SLIDE.danger : item.variant === "amber" ? SLIDE.amber : SLIDE.primary}
+          >
+            <div className="text-[9px] font-semibold uppercase tracking-wide text-white/40">{item.title}</div>
+            <div className="mt-0.5 text-[10px] font-medium leading-tight text-white/85">{item.signal}</div>
+            <p className="mt-0.5 line-clamp-2 text-[9px] leading-snug text-white/50">
+              <span className="text-[#00d4ff]">→ </span>
+              {item.action}
+            </p>
+          </GlassCard>
+        ))}
       </div>
     </div>
   );

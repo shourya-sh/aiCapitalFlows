@@ -4,19 +4,16 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Slide01_Scale } from "./slides/Slide01_Scale";
 import { Slide02_CapitalMap } from "./slides/Slide02_CapitalMap";
 import { Slide03_CapexArmsRace } from "./slides/Slide03_CapexArmsRace";
-import { Slide04_OpenAI } from "./slides/Slide04_OpenAI";
+import { Slide04_FrontierRivals } from "./slides/Slide04_FrontierRivals";
 import { Slide05_ShockFacts } from "./slides/Slide05_ShockFacts";
 import { Slide06_DotComMirror } from "./slides/Slide06_DotComMirror";
 import { Slide07_EnergyParadox } from "./slides/Slide07_EnergyParadox";
 import { Slide08_SovereignAI } from "./slides/Slide08_SovereignAI";
-import { Slide09_Robotics } from "./slides/Slide09_Robotics";
-import { Slide10_BubbleOrBreakthrough } from "./slides/Slide10_BubbleOrBreakthrough";
-import { Slide11_WatchSignals } from "./slides/Slide11_WatchSignals";
 import { SlideProgress } from "./SlideProgress";
-import { getLiveSlideMetrics } from "./utils/liveSlideData";
+import { getFrontierRivalryData, getLiveSlideMetrics } from "./utils/liveSlideData";
 import { SLIDE, SLIDE_TRANSITION_MS } from "./utils/slideTheme";
 
-const TOTAL = 11;
+const TOTAL = 8;
 
 interface SlideshowModalProps {
   onClose: () => void;
@@ -24,6 +21,7 @@ interface SlideshowModalProps {
 
 export function SlideshowModal({ onClose }: SlideshowModalProps) {
   const live = useMemo(() => getLiveSlideMetrics(), []);
+  const rivalry = useMemo(() => getFrontierRivalryData(), []);
   const [index, setIndex] = useState(0);
   const [transitioning, setTransitioning] = useState(false);
   const touchStart = useRef<number | null>(null);
@@ -84,16 +82,13 @@ export function SlideshowModal({ onClose }: SlideshowModalProps) {
       (active: boolean) => <Slide01_Scale isActive={active} live={live} />,
       (active: boolean) => <Slide02_CapitalMap isActive={active} live={live} />,
       (active: boolean) => <Slide03_CapexArmsRace isActive={active} />,
-      (active: boolean) => <Slide04_OpenAI isActive={active} />,
+      (active: boolean) => <Slide04_FrontierRivals isActive={active} rivalry={rivalry} />,
       (active: boolean) => <Slide05_ShockFacts isActive={active} />,
       (active: boolean) => <Slide06_DotComMirror isActive={active} />,
       (active: boolean) => <Slide07_EnergyParadox isActive={active} />,
       (active: boolean) => <Slide08_SovereignAI isActive={active} />,
-      (active: boolean) => <Slide09_Robotics isActive={active} />,
-      (active: boolean) => <Slide10_BubbleOrBreakthrough isActive={active} />,
-      (active: boolean) => <Slide11_WatchSignals isActive={active} />,
     ],
-    [live]
+    [live, rivalry]
   );
 
   return (

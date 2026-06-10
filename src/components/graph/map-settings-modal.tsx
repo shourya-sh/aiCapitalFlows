@@ -6,7 +6,9 @@ import {
   Database,
   KeyRound,
   Layers,
+  Loader2,
   Radio,
+  RefreshCw,
   X,
   Zap,
 } from "lucide-react";
@@ -25,6 +27,12 @@ interface MapSettingsModalProps {
   visibleEdges: number;
   totalNodes: number;
   totalEdges: number;
+  dataGeneratedAt?: string;
+  lastRefresh?: string | null;
+  refreshing?: boolean;
+  refreshError?: string | null;
+  newFlowCount?: number;
+  onRefreshData?: () => void;
 }
 
 const LIVE_SOURCES = [
@@ -63,6 +71,12 @@ export function MapSettingsModal({
   visibleEdges,
   totalNodes,
   totalEdges,
+  dataGeneratedAt,
+  lastRefresh,
+  refreshing,
+  refreshError,
+  newFlowCount,
+  onRefreshData,
 }: MapSettingsModalProps) {
   return (
     <AnimatePresence>
@@ -90,6 +104,12 @@ export function MapSettingsModal({
               visibleEdges={visibleEdges}
               totalNodes={totalNodes}
               totalEdges={totalEdges}
+              dataGeneratedAt={dataGeneratedAt}
+              lastRefresh={lastRefresh}
+              refreshing={refreshing}
+              refreshError={refreshError}
+              newFlowCount={newFlowCount}
+              onRefreshData={onRefreshData}
             />
           </motion.div>
         </>
@@ -106,7 +126,19 @@ function ModalInner({
   visibleEdges,
   totalNodes,
   totalEdges,
+  dataGeneratedAt,
+  lastRefresh,
+  refreshing,
+  refreshError,
+  newFlowCount,
+  onRefreshData,
 }: Omit<MapSettingsModalProps, "open">) {
+  const refreshedLabel = lastRefresh
+    ? new Date(lastRefresh).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })
+    : dataGeneratedAt
+      ? new Date(dataGeneratedAt).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })
+      : null;
+
   return (
     <div>
       <div className="flex items-center justify-between border-b border-[var(--border)] px-5 py-4">
@@ -188,11 +220,44 @@ function ModalInner({
           </h3>
 
           <div className="rounded-xl border border-[var(--border)] bg-white/[0.02] p-4">
-            <p className="text-xs leading-relaxed text-muted">
-              The app runs on curated seed data by default. To pull live funding data, add API keys to{" "}
-              <code className="rounded bg-white/5 px-1.5 py-0.5 text-[11px] text-foreground">.env.local</code>{" "}
-              and run <code className="rounded bg-white/5 px-1.5 py-0.5 text-[11px] text-foreground">npm run ingest</code>.
-            </p>
+            <div className="flex flex-wrap items-start justify-between gap-3">
+              <div>
+                <p className="text-xs leading-relaxed text-muted">
+                  Pull the latest AI funding deals from press releases and RSS feeds. Add{" "}
+                  <code className="rounded bg-white/5 px-1.5 py-0.5 text-[11px] text-foreground">CRUNCHBASE_API_KEY</code>{" "}
+                  to also ingest live Crunchbase rounds.
+                </p>
+                {refreshedLabel && (
+                  <p className="mt-2 text-[11px] text-muted-2">
+                    Last updated: <span className="text-foreground">{refreshedLabel}</span>
+                    {newFlowCount != null && newFlowCount > 0 && (
+                      <span className="ml-2 text-accent">+{newFlowCount} new flows</span>
+                    )}
+                  </p>
+                )}
+              </div>
+              {onRefreshData && (
+                <button
+                  type="button"
+                  onClick={onRefreshData}
+                  disabled={refreshing}
+                  className="flex shrink-0 items-center gap-2 rounded-xl border border-accent/40 bg-accent/10 px-3.5 py-2 text-xs font-medium text-accent transition-colors hover:bg-accent/20 disabled:opacity-60"
+                >
+                  {refreshing ? (
+                    <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                  ) : (
+                    <RefreshCw className="h-3.5 w-3.5" />
+                  )}
+                  {refreshing ? "Scanning…" : "Refresh deals"}
+                </button>
+              )}
+            </div>
+
+            {refreshError && (
+              <p className="mt-3 rounded-lg border border-red-500/30 bg-red-500/10 px-3 py-2 text-[11px] text-red-300">
+                {refreshError}
+              </p>
+            )}
 
             <div className="mt-4 space-y-3">
               {LIVE_SOURCES.map((src) => (

@@ -1,4 +1,6 @@
 import type { SourceCitation } from "../../types";
+import { dealCitationFor } from "./deal-citations";
+import { roundCitationFor } from "./round-citations";
 
 /** Build a flow lookup key. */
 export function flowKey(sourceId: string, targetId: string, date: string): string {
@@ -225,7 +227,7 @@ export const VERIFIED_FLOWS: VerifiedFlowRecord[] = [
     ],
   },
   {
-    key: flowKey("google", "anthropic", "2024-10-01"),
+    key: flowKey("google", "anthropic", "2024-10-22"),
     summary: "Google invested an additional $1B in Anthropic alongside expanded Google Cloud / TPU partnership.",
     citations: [
       cite(
@@ -233,13 +235,13 @@ export const VERIFIED_FLOWS: VerifiedFlowRecord[] = [
         "Google and Anthropic expand AI partnership",
         "https://blog.google/technology/ai/google-anthropic-partnership/",
         "Google",
-        "2024-10-01",
+        "2024-10-22",
         "press-release"
       ),
     ],
   },
   {
-    key: flowKey("anthropic", "google", "2024-10-01"),
+    key: flowKey("anthropic", "google", "2024-10-22"),
     summary:
       "Anthropic committed to expanded Google Cloud / TPU compute capacity for Claude training and inference.",
     citations: [
@@ -248,7 +250,7 @@ export const VERIFIED_FLOWS: VerifiedFlowRecord[] = [
         "Google and Anthropic expand AI partnership",
         "https://blog.google/technology/ai/google-anthropic-partnership/",
         "Google",
-        "2024-10-01",
+        "2024-10-22",
         "press-release"
       ),
     ],
@@ -324,7 +326,7 @@ export const VERIFIED_FLOWS: VerifiedFlowRecord[] = [
       cite(
         "coreweave-msft",
         "CoreWeave and Microsoft expand AI infrastructure partnership",
-        "https://www.coreweave.com/news/coreweave-microsoft-partnership",
+        "https://www.sec.gov/Archives/edgar/data/1769628/000162828025002390/crwv-20241231.htm",
         "CoreWeave",
         "2024-06-01",
         "press-release"
@@ -417,7 +419,7 @@ export const VERIFIED_FLOWS: VerifiedFlowRecord[] = [
       cite(
         "nvidia-coreweave-invest",
         "Nvidia invests in CoreWeave",
-        "https://www.reuters.com/technology/nvidia-invests-coreweave-2024-05-01/",
+        "https://www.cnbc.com/2024/05/01/nvidia-backed-gpu-cloud-provider-coreweave-is-worth-19-billion.html",
         "Reuters",
         "2024-05-01"
       ),
@@ -504,7 +506,7 @@ export const VERIFIED_FLOWS: VerifiedFlowRecord[] = [
 
   // ── Waymo ──
   {
-    key: flowKey("google", "waymo", "2024-10-01"),
+    key: flowKey("google", "waymo", "2024-10-23"),
     summary: "Alphabet committed additional capital to Waymo for autonomous ride-hail expansion.",
     citations: [
       cite(
@@ -512,7 +514,7 @@ export const VERIFIED_FLOWS: VerifiedFlowRecord[] = [
         "Waymo raises $5.6B led by Alphabet",
         "https://waymo.com/blog/2024/10/waymo-raises-5-6b/",
         "Waymo",
-        "2024-10-01",
+        "2024-10-23",
         "press-release"
       ),
     ],
@@ -533,6 +535,12 @@ export function attachVerification(
 ): Pick<VerifiedFlowRecord, "summary" | "citations"> & { verified: boolean } {
   const exact = verifiedFlowByKey.get(flowKey(sourceId, targetId, date));
   if (exact) return { ...exact, verified: true };
+
+  const dealCite = dealCitationFor(sourceId, targetId, date);
+  if (dealCite) return { ...dealCite, verified: true };
+
+  const roundCite = roundCitationFor(targetId, date);
+  if (roundCite) return { ...roundCite, verified: true };
 
   // Fall back to round-level citation (e.g. any investor in same round).
   const roundMatch = VERIFIED_FLOWS.find((v) => {

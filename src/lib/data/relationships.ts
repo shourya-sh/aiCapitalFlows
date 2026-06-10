@@ -1,4 +1,4 @@
-import type { DealStructure, FlowType, RoundType } from "../types";
+﻿import type { DealStructure, FlowType, RoundType } from "../types";
 
 /**
  * Research-informed, manually curated capital relationships.
@@ -53,14 +53,27 @@ export const CURATED_ROUNDS: CuratedRound[] = [
     { investorId: "softbank", amountUsd: 30 * B }, { investorId: "mgx", amountUsd: 7 * B },
     { investorId: "microsoft", amountUsd: 2 * B }, { investorId: "coatue", amountUsd: 500 * M },
   ]},
+  { targetId: "anthropic", date: "2026-05-28", roundType: "Series H", amountUsd: 65 * B, valuationUsd: 965 * B, leadInvestorId: "sequoia-capital", investors: [
+    { investorId: "sequoia-capital", amountUsd: 10 * B }, { investorId: "greenoaks", amountUsd: 10 * B },
+    { investorId: "coatue", amountUsd: 8 * B }, { investorId: "iconiq", amountUsd: 8 * B },
+    { investorId: "amazon", amountUsd: 5 * B }, { investorId: "tiger-global", amountUsd: 5 * B },
+    { investorId: "fidelity", amountUsd: 5 * B }, { investorId: "nvidia", amountUsd: 5 * B },
+    { investorId: "microsoft", amountUsd: 5 * B }, { investorId: "softbank", amountUsd: 4 * B },
+  ]},
+  { targetId: "anthropic", date: "2026-02-01", roundType: "Series G", amountUsd: 30 * B, valuationUsd: 380 * B, leadInvestorId: "iconiq", investors: [
+    { investorId: "iconiq", amountUsd: 6 * B }, { investorId: "lightspeed-venture-partners", amountUsd: 5 * B },
+    { investorId: "salesforce", amountUsd: 4 * B }, { investorId: "google", amountUsd: 4 * B },
+    { investorId: "amazon", amountUsd: 4 * B }, { investorId: "coatue", amountUsd: 3 * B },
+    { investorId: "tiger-global", amountUsd: 2 * B }, { investorId: "sequoia-capital", amountUsd: 2 * B },
+  ]},
   { targetId: "anthropic", date: "2025-11-18", roundType: "Strategic", amountUsd: 15 * B, valuationUsd: 350 * B, leadInvestorId: "nvidia", investors: [
     { investorId: "nvidia", amountUsd: 10 * B }, { investorId: "microsoft", amountUsd: 5 * B },
   ]},
   // Amazon's $4B tranche (Nov 2024) completing $8B total — Amazon press release, not a multi-investor VC round.
-  { targetId: "anthropic", date: "2024-11-22", roundType: "Strategic", amountUsd: 4 * B, valuationUsd: 183 * B, leadInvestorId: "amazon", investors: [
+  { targetId: "anthropic", date: "2024-11-22", roundType: "Strategic", amountUsd: 4 * B, valuationUsd: 18.4 * B, leadInvestorId: "amazon", investors: [
     { investorId: "amazon", amountUsd: 4 * B },
   ]},
-  { targetId: "anthropic", date: "2024-10-01", roundType: "Strategic", amountUsd: 1 * B, valuationUsd: 183 * B, leadInvestorId: "google", investors: [
+  { targetId: "anthropic", date: "2024-10-22", roundType: "Strategic", amountUsd: 1 * B, valuationUsd: 18.4 * B, leadInvestorId: "google", investors: [
     { investorId: "google", amountUsd: 1 * B },
   ]},
   // Amazon's first $4B tranche is the 2023-09-25 strategic deal — not repeated here.
@@ -94,7 +107,7 @@ export const CURATED_ROUNDS: CuratedRound[] = [
     { investorId: "oracle", amountUsd: 100 * M }, { investorId: "salesforce", amountUsd: 80 * M },
     { investorId: "tiger-global", amountUsd: 70 * M },
   ]},
-  { targetId: "perplexity", date: "2024-12-17", roundType: "Series D", amountUsd: 500 * M, valuationUsd: 18 * B, leadInvestorId: "coatue", investors: [
+  { targetId: "perplexity", date: "2024-12-17", roundType: "Series D", amountUsd: 500 * M, valuationUsd: 9 * B, leadInvestorId: "coatue", investors: [
     { investorId: "nvidia", amountUsd: 100 * M }, { investorId: "softbank", amountUsd: 100 * M },
     { investorId: "new-enterprise-associates", amountUsd: 80 * M }, { investorId: "coatue", amountUsd: 80 * M },
     { investorId: "bessemer-venture-partners", amountUsd: 70 * M },
@@ -103,7 +116,7 @@ export const CURATED_ROUNDS: CuratedRound[] = [
     { investorId: "sequoia-capital", amountUsd: 500 * M }, { investorId: "andreessen-horowitz", amountUsd: 250 * M },
     { investorId: "dst-global", amountUsd: 150 * M }, { investorId: "nvidia", amountUsd: 100 * M },
   ]},
-  { targetId: "safe-superintelligence", date: "2025-03-01", roundType: "Series B", amountUsd: 2 * B, valuationUsd: 32 * B, leadInvestorId: "sequoia-capital", investors: [
+  { targetId: "safe-superintelligence", date: "2025-04-11", roundType: "Series B", amountUsd: 2 * B, valuationUsd: 32 * B, leadInvestorId: "sequoia-capital", investors: [
     { investorId: "sequoia-capital", amountUsd: 800 * M }, { investorId: "andreessen-horowitz", amountUsd: 500 * M },
     { investorId: "dst-global", amountUsd: 400 * M }, { investorId: "nvidia", amountUsd: 300 * M },
   ]},
@@ -219,7 +232,7 @@ export const CURATED_ROUNDS: CuratedRound[] = [
     { investorId: "openai", amountUsd: 100 * M }, { investorId: "intel", amountUsd: 80 * M },
     { investorId: "amazon", amountUsd: 80 * M },
   ]},
-  { targetId: "figure", date: "2025-09-01", roundType: "Series C", amountUsd: 1 * B, valuationUsd: 39 * B, leadInvestorId: "nvidia", investors: [
+  { targetId: "figure", date: "2025-09-16", roundType: "Series C", amountUsd: 1 * B, valuationUsd: 39 * B, leadInvestorId: "nvidia", investors: [
     { investorId: "nvidia", amountUsd: 300 * M }, { investorId: "microsoft", amountUsd: 250 * M },
     { investorId: "openai", amountUsd: 200 * M }, { investorId: "intel", amountUsd: 150 * M },
   ]},
@@ -231,7 +244,7 @@ export const CURATED_ROUNDS: CuratedRound[] = [
     { investorId: "lightspeed-venture-partners", amountUsd: 120 * M }, { investorId: "coatue", amountUsd: 80 * M },
     { investorId: "softbank", amountUsd: 60 * M },
   ]},
-  { targetId: "anduril", date: "2024-08-01", roundType: "Series E+", amountUsd: 1.5 * B, valuationUsd: 30 * B, leadInvestorId: "founders-fund", investors: [
+  { targetId: "anduril", date: "2024-08-07", roundType: "Series E+", amountUsd: 1.5 * B, valuationUsd: 14 * B, leadInvestorId: "founders-fund", investors: [
     { investorId: "founders-fund", amountUsd: 500 * M }, { investorId: "andreessen-horowitz", amountUsd: 400 * M },
     { investorId: "lux-capital", amountUsd: 300 * M }, { investorId: "thrive-capital", amountUsd: 200 * M },
   ]},
@@ -247,7 +260,7 @@ export const CURATED_ROUNDS: CuratedRound[] = [
   ]},
 
   // ── Agent infra ──
-  { targetId: "databricks", date: "2024-12-17", roundType: "Series E+", amountUsd: 10 * B, valuationUsd: 100 * B, leadInvestorId: "thrive-capital", investors: [
+  { targetId: "databricks", date: "2024-12-17", roundType: "Series E+", amountUsd: 10 * B, valuationUsd: 62 * B, leadInvestorId: "thrive-capital", investors: [
     { investorId: "thrive-capital", amountUsd: 1 * B }, { investorId: "andreessen-horowitz", amountUsd: 1 * B },
     { investorId: "nvidia", amountUsd: 1 * B }, { investorId: "microsoft", amountUsd: 800 * M },
     { investorId: "tiger-global", amountUsd: 700 * M }, { investorId: "coatue", amountUsd: 600 * M },
@@ -279,19 +292,22 @@ export const CURATED_ROUNDS: CuratedRound[] = [
   ]},
 
   // ── Enterprise AI ──
-  { targetId: "cursor", date: "2025-06-01", roundType: "Series C", amountUsd: 900 * M, valuationUsd: 29 * B, leadInvestorId: "thrive-capital", investors: [
+  { targetId: "cursor", date: "2025-06-05", roundType: "Series C", amountUsd: 900 * M, valuationUsd: 9.9 * B, leadInvestorId: "thrive-capital", investors: [
     { investorId: "thrive-capital", amountUsd: 300 * M }, { investorId: "andreessen-horowitz", amountUsd: 250 * M },
     { investorId: "google", amountUsd: 200 * M }, { investorId: "openai", amountUsd: 150 * M },
   ]},
-  { targetId: "harvey", date: "2024-12-01", roundType: "Series D", amountUsd: 300 * M, valuationUsd: 8 * B, leadInvestorId: "sequoia-capital", investors: [
+  { targetId: "harvey", date: "2025-02-12", roundType: "Series D", amountUsd: 300 * M, valuationUsd: 3 * B, leadInvestorId: "sequoia-capital", investors: [
     { investorId: "sequoia-capital", amountUsd: 100 * M }, { investorId: "kleiner-perkins", amountUsd: 80 * M },
     { investorId: "openai", amountUsd: 60 * M }, { investorId: "coatue", amountUsd: 60 * M },
   ]},
-  { targetId: "glean", date: "2024-09-01", roundType: "Series E", amountUsd: 260 * M, valuationUsd: 7.2 * B, leadInvestorId: "kleiner-perkins", investors: [
+  { targetId: "glean", date: "2024-09-10", roundType: "Series E", amountUsd: 260 * M, valuationUsd: 4.6 * B, leadInvestorId: "kleiner-perkins", investors: [
     { investorId: "kleiner-perkins", amountUsd: 100 * M }, { investorId: "lightspeed-venture-partners", amountUsd: 80 * M },
     { investorId: "sequoia-capital", amountUsd: 80 * M },
   ]},
-  { targetId: "sierra", date: "2024-10-01", roundType: "Series B", amountUsd: 175 * M, valuationUsd: 10 * B, leadInvestorId: "greenoaks", investors: [
+  { targetId: "glean", date: "2025-06-10", roundType: "Series E+", amountUsd: 150 * M, valuationUsd: 7.2 * B, leadInvestorId: "softbank", investors: [
+    { investorId: "softbank", amountUsd: 150 * M },
+  ]},
+  { targetId: "sierra", date: "2024-10-28", roundType: "Series B", amountUsd: 175 * M, valuationUsd: 4.5 * B, leadInvestorId: "greenoaks", investors: [
     { investorId: "greenoaks", amountUsd: 80 * M }, { investorId: "sequoia-capital", amountUsd: 60 * M },
   ]},
   { targetId: "abridge", date: "2024-06-01", roundType: "Series D", amountUsd: 150 * M, valuationUsd: 5.3 * B, leadInvestorId: "kleiner-perkins", investors: [
@@ -301,7 +317,7 @@ export const CURATED_ROUNDS: CuratedRound[] = [
     { investorId: "founders-fund", amountUsd: 80 * M }, { investorId: "lux-capital", amountUsd: 50 * M },
     { investorId: "khosla-ventures", amountUsd: 45 * M },
   ]},
-  { targetId: "elevenlabs", date: "2024-09-01", roundType: "Series C", amountUsd: 180 * M, valuationUsd: 3.3 * B, leadInvestorId: "andreessen-horowitz", investors: [
+  { targetId: "elevenlabs", date: "2025-01-30", roundType: "Series C", amountUsd: 180 * M, valuationUsd: 3.3 * B, leadInvestorId: "andreessen-horowitz", investors: [
     { investorId: "andreessen-horowitz", amountUsd: 80 * M }, { investorId: "sequoia-capital", amountUsd: 60 * M },
     { investorId: "nvidia", amountUsd: 40 * M },
   ]},
@@ -400,7 +416,6 @@ export const CURATED_DEALS: CuratedDeal[] = [
   // ── OpenAI orbit ──
   d("microsoft", "openai", 13 * B, "partnership", "2024-01-23", "platform-partnership"),
   d("nvidia", "openai", 100 * B, "partnership", "2025-09-22", "strategic-partnership"),
-  d("oracle", "openai", 300 * B, "compute-deal", "2025-07-15", "infrastructure-commitment"),
   d("openai", "coreweave", 11.9 * B, "compute-deal", "2025-03-10", "compute-capacity-agreement"),
   d("openai", "amd", 6 * B, "supply", "2025-10-06", "gpu-supply-allocation"),
   d("openai", "broadcom", 10 * B, "supply", "2025-09-04", "hardware-supply"),
@@ -411,7 +426,11 @@ export const CURATED_DEALS: CuratedDeal[] = [
   d("amazon", "anthropic", 4 * B, "investment", "2023-09-25", "strategic-equity"),
   d("google", "anthropic", 500 * M, "investment", "2023-10-27", "strategic-equity"),
   d("anthropic", "amazon", 4 * B, "compute-deal", "2024-11-22", "compute-capacity-agreement"),
-  d("anthropic", "google", 1 * B, "compute-deal", "2024-10-01", "compute-capacity-agreement"),
+  d("anthropic", "google", 1 * B, "compute-deal", "2024-10-22", "compute-capacity-agreement"),
+  d("google", "anthropic", 35 * B, "compute-deal", "2026-06-09", "compute-capacity-agreement"),
+  d("apollo-global-management", "anthropic", 35 * B, "investment", "2026-06-09", "debt-financing"),
+  d("blackstone", "anthropic", 35 * B, "investment", "2026-06-09", "debt-financing"),
+  d("broadcom", "anthropic", 31 * B, "partnership", "2026-06-09", "strategic-partnership"),
 
   // ── CoreWeave deal web ──
   d("microsoft", "coreweave", 10 * B, "compute-deal", "2024-06-01", "compute-capacity-agreement"),
@@ -565,24 +584,11 @@ export const CURATED_DEALS: CuratedDeal[] = [
   d("microsoft", "g42", 1.5 * B, "investment", "2024-04-16", "strategic-equity"),
 
   // ── VC portfolio cross-investments (known co-investments) ──
-  d("andreessen-horowitz", "harvey", 60 * M, "investment", "2024-12-01", "growth-equity"),
-  d("andreessen-horowitz", "cursor", 250 * M, "investment", "2025-06-01", "growth-equity"),
-  d("andreessen-horowitz", "elevenlabs", 80 * M, "investment", "2024-09-01", "growth-equity"),
   d("andreessen-horowitz", "replit", 100 * M, "investment", "2024-09-01", "growth-equity"),
-  d("sequoia-capital", "harvey", 100 * M, "investment", "2024-12-01", "growth-equity"),
-  d("sequoia-capital", "glean", 80 * M, "investment", "2024-09-01", "growth-equity"),
-  d("sequoia-capital", "sierra", 60 * M, "investment", "2024-10-01", "growth-equity"),
-  d("kleiner-perkins", "harvey", 80 * M, "investment", "2024-12-01", "growth-equity"),
-  d("kleiner-perkins", "glean", 100 * M, "investment", "2024-09-01", "growth-equity"),
-  d("thrive-capital", "harvey", 50 * M, "investment", "2024-12-01", "growth-equity"),
-  d("thrive-capital", "cursor", 300 * M, "investment", "2025-06-01", "growth-equity"),
-  d("coatue", "harvey", 60 * M, "investment", "2024-12-01", "growth-equity"),
   d("coatue", "ramp", 150 * M, "investment", "2024-04-01", "growth-equity"),
-  d("lightspeed-venture-partners", "glean", 80 * M, "investment", "2024-09-01", "growth-equity"),
-  d("general-catalyst", "harvey", 40 * M, "investment", "2024-12-01", "growth-equity"),
-  d("founders-fund", "anduril", 500 * M, "investment", "2024-08-01", "growth-equity"),
+  d("founders-fund", "anduril", 500 * M, "investment", "2024-08-07", "growth-equity"),
   d("founders-fund", "ramp", 250 * M, "investment", "2024-04-01", "growth-equity"),
-  d("lux-capital", "anduril", 300 * M, "investment", "2024-08-01", "growth-equity"),
+  d("lux-capital", "anduril", 300 * M, "investment", "2024-08-07", "growth-equity"),
   d("lux-capital", "physical-intelligence", 80 * M, "investment", "2024-11-01", "growth-equity"),
   d("insight-partners", "databricks", 500 * M, "investment", "2024-12-17", "growth-equity"),
   d("insight-partners", "cohere", 150 * M, "investment", "2024-07-21", "growth-equity"),
@@ -592,9 +598,6 @@ export const CURATED_DEALS: CuratedDeal[] = [
   d("index-ventures", "mistral-ai", 50 * M, "investment", "2024-06-11", "growth-equity"),
   d("bessemer-venture-partners", "perplexity", 70 * M, "investment", "2024-12-17", "growth-equity"),
   d("new-enterprise-associates", "perplexity", 80 * M, "investment", "2024-12-17", "growth-equity"),
-  d("dst-global", "safe-superintelligence", 400 * M, "investment", "2025-03-01", "growth-equity"),
-  d("greenoaks", "sierra", 80 * M, "investment", "2024-10-01", "growth-equity"),
-  d("iconiq", "glean", 50 * M, "investment", "2024-09-01", "growth-equity"),
   d("khosla-ventures", "openai", 300 * M, "investment", "2024-10-02", "growth-equity"),
   d("khosla-ventures", "cognition", 45 * M, "investment", "2025-03-01", "growth-equity"),
   d("tiger-global", "openai", 400 * M, "investment", "2024-10-02", "growth-equity"),
@@ -611,7 +614,7 @@ export const CURATED_DEALS: CuratedDeal[] = [
   d("openai", "microsoft", 5 * B, "compute-deal", "2024-01-23", "compute-capacity-agreement"),
   d("openai", "oracle", 20 * B, "compute-deal", "2025-07-15", "compute-capacity-agreement"),
   d("xai", "nvidia", 1 * B, "compute-deal", "2024-12-01", "compute-capacity-agreement"),
-  d("mistral-ai", "microsoft", 500 * M, "compute-deal", "2024-04-01", "compute-capacity-agreement"),
+  d("mistral-ai", "microsoft", 500 * M, "compute-deal", "2024-02-26", "compute-capacity-agreement"),
   d("cohere", "oracle", 300 * M, "compute-deal", "2024-08-01", "compute-capacity-agreement"),
   d("perplexity", "nvidia", 200 * M, "compute-deal", "2024-12-01", "compute-capacity-agreement"),
   d("deepseek", "nvidia", 500 * M, "supply", "2024-11-01", "gpu-supply-allocation"),
@@ -622,12 +625,12 @@ export const CURATED_DEALS: CuratedDeal[] = [
   d("palantir", "anduril", 200 * M, "partnership", "2024-09-01", "strategic-partnership"),
   d("anduril", "shield-ai", 150 * M, "investment", "2024-10-01", "strategic-equity"),
   d("shield-ai", "nvidia", 100 * M, "supply", "2024-11-01", "gpu-supply-allocation"),
-  d("united-states", "anduril", 500 * M, "grant", "2024-08-01", "government-grant"),
+  d("united-states", "anduril", 500 * M, "grant", "2024-08-07", "government-grant"),
   d("united-states", "palantir", 800 * M, "grant", "2024-07-01", "government-grant"),
   d("united-states", "shield-ai", 300 * M, "grant", "2024-09-01", "government-grant"),
 
   // ── Waymo / autonomy ──
-  d("google", "waymo", 5 * B, "investment", "2024-10-01", "strategic-equity"),
+  d("google", "waymo", 5.6 * B, "investment", "2024-10-23", "strategic-equity"),
   d("waymo", "nvidia", 500 * M, "supply", "2024-11-01", "gpu-supply-allocation"),
 
   // ── Banks → infrastructure debt ──
@@ -666,17 +669,12 @@ export const CURATED_DEALS: CuratedDeal[] = [
   // ── Remaining entities: thorough coverage ──
   d("amazon", "apptronik", 150 * M, "investment", "2024-06-01", "strategic-equity"),
   d("google", "apptronik", 100 * M, "investment", "2024-07-01", "strategic-equity"),
-  d("bain-capital-ventures", "harvey", 50 * M, "investment", "2024-12-01", "growth-equity"),
-  d("bain-capital-ventures", "glean", 40 * M, "investment", "2024-09-01", "growth-equity"),
   d("bain-capital-ventures", "databricks", 200 * M, "investment", "2024-12-17", "growth-equity"),
   d("benchmark", "openai", 150 * M, "investment", "2024-10-02", "growth-equity"),
-  d("benchmark", "harvey", 40 * M, "investment", "2024-12-01", "growth-equity"),
-  d("benchmark", "sierra", 50 * M, "investment", "2024-10-01", "growth-equity"),
   d("benchmark", "langchain", 40 * M, "investment", "2024-10-01", "growth-equity"),
   d("google", "boston-dynamics", 200 * M, "partnership", "2024-08-01", "strategic-partnership"),
   d("united-states", "boston-dynamics", 400 * M, "grant", "2024-09-01", "government-grant"),
   d("andreessen-horowitz", "browserbase", 40 * M, "investment", "2024-10-01", "growth-equity"),
-  d("conviction", "harvey", 30 * M, "investment", "2024-12-01", "growth-equity"),
   d("conviction", "cognition", 25 * M, "investment", "2025-03-01", "growth-equity"),
   d("conviction", "mercor", 20 * M, "investment", "2025-02-01", "growth-equity"),
   d("amazon", "covariant", 300 * M, "acquisition", "2024-08-01", "acquisition"),
@@ -688,16 +686,11 @@ export const CURATED_DEALS: CuratedDeal[] = [
   d("ivp", "gong", 80 * M, "investment", "2024-05-01", "growth-equity"),
   d("tiger-global", "gong", 60 * M, "investment", "2024-05-01", "growth-equity"),
   d("blackrock", "grammarly", 100 * M, "investment", "2024-07-01", "growth-equity"),
-  d("greylock", "harvey", 35 * M, "investment", "2024-12-01", "growth-equity"),
-  d("greylock", "sierra", 30 * M, "investment", "2024-10-01", "growth-equity"),
   d("greylock", "abridge", 25 * M, "investment", "2024-06-01", "growth-equity"),
-  d("gv", "harvey", 30 * M, "investment", "2024-12-01", "growth-equity"),
   d("gv", "vercel", 40 * M, "investment", "2024-05-01", "growth-equity"),
   d("microsoft", "iren", 2 * B, "compute-deal", "2024-11-01", "compute-capacity-agreement"),
   d("nvidia", "iren", 500 * M, "supply", "2024-10-01", "gpu-supply-allocation"),
   d("ivp", "databricks", 300 * M, "investment", "2024-12-17", "growth-equity"),
-  d("ivp", "glean", 50 * M, "investment", "2024-09-01", "growth-equity"),
-  d("ivp", "sierra", 40 * M, "investment", "2024-10-01", "growth-equity"),
   d("livekit", "nvidia", 50 * M, "partnership", "2024-09-01", "strategic-partnership"),
   d("andreessen-horowitz", "livekit", 30 * M, "investment", "2024-08-01", "growth-equity"),
   d("greylock", "livekit", 25 * M, "investment", "2024-08-01", "growth-equity"),
@@ -725,8 +718,6 @@ export const CURATED_DEALS: CuratedDeal[] = [
   d("google", "sambanova", 100 * M, "investment", "2024-08-01", "strategic-equity"),
   d("nvidia", "sanctuary-ai", 50 * M, "investment", "2024-09-01", "strategic-equity"),
   d("microsoft", "sanctuary-ai", 40 * M, "investment", "2024-10-01", "strategic-equity"),
-  d("spark-capital", "harvey", 25 * M, "investment", "2024-12-01", "growth-equity"),
-  d("spark-capital", "sierra", 30 * M, "investment", "2024-10-01", "growth-equity"),
   d("spark-capital", "decagon", 20 * M, "investment", "2024-10-01", "growth-equity"),
   d("andreessen-horowitz", "suno", 50 * M, "investment", "2024-05-01", "growth-equity"),
   d("lightspeed-venture-partners", "suno", 40 * M, "investment", "2024-05-01", "growth-equity"),
@@ -809,7 +800,6 @@ export const CURATED_DEALS: CuratedDeal[] = [
   d("bessemer-venture-partners", "canva", 50 * M, "investment", "2024-05-01", "growth-equity"),
   d("bessemer-venture-partners", "gong", 40 * M, "investment", "2024-05-01", "growth-equity"),
   d("new-enterprise-associates", "databricks", 100 * M, "investment", "2024-12-17", "growth-equity"),
-  d("new-enterprise-associates", "sierra", 50 * M, "investment", "2024-10-01", "growth-equity"),
   d("kairos-power", "microsoft", 300 * M, "partnership", "2025-01-01", "energy-infrastructure"),
   d("kairos-power", "united-states", 250 * M, "grant", "2024-11-01", "government-grant"),
   d("x-energy", "google", 200 * M, "partnership", "2025-01-01", "energy-infrastructure"),
@@ -820,13 +810,10 @@ export const CURATED_DEALS: CuratedDeal[] = [
   d("snowflake", "databricks", 150 * M, "partnership", "2024-10-01", "strategic-partnership"),
   d("helion-energy", "openai", 400 * M, "energy-contract", "2024-08-01", "power-purchase-agreement"),
   d("helion-energy", "amazon", 300 * M, "partnership", "2025-01-01", "energy-infrastructure"),
-  d("menlo-ventures", "harvey", 35 * M, "investment", "2024-12-01", "growth-equity"),
-  d("menlo-ventures", "sierra", 30 * M, "investment", "2024-10-01", "growth-equity"),
 
   // ── Foundational deals (always pinned in detailed mode) ──
   d("public-investment-fund", "xai", 1 * B, "investment", "2025-07-01", "growth-equity"),
   d("nvidia", "hugging-face", 200 * M, "investment", "2024-08-01", "strategic-equity"),
-  d("nvidia", "harvey", 100 * M, "investment", "2024-12-01", "strategic-equity"),
   d("nvidia", "runway", 150 * M, "investment", "2024-06-01", "strategic-equity"),
   d("united-states", "openai", 200 * M, "grant", "2024-07-01", "government-grant"),
   d("intel", "hugging-face", 80 * M, "investment", "2024-08-01", "strategic-equity"),

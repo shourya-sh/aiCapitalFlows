@@ -221,6 +221,7 @@ export const ENTITY_DOMAINS: Record<string, string> = {
   // Compute (sovereign-backed)
   g42: "g42.ai",
   humain: "humain.ai",
+  rapidus: "rapidus.inc",
 
   // Investors: asset managers, quants, sovereign funds
   fidelity: "fidelity.com",

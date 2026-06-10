@@ -3,8 +3,9 @@
 import { formatUsd } from "@/lib/utils";
 import { useSlideAnimation } from "../hooks/useSlideAnimation";
 import type { LiveSlideMetrics } from "../utils/liveSlideData";
+import { CapitalPieChart } from "../shared/CapitalPieChart";
 import { InsightStrip, SourceNote } from "../shared/SlidePrimitives";
-import { SLIDE } from "../utils/slideTheme";
+import { PROJECTED_CAPITAL_MIX } from "../utils/slideData";
 
 export function Slide02_CapitalMap({
   isActive,
@@ -13,48 +14,85 @@ export function Slide02_CapitalMap({
   isActive: boolean;
   live: LiveSlideMetrics;
 }) {
-  const { visible, enter } = useSlideAnimation(isActive, 80);
-  const maxShare = Math.max(...live.categories.map((c) => c.share), 0.01);
+  const { enter } = useSlideAnimation(isActive, 80);
+
+  const currentTotal = live.categories.reduce((s, c) => s + c.value, 0);
+  const currentSlices = live.categories.map((c) => ({
+    label: c.label,
+    value: c.value,
+    share: c.share,
+    color: c.color,
+  }));
+
+  const projectedSlices = PROJECTED_CAPITAL_MIX.sectors.map((s) => ({
+    label: s.label,
+    value: s.share * PROJECTED_CAPITAL_MIX.totalAnnualUsd,
+    share: s.share,
+    color: s.color,
+  }));
+
+  const foundationShare = currentSlices.find((c) => c.label === "Foundation Models")?.share ?? 0;
+  const computeInfraToday =
+    (currentSlices.find((c) => c.label === "Datacenter / Compute")?.share ?? 0) +
+    (currentSlices.find((c) => c.label === "Infrastructure")?.share ?? 0);
+  const computeInfraProjected = PROJECTED_CAPITAL_MIX.sectors
+    .filter((s) => s.label.startsWith("Datacenter") || s.label.startsWith("Infrastructure"))
+    .reduce((s, x) => s + x.share, 0);
+  const energyToday = currentSlices.find((c) => c.label === "Energy")?.share ?? 0;
+  const energyProjected = PROJECTED_CAPITAL_MIX.sectors.find((s) => s.label.startsWith("Energy"))?.share ?? 0;
 
   return (
-    <div className="flex h-full flex-col gap-4 px-6 py-6 sm:px-10">
+    <div className="flex h-full flex-col gap-3 overflow-y-auto px-5 py-5 sm:gap-4 sm:px-8">
       <div className={enter(0)}>
-        <h2 className="text-2xl font-bold text-white sm:text-3xl">Where Every Dollar Is Going</h2>
-        <p className="mt-1 text-sm text-white/50">Capital distribution across categories tracked in the Observatory</p>
+        <h2 className="text-xl font-bold text-white sm:text-2xl">Where Every Dollar Is Going</h2>
+        <p className="mt-1 text-sm text-white/50">
+          Tracked capital flows today vs. where analysts expect investment to shift by{" "}
+          {PROJECTED_CAPITAL_MIX.year}
+        </p>
       </div>
 
-      <div className="min-h-0 flex-1 space-y-3 overflow-y-auto pr-1">
-        {live.categories.map((cat, i) => (
-          <div key={cat.label} className={`${enter(i + 1)}`}>
-            <div className="mb-1 flex items-baseline justify-between gap-2">
-              <span className="text-sm text-white/80">{cat.label}</span>
-              <span className="font-mono text-sm tabular text-white/50">
-                {(cat.share * 100).toFixed(0)}% · {formatUsd(cat.value)}
-              </span>
-            </div>
-            <div className="h-3 overflow-hidden rounded-full bg-white/[0.06]">
-              <div
-                className="h-full rounded-full transition-all duration-700 ease-out"
-                style={{
-                  width: visible ? `${(cat.share / maxShare) * 100}%` : "0%",
-                  background: cat.color,
-                  transitionDelay: `${i * 80}ms`,
-                }}
-              />
-            </div>
+      <div className={`grid min-h-0 flex-1 grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-6 ${enter(1)}`}>
+        {/* Current — from Observatory flow data */}
+        <div className="flex min-h-[280px] flex-col rounded-xl border border-white/[0.08] bg-white/[0.02] p-3 sm:min-h-[320px] sm:p-4">
+          <div className="mb-2 shrink-0">
+            <div className="text-xs font-semibold uppercase tracking-wider text-[#00d4ff]">Tracked today</div>
+            <div className="text-[11px] text-white/40">All deployed capital flows by recipient sector</div>
           </div>
-        ))}
-      </div>
+          <CapitalPieChart
+            data={currentSlices}
+            active={isActive}
+            totalLabel={`${formatUsd(currentTotal)} deployed`}
+          />
+          <SourceNote>Observatory flow data · investments, compute deals, supply &amp; partnerships</SourceNote>
+        </div>
 
-      <p className={`text-right text-sm italic text-white/40 ${enter(live.categories.length + 1)}`}>
-        Compute is the new oil. Infrastructure is eating everything.
-      </p>
+        {/* Projected */}
+        <div className="flex min-h-[280px] flex-col rounded-xl border border-white/[0.08] bg-white/[0.02] p-3 sm:min-h-[320px] sm:p-4">
+          <div className="mb-2 shrink-0">
+            <div className="text-xs font-semibold uppercase tracking-wider text-[#f5a623]">
+              Projected {PROJECTED_CAPITAL_MIX.year}
+            </div>
+            <div className="text-[11px] text-white/40">Annual global AI capital allocation forecast</div>
+          </div>
+          <CapitalPieChart
+            data={projectedSlices}
+            active={isActive}
+            totalLabel={`~${formatUsd(PROJECTED_CAPITAL_MIX.totalAnnualUsd)}/yr`}
+          />
+          <SourceNote>{PROJECTED_CAPITAL_MIX.source}</SourceNote>
+        </div>
+      </div>
 
       <InsightStrip variant="amber">
-        <span className="text-[#f5a623]">💡</span> You probably didn&apos;t know: The ~$450B going into data centers in 2026
-        is larger than the entire annual global investment in oil &amp; gas production — the industry that powered the
-        20th century.
-        <SourceNote>Industry capex estimates · IEA / hyperscaler guidance</SourceNote>
+        <span className="text-[#f5a623]">The shift:</span> Today, foundation-model labs absorb the largest share (
+        {(foundationShare * 100).toFixed(0)}%) of tracked flows — driven by mega-rounds at OpenAI and Anthropic. By{" "}
+        {PROJECTED_CAPITAL_MIX.year}, analysts expect{" "}
+        <span className="text-white/90">
+          compute + infrastructure to hit {(computeInfraProjected * 100).toFixed(0)}%
+        </span>{" "}
+        combined (vs {(computeInfraToday * 100).toFixed(0)}% today) as the hyperscaler capex arms race ($700B+ in 2026
+        alone) overtakes frontier fundraising. Energy rises from {(energyToday * 100).toFixed(0)}% to{" "}
+        {(energyProjected * 100).toFixed(0)}% as power becomes the binding constraint.
       </InsightStrip>
     </div>
   );

@@ -10,6 +10,7 @@ import type {
   Sector,
   SourceCitation,
 } from "../types";
+import { resolveFlowDate, resolveRoundDate } from "./flow-dates";
 import {
   entityById,
   getOwnershipSnapshot,
@@ -108,8 +109,9 @@ export function getEntityDetail(id: string): EntityDetail | null {
   let cumulative = 0;
   const fundingHistory: FundingHistoryPoint[] = rounds.map((r) => {
     cumulative += r.amountUsd;
+    const date = resolveRoundDate(r);
     return {
-      date: r.date,
+      date,
       roundType: r.roundType,
       amount: r.amountUsd,
       cumulative,
@@ -134,7 +136,7 @@ export function getEntityDetail(id: string): EntityDetail | null {
       counterpartyColor: cp ? SECTORS[cp.sector].color : "#8b97a8",
       amount: f.amountUsd,
       type: f.type,
-      date: f.date,
+      date: resolveFlowDate(f),
       dealLabel: label.primary,
       dealExchange: label.exchange,
       dealStructure: label.structure,

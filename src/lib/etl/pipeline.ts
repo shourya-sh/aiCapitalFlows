@@ -1,7 +1,8 @@
 import type { ObservatoryDataset, OwnershipSnapshot } from "../types";
 import { dedupeEntities, dedupeFlows, dedupeRounds } from "./normalize";
 import { crunchbaseSource } from "./sources/crunchbase";
-import { energySource, infrastructureSource, pressSource } from "./sources/infrastructure";
+import { pressSource } from "./sources/press";
+import { energySource, infrastructureSource } from "./sources/infrastructure";
 import { oecdSource } from "./sources/oecd";
 import { secSource } from "./sources/sec";
 import { seedSource } from "./sources/seed";

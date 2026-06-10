@@ -234,7 +234,7 @@ export const OWNERSHIP_SNAPSHOTS: OwnershipSnapshot[] = [
       cite(
         "coreweave-funding",
         "CoreWeave raises $1.1B Series C",
-        "https://www.coreweave.com/news/coreweave-raises-1-1-billion-series-c",
+        "https://www.cnbc.com/2024/05/01/nvidia-backed-gpu-cloud-provider-coreweave-is-worth-19-billion.html",
         "CoreWeave",
         "2024-05-01",
         "press-release"

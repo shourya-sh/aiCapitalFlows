@@ -20,24 +20,24 @@
     ],
     "citations": [
       {
-        "id": "reuters-openai-oct-2024",
-        "title": "OpenAI closes new funding round at valuation above $150 billion",
-        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
-        "publisher": "Reuters",
-        "publishedAt": "2024-10-02",
-        "type": "news"
-      },
-      {
         "id": "openai-funding-oct-2024",
         "title": "OpenAI raises $6.6 billion in funding",
         "url": "https://openai.com/index/openai-raises-6-6-billion-in-funding/",
         "publisher": "OpenAI",
         "publishedAt": "2024-10-02",
         "type": "press-release"
+      },
+      {
+        "id": "reuters-openai-oct-2024",
+        "title": "OpenAI closes new funding round at valuation above $150 billion",
+        "url": "https://www.reuters.com/technology/openai-closes-new-funding-round-valuation-above-150-billion-2024-10-02/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-10-02",
+        "type": "news"
       }
     ],
     "verified": true,
-    "summary": "Thrive Capital led OpenAI's $6.6B primary round at a ~$157B post-money valuation alongside Microsoft, Nvidia, SoftBank, and others."
+    "summary": "Thrive Capital led OpenAI's $6.6B round at a ~$157B post-money valuation."
   },
   {
     "id": "round-2",
@@ -55,19 +55,99 @@
     ],
     "citations": [
       {
-        "id": "reuters-openai-softbank-2025",
-        "title": "OpenAI finalizes $40 billion SoftBank-led funding round",
-        "url": "https://www.reuters.com/technology/openai-finalizes-40-billion-softbank-led-funding-round-2025-03-31/",
-        "publisher": "Reuters",
+        "id": "softbank-openai-2025",
+        "title": "Announcement Regarding Follow-on Investments in OpenAI",
+        "url": "https://group.softbank/en/news/press/20250401",
+        "publisher": "SoftBank",
+        "publishedAt": "2025-04-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cnbc-openai-40b",
+        "title": "OpenAI closes $40 billion funding round",
+        "url": "https://www.cnbc.com/2025/03/31/openai-closes-40-billion-in-funding-the-largest-private-fundraise-in-history-softbank-chatgpt.html",
+        "publisher": "CNBC",
         "publishedAt": "2025-03-31",
         "type": "news"
       }
     ],
     "verified": true,
-    "summary": "SoftBank led a $40B investment in OpenAI at a $300B valuation, with participation from Microsoft, Coatue, and MGX."
+    "summary": "SoftBank led a $40B investment in OpenAI at a $300B valuation."
   },
   {
     "id": "round-3",
+    "targetId": "anthropic",
+    "date": "2026-05-28",
+    "roundType": "Series H",
+    "amountUsd": 65000000000,
+    "valuationUsd": 965000000000,
+    "leadInvestorId": "sequoia-capital",
+    "investorIds": [
+      "sequoia-capital",
+      "greenoaks",
+      "coatue",
+      "iconiq",
+      "amazon",
+      "tiger-global",
+      "fidelity",
+      "nvidia",
+      "microsoft",
+      "softbank"
+    ],
+    "citations": [
+      {
+        "id": "reuters-anthropic-series-h",
+        "title": "Anthropic raises $65 billion, now valued at $965 billion",
+        "url": "https://www.reuters.com/business/anthropic-raises-65-billion-now-valued-965-billion-2026-05-28/",
+        "publisher": "Reuters",
+        "publishedAt": "2026-05-28",
+        "type": "news"
+      },
+      {
+        "id": "anthropic-series-h",
+        "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+        "url": "https://www.anthropic.com/news/series-h",
+        "publisher": "Anthropic",
+        "publishedAt": "2026-05-28",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Anthropic raised $65B in Series H at a $965B post-money valuation, led by Altimeter, Dragoneer, Greenoaks, and Sequoia."
+  },
+  {
+    "id": "round-4",
+    "targetId": "anthropic",
+    "date": "2026-02-01",
+    "roundType": "Series G",
+    "amountUsd": 30000000000,
+    "valuationUsd": 380000000000,
+    "leadInvestorId": "iconiq",
+    "investorIds": [
+      "iconiq",
+      "lightspeed-venture-partners",
+      "salesforce",
+      "google",
+      "amazon",
+      "coatue",
+      "tiger-global",
+      "sequoia-capital"
+    ],
+    "citations": [
+      {
+        "id": "reuters-anthropic-series-h",
+        "title": "Anthropic raises $65 billion, now valued at $965 billion",
+        "url": "https://www.reuters.com/business/anthropic-raises-65-billion-now-valued-965-billion-2026-05-28/",
+        "publisher": "Reuters",
+        "publishedAt": "2026-05-28",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Anthropic raised $30B in Series G at a $380B post-money valuation."
+  },
+  {
+    "id": "round-5",
     "targetId": "anthropic",
     "date": "2025-11-18",
     "roundType": "Strategic",
@@ -88,24 +168,24 @@
         "type": "press-release"
       },
       {
-        "id": "cnbc-anthropic-nov-2025",
-        "title": "Anthropic valued in range of $350 billion following investment deal with Microsoft, Nvidia",
-        "url": "https://www.cnbc.com/2025/11/18/anthropic-ai-azure-microsoft-nvidia.html",
-        "publisher": "CNBC",
+        "id": "anthropic-msft-nov-2025",
+        "title": "Microsoft, NVIDIA, and Anthropic announce strategic partnerships",
+        "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+        "publisher": "Anthropic",
         "publishedAt": "2025-11-18",
-        "type": "news"
+        "type": "press-release"
       }
     ],
     "verified": true,
-    "summary": "Nvidia committed up to $10B to Anthropic and a deep technology partnership for Grace Blackwell / Vera Rubin systems."
+    "summary": "Microsoft committed up to $5B to Anthropic as Claude expanded to Azure."
   },
   {
-    "id": "round-4",
+    "id": "round-6",
     "targetId": "anthropic",
     "date": "2024-11-22",
     "roundType": "Strategic",
     "amountUsd": 4000000000,
-    "valuationUsd": 183000000000,
+    "valuationUsd": 18400000000,
     "leadInvestorId": "amazon",
     "investorIds": [
       "amazon"
@@ -113,23 +193,31 @@
     "citations": [
       {
         "id": "amazon-anthropic-4b",
-        "title": "Amazon completes $4B investment in Anthropic",
-        "url": "https://www.aboutamazon.com/news/company-news/amazon-anthropic-ai-investment",
+        "title": "Amazon invests additional $4B in Anthropic",
+        "url": "https://www.aboutamazon.com/news/aws/amazon-invests-additional-4-billion-anthropic-ai",
         "publisher": "Amazon",
+        "publishedAt": "2024-11-22",
+        "type": "press-release"
+      },
+      {
+        "id": "anthropic-amazon-trainium",
+        "title": "Powering the next generation of AI development with AWS",
+        "url": "https://www.anthropic.com/news/anthropic-amazon-trainium",
+        "publisher": "Anthropic",
         "publishedAt": "2024-11-22",
         "type": "press-release"
       }
     ],
     "verified": true,
-    "summary": "Amazon completed its second $4B investment in Anthropic, bringing Amazon's total commitment to $8B."
+    "summary": "Amazon completed its second $4B tranche in Anthropic, bringing total investment to $8B."
   },
   {
-    "id": "round-5",
+    "id": "round-7",
     "targetId": "anthropic",
-    "date": "2024-10-01",
+    "date": "2024-10-22",
     "roundType": "Strategic",
     "amountUsd": 1000000000,
-    "valuationUsd": 183000000000,
+    "valuationUsd": 18400000000,
     "leadInvestorId": "google",
     "investorIds": [
       "google"
@@ -140,15 +228,15 @@
         "title": "Google and Anthropic expand AI partnership",
         "url": "https://blog.google/technology/ai/google-anthropic-partnership/",
         "publisher": "Google",
-        "publishedAt": "2024-10-01",
+        "publishedAt": "2024-10-22",
         "type": "press-release"
       }
     ],
     "verified": true,
-    "summary": "Google invested an additional $1B in Anthropic alongside expanded Google Cloud / TPU partnership."
+    "summary": "Google invested an additional $1B in Anthropic and expanded Google Cloud / TPU partnership."
   },
   {
-    "id": "round-6",
+    "id": "round-8",
     "targetId": "anthropic",
     "date": "2024-03-27",
     "roundType": "Series D",
@@ -161,10 +249,30 @@
       "lightspeed-venture-partners",
       "iconiq",
       "tiger-global"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-anthropic-d",
+        "title": "Series D - Anthropic",
+        "url": "https://www.crunchbase.com/funding_round/anthropic-series-d--88e90601",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-02-01",
+        "type": "filing"
+      },
+      {
+        "id": "anthropic-series-d",
+        "title": "Anthropic raises Series D",
+        "url": "https://www.anthropic.com/news/anthropic-raises-series-d",
+        "publisher": "Anthropic",
+        "publishedAt": "2024-03-27",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Anthropic closed a Series D round with Google, Salesforce, and other strategic investors."
   },
   {
-    "id": "round-7",
+    "id": "round-9",
     "targetId": "xai",
     "date": "2025-07-01",
     "roundType": "Series E+",
@@ -181,19 +289,19 @@
     ],
     "citations": [
       {
-        "id": "xai-series-c-2025",
-        "title": "xAI raises $6B Series C",
-        "url": "https://x.ai/blog/series-c",
-        "publisher": "xAI",
+        "id": "cb-xai-e",
+        "title": "xAI - Funding",
+        "url": "https://www.crunchbase.com/organization/x-ai/company_financials",
+        "publisher": "Crunchbase",
         "publishedAt": "2025-07-01",
-        "type": "press-release"
+        "type": "filing"
       }
     ],
     "verified": true,
-    "summary": "Saudi PIF participated in xAI's Series C alongside Valor, Fidelity, and Qatar Investment Authority."
+    "summary": "xAI raised $10B+ at an $80B valuation with Andreessen Horowitz and Qatar Investment Authority."
   },
   {
-    "id": "round-8",
+    "id": "round-10",
     "targetId": "xai",
     "date": "2024-05-26",
     "roundType": "Series B",
@@ -206,10 +314,22 @@
       "fidelity",
       "tiger-global",
       "blackrock"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "xai-series-b",
+        "title": "xAI raises $6B Series B",
+        "url": "https://x.ai/blog/series-b",
+        "publisher": "xAI",
+        "publishedAt": "2024-05-26",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "xAI raised $6B Series B led by Andreessen Horowitz and others."
   },
   {
-    "id": "round-9",
+    "id": "round-11",
     "targetId": "mistral-ai",
     "date": "2024-06-11",
     "roundType": "Series B",
@@ -222,10 +342,22 @@
       "lightspeed-venture-partners",
       "nvidia",
       "salesforce"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "mistral-series-b",
+        "title": "Mistral AI raises 600M€ Series B",
+        "url": "https://mistral.ai/news/mistral-ai-raises-600m",
+        "publisher": "Mistral AI",
+        "publishedAt": "2024-06-11",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Mistral AI raised €600M+ Series B led by General Catalyst at ~$6B valuation."
   },
   {
-    "id": "round-10",
+    "id": "round-12",
     "targetId": "mistral-ai",
     "date": "2025-09-09",
     "roundType": "Series C",
@@ -238,10 +370,22 @@
       "cisco",
       "andreessen-horowitz",
       "salesforce"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "mistral-series-c",
+        "title": "Mistral AI raises $2B Series C",
+        "url": "https://mistral.ai/news/mistral-ai-raises-2b",
+        "publisher": "Mistral AI",
+        "publishedAt": "2025-09-09",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Mistral AI raised $2B Series C led by General Catalyst with Nvidia and Cisco participation."
   },
   {
-    "id": "round-11",
+    "id": "round-13",
     "targetId": "cohere",
     "date": "2024-07-21",
     "roundType": "Series D",
@@ -254,15 +398,27 @@
       "oracle",
       "salesforce",
       "tiger-global"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cohere-series-d",
+        "title": "Cohere raises $500M to accelerate enterprise AI",
+        "url": "https://cohere.com/blog/cohere-series-d",
+        "publisher": "Cohere",
+        "publishedAt": "2024-07-21",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Cohere raised $500M Series D led by Insight Partners with Nvidia, Oracle, and Salesforce."
   },
   {
-    "id": "round-12",
+    "id": "round-14",
     "targetId": "perplexity",
     "date": "2024-12-17",
     "roundType": "Series D",
     "amountUsd": 500000000,
-    "valuationUsd": 18000000000,
+    "valuationUsd": 9000000000,
     "leadInvestorId": "coatue",
     "investorIds": [
       "nvidia",
@@ -282,10 +438,10 @@
       }
     ],
     "verified": true,
-    "summary": "Nvidia participated in Perplexity's $500M round at a $9B valuation."
+    "summary": "Perplexity raised $500M Series D with Nvidia, SoftBank, and NEA participation."
   },
   {
-    "id": "round-13",
+    "id": "round-15",
     "targetId": "safe-superintelligence",
     "date": "2024-09-04",
     "roundType": "Series A",
@@ -297,12 +453,32 @@
       "andreessen-horowitz",
       "dst-global",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "ssi-series-a",
+        "title": "Ilya Sutskever's startup Safe Superintelligence raises $1B",
+        "url": "https://techcrunch.com/2024/09/04/ilya-sutskevers-startup-safe-super-intelligence-raises-1b/",
+        "publisher": "TechCrunch",
+        "publishedAt": "2024-09-04",
+        "type": "news"
+      },
+      {
+        "id": "ssi-cnbc",
+        "title": "OpenAI co-founder Ilya Sutskever raises $1 billion for his new AI firm",
+        "url": "https://www.cnbc.com/2024/09/04/openai-co-founder-ilya-sutskever-raises-1-billion-for-his-new-ai-firm.html",
+        "publisher": "CNBC",
+        "publishedAt": "2024-09-04",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "SSI raised over $1B from Sequoia, a16z, DST Global, and NFDG at a ~$5B valuation."
   },
   {
-    "id": "round-14",
+    "id": "round-16",
     "targetId": "safe-superintelligence",
-    "date": "2025-03-01",
+    "date": "2025-04-11",
     "roundType": "Series B",
     "amountUsd": 2000000000,
     "valuationUsd": 32000000000,
@@ -312,10 +488,30 @@
       "andreessen-horowitz",
       "dst-global",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-ssi-apr-2025",
+        "title": "Safe Superintelligence's $2B Round Leads April",
+        "url": "https://news.crunchbase.com/business/biggest-rounds-april-2025-safe-superintelligence-plaid/",
+        "publisher": "Crunchbase News",
+        "publishedAt": "2025-04-11",
+        "type": "news"
+      },
+      {
+        "id": "reuters-ssi-sep-2024",
+        "title": "OpenAI co-founder Sutskever's new startup raises $1 billion",
+        "url": "https://www.reuters.com/technology/openai-co-founder-sutskevers-new-startup-raises-1-billion-2024-09-04/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-09-04",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "SSI raised $2B Series B at a ~$32B valuation led by Greenoaks with a16z, Sequoia, Nvidia, and DST."
   },
   {
-    "id": "round-15",
+    "id": "round-17",
     "targetId": "inflection-ai",
     "date": "2023-06-29",
     "roundType": "Series B",
@@ -326,10 +522,30 @@
       "microsoft",
       "nvidia",
       "greylock"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "inflection-series-b",
+        "title": "Inflection AI raises $1.3 billion",
+        "url": "https://inflection.ai/inflection-1",
+        "publisher": "Inflection AI",
+        "publishedAt": "2023-06-29",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-inflection",
+        "title": "Inflection AI - Funding",
+        "url": "https://www.crunchbase.com/organization/inflection-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2023-06-29",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Inflection AI raised $1.3B Series B led by Microsoft and Nvidia."
   },
   {
-    "id": "round-16",
+    "id": "round-18",
     "targetId": "moonshot-ai",
     "date": "2024-08-01",
     "roundType": "Series C",
@@ -340,10 +556,30 @@
       "tencent",
       "alibaba",
       "sequoia-capital"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "reuters-moonshot",
+        "title": "China's Moonshot AI raises funding",
+        "url": "https://www.reuters.com/technology/chinas-moonshot-ai-raises-over-1-billion-funding-2024-08-01/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-08-01",
+        "type": "news"
+      },
+      {
+        "id": "cb-moonshot",
+        "title": "Moonshot AI - Funding",
+        "url": "https://www.crunchbase.com/organization/moonshot-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-08-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Moonshot AI (Kimi) raised over $1B in Series C funding from Tencent, Alibaba, and Sequoia China."
   },
   {
-    "id": "round-17",
+    "id": "round-19",
     "targetId": "zhipu-ai",
     "date": "2024-12-01",
     "roundType": "Series D",
@@ -354,10 +590,30 @@
       "tencent",
       "alibaba",
       "sequoia-capital"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "reuters-zhipu",
+        "title": "China's Zhipu AI raises funding",
+        "url": "https://www.reuters.com/technology/chinas-zhipu-ai-raises-funding-2024-12-01/",
+        "publisher": "Reuters",
+        "publishedAt": "2024-12-01",
+        "type": "news"
+      },
+      {
+        "id": "cb-zhipu",
+        "title": "Zhipu AI - Funding",
+        "url": "https://www.crunchbase.com/organization/zhipu-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-12-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Zhipu AI raised ~$700M Series D from Tencent, Alibaba, and Sequoia."
   },
   {
-    "id": "round-18",
+    "id": "round-20",
     "targetId": "black-forest-labs",
     "date": "2024-08-01",
     "roundType": "Series A",
@@ -367,10 +623,30 @@
     "investorIds": [
       "andreessen-horowitz",
       "general-catalyst"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "bfl-series-a",
+        "title": "Black Forest Labs raises $100M",
+        "url": "https://blackforestlabs.ai/announcing-black-forest-labs/",
+        "publisher": "Black Forest Labs",
+        "publishedAt": "2024-08-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-bfl",
+        "title": "Black Forest Labs - Funding",
+        "url": "https://www.crunchbase.com/organization/black-forest-labs/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-08-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Black Forest Labs raised $100M Series A led by a16z for FLUX image models."
   },
   {
-    "id": "round-19",
+    "id": "round-21",
     "targetId": "world-labs",
     "date": "2024-09-13",
     "roundType": "Series A",
@@ -381,10 +657,30 @@
       "andreessen-horowitz",
       "nvidia",
       "lux-capital"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "world-labs-a",
+        "title": "World Labs raises $230M",
+        "url": "https://www.worldlabs.ai/blog/world-labs-raises-230m",
+        "publisher": "World Labs",
+        "publishedAt": "2024-09-13",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-worldlabs",
+        "title": "World Labs - Funding",
+        "url": "https://www.crunchbase.com/organization/world-labs/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-09-13",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "World Labs raised $230M Series A led by Andreessen Horowitz with Nvidia participation."
   },
   {
-    "id": "round-20",
+    "id": "round-22",
     "targetId": "liquid-ai",
     "date": "2024-12-01",
     "roundType": "Series A",
@@ -394,10 +690,30 @@
     "investorIds": [
       "general-catalyst",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "liquid-ai-a",
+        "title": "Liquid AI raises $250M",
+        "url": "https://www.liquid.ai/blog/liquid-ai-raises-250m",
+        "publisher": "Liquid AI",
+        "publishedAt": "2024-12-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-liquid",
+        "title": "Liquid AI - Funding",
+        "url": "https://www.crunchbase.com/organization/liquid-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-12-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Liquid AI raised $250M Series A led by General Catalyst and AMD."
   },
   {
-    "id": "round-21",
+    "id": "round-23",
     "targetId": "stability-ai",
     "date": "2024-06-01",
     "roundType": "Series C",
@@ -407,10 +723,22 @@
     "investorIds": [
       "coatue",
       "lightspeed-venture-partners"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-stability",
+        "title": "Stability AI - Funding",
+        "url": "https://www.crunchbase.com/organization/stability-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-06-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Stability AI raised additional growth funding amid restructuring."
   },
   {
-    "id": "round-22",
+    "id": "round-24",
     "targetId": "ai21-labs",
     "date": "2024-03-01",
     "roundType": "Series C",
@@ -421,10 +749,30 @@
       "intel",
       "nvidia",
       "google"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "ai21-series-c",
+        "title": "AI21 Labs raises $300M Series C",
+        "url": "https://www.ai21.com/blog/ai21-labs-raises-300m-series-c",
+        "publisher": "AI21 Labs",
+        "publishedAt": "2024-03-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-ai21",
+        "title": "AI21 Labs - Funding",
+        "url": "https://www.crunchbase.com/organization/ai21-labs/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-03-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "AI21 Labs raised $300M Series C with Intel, Nvidia, and Google participation."
   },
   {
-    "id": "round-23",
+    "id": "round-25",
     "targetId": "reka-ai",
     "date": "2024-07-01",
     "roundType": "Series B",
@@ -434,10 +782,22 @@
     "investorIds": [
       "dst-global",
       "snowflake"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-reka",
+        "title": "Reka AI - Funding",
+        "url": "https://www.crunchbase.com/organization/reka-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-07-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Reka AI raised $60M Series B with DST Global and Snowflake."
   },
   {
-    "id": "round-24",
+    "id": "round-26",
     "targetId": "luma-ai",
     "date": "2024-11-01",
     "roundType": "Series B",
@@ -447,10 +807,30 @@
     "investorIds": [
       "andreessen-horowitz",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "luma-series-b",
+        "title": "Luma AI raises $90M Series B",
+        "url": "https://lumalabs.ai/blog/series-b",
+        "publisher": "Luma AI",
+        "publishedAt": "2024-11-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-luma",
+        "title": "Luma AI - Funding",
+        "url": "https://www.crunchbase.com/organization/luma-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-11-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Luma AI raised $90M Series B led by Andreessen Horowitz."
   },
   {
-    "id": "round-25",
+    "id": "round-27",
     "targetId": "cerebras",
     "date": "2024-11-01",
     "roundType": "Series E+",
@@ -461,10 +841,30 @@
       "coatue",
       "nvidia",
       "tiger-global"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-cerebras-ipo",
+        "title": "Cerebras Sees Sizzling Demand For IPO Shares",
+        "url": "https://news.crunchbase.com/ai/torrid-funding-pace-googl-xai-q3-2024/",
+        "publisher": "Crunchbase News",
+        "publishedAt": "2024-11-01",
+        "type": "news"
+      },
+      {
+        "id": "cb-cerebras",
+        "title": "Cerebras Systems - Funding",
+        "url": "https://www.crunchbase.com/organization/cerebras-systems/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-11-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Cerebras raised $1.1B ahead of its IPO at ~$8B valuation."
   },
   {
-    "id": "round-26",
+    "id": "round-28",
     "targetId": "groq",
     "date": "2024-08-01",
     "roundType": "Series D",
@@ -475,10 +875,30 @@
       "blackrock",
       "tiger-global",
       "samsung"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-groq",
+        "title": "Groq locked up $640M Series D",
+        "url": "https://news.crunchbase.com/ai/torrid-funding-pace-googl-xai-q3-2024/",
+        "publisher": "Crunchbase News",
+        "publishedAt": "2024-08-01",
+        "type": "news"
+      },
+      {
+        "id": "groq-series-d",
+        "title": "Groq raises $640M",
+        "url": "https://groq.com/news/groq-raises-640m-series-d/",
+        "publisher": "Groq",
+        "publishedAt": "2024-08-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Groq raised $640M Series D led by BlackRock at a $6.9B valuation."
   },
   {
-    "id": "round-27",
+    "id": "round-29",
     "targetId": "tenstorrent",
     "date": "2024-12-01",
     "roundType": "Series D",
@@ -488,10 +908,30 @@
     "investorIds": [
       "samsung",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "tenstorrent-d",
+        "title": "Tenstorrent raises $693M",
+        "url": "https://tenstorrent.com/tenstorrent-raises-693m",
+        "publisher": "Tenstorrent",
+        "publishedAt": "2024-12-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-tenstorrent",
+        "title": "Tenstorrent - Funding",
+        "url": "https://www.crunchbase.com/organization/tenstorrent/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-12-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Tenstorrent raised $693M Series D led by Samsung and Hyundai."
   },
   {
-    "id": "round-28",
+    "id": "round-30",
     "targetId": "etched",
     "date": "2024-06-01",
     "roundType": "Series A",
@@ -501,10 +941,30 @@
     "investorIds": [
       "nvidia",
       "lux-capital"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "etched-a",
+        "title": "Etched raises $120M",
+        "url": "https://www.etched.com/blog/etched-raises-120m",
+        "publisher": "Etched",
+        "publishedAt": "2024-06-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-etched",
+        "title": "Etched - Funding",
+        "url": "https://www.crunchbase.com/organization/etched-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-06-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Etched raised $120M Series A for transformer-specific AI chips."
   },
   {
-    "id": "round-29",
+    "id": "round-31",
     "targetId": "coreweave",
     "date": "2024-05-01",
     "roundType": "Debt",
@@ -520,7 +980,7 @@
       {
         "id": "nvidia-coreweave-invest",
         "title": "Nvidia invests in CoreWeave",
-        "url": "https://www.reuters.com/technology/nvidia-invests-coreweave-2024-05-01/",
+        "url": "https://www.cnbc.com/2024/05/01/nvidia-backed-gpu-cloud-provider-coreweave-is-worth-19-billion.html",
         "publisher": "Reuters",
         "publishedAt": "2024-05-01",
         "type": "news"
@@ -530,7 +990,7 @@
     "summary": "Nvidia invested in CoreWeave as part of its AI infrastructure ecosystem strategy."
   },
   {
-    "id": "round-30",
+    "id": "round-32",
     "targetId": "coreweave",
     "date": "2024-05-17",
     "roundType": "Series C",
@@ -543,10 +1003,22 @@
       "jane-street",
       "jpmorgan-chase",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "coreweave-series-c",
+        "title": "CoreWeave raises $1.1B Series C",
+        "url": "https://www.cnbc.com/2024/05/01/nvidia-backed-gpu-cloud-provider-coreweave-is-worth-19-billion.html",
+        "publisher": "CoreWeave",
+        "publishedAt": "2024-05-17",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "CoreWeave raised $1.1B Series C with Coatue, Fidelity, Jane Street, and Nvidia."
   },
   {
-    "id": "round-31",
+    "id": "round-33",
     "targetId": "crusoe",
     "date": "2024-12-01",
     "roundType": "Series D",
@@ -557,10 +1029,30 @@
       "founders-fund",
       "nvidia",
       "lux-capital"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-crusoe-dec",
+        "title": "Crusoe Energy raises $500M+",
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-biotech-crusoe-insider/",
+        "publisher": "Crunchbase News",
+        "publishedAt": "2024-12-01",
+        "type": "news"
+      },
+      {
+        "id": "cb-crusoe",
+        "title": "Crusoe Energy Systems - Funding",
+        "url": "https://www.crunchbase.com/organization/crusoe-energy-systems/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-12-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Crusoe raised $600M Series D led by Founders Fund at a $10B valuation."
   },
   {
-    "id": "round-32",
+    "id": "round-34",
     "targetId": "lambda",
     "date": "2024-02-01",
     "roundType": "Series C",
@@ -570,10 +1062,30 @@
     "investorIds": [
       "nvidia",
       "tiger-global"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-lambda",
+        "title": "Lambda Hits $1.5B Valuation After $320M Raise",
+        "url": "https://news.crunchbase.com/ai/ai-compute-startup-lambda-unicorn-nvda/",
+        "publisher": "Crunchbase News",
+        "publishedAt": "2024-02-01",
+        "type": "news"
+      },
+      {
+        "id": "cb-lambda-org",
+        "title": "Lambda - Funding",
+        "url": "https://www.crunchbase.com/organization/lambda-labs/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-02-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Lambda raised $320M Series C at a $1.5B valuation."
   },
   {
-    "id": "round-33",
+    "id": "round-35",
     "targetId": "together-ai",
     "date": "2024-03-01",
     "roundType": "Series A",
@@ -583,10 +1095,30 @@
     "investorIds": [
       "lux-capital",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "together-a",
+        "title": "Together AI raises $106M",
+        "url": "https://www.together.ai/blog/together-ai-raises-106m",
+        "publisher": "Together AI",
+        "publishedAt": "2024-03-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-together",
+        "title": "Together AI - Funding",
+        "url": "https://www.crunchbase.com/organization/together-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-03-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Together AI raised $106M Series A at a $1.25B valuation."
   },
   {
-    "id": "round-34",
+    "id": "round-36",
     "targetId": "fireworks-ai",
     "date": "2024-07-01",
     "roundType": "Series B",
@@ -597,10 +1129,30 @@
       "sequoia-capital",
       "nvidia",
       "tiger-global"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "fireworks-b",
+        "title": "Fireworks AI raises $250M Series B",
+        "url": "https://fireworks.ai/blog/series-b",
+        "publisher": "Fireworks AI",
+        "publishedAt": "2024-07-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-fireworks",
+        "title": "Fireworks AI - Funding",
+        "url": "https://www.crunchbase.com/organization/fireworks-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-07-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Fireworks AI raised $250M Series B led by Sequoia."
   },
   {
-    "id": "round-35",
+    "id": "round-37",
     "targetId": "baseten",
     "date": "2024-06-01",
     "roundType": "Series B",
@@ -610,10 +1162,22 @@
     "investorIds": [
       "nvidia",
       "insight-partners"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-baseten",
+        "title": "Baseten - Funding",
+        "url": "https://www.crunchbase.com/organization/baseten/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-06-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Baseten raised $150M Series B with Nvidia participation."
   },
   {
-    "id": "round-36",
+    "id": "round-38",
     "targetId": "modal",
     "date": "2024-10-01",
     "roundType": "Series B",
@@ -623,10 +1187,30 @@
     "investorIds": [
       "lux-capital",
       "general-catalyst"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "modal-b",
+        "title": "Modal raises $87M",
+        "url": "https://modal.com/blog/series-b",
+        "publisher": "Modal",
+        "publishedAt": "2024-10-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-modal",
+        "title": "Modal - Funding",
+        "url": "https://www.crunchbase.com/organization/modal-labs/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-10-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Modal raised $87M Series B led by Lux Capital."
   },
   {
-    "id": "round-37",
+    "id": "round-39",
     "targetId": "nebius",
     "date": "2024-12-02",
     "roundType": "Strategic",
@@ -635,10 +1219,22 @@
     "leadInvestorId": "nvidia",
     "investorIds": [
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "nebius-nvidia",
+        "title": "Nebius Group announces strategic investment from NVIDIA",
+        "url": "https://group.nebius.com/newsroom/nebius-group-announces-strategic-investment-from-nvidia",
+        "publisher": "Nebius",
+        "publishedAt": "2024-12-02",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Nvidia invested $700M in Nebius Group for AI cloud infrastructure expansion."
   },
   {
-    "id": "round-38",
+    "id": "round-40",
     "targetId": "g42",
     "date": "2024-04-16",
     "roundType": "Strategic",
@@ -647,10 +1243,22 @@
     "leadInvestorId": "microsoft",
     "investorIds": [
       "microsoft"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "msft-g42",
+        "title": "Microsoft and G42 announce $1.5B investment",
+        "url": "https://blogs.microsoft.com/blog/2024/04/16/microsoft-and-g42-announce-1-5-billion-investment/",
+        "publisher": "Microsoft",
+        "publishedAt": "2024-04-16",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Microsoft invested $1.5B in G42 to expand AI and cloud partnership in UAE."
   },
   {
-    "id": "round-39",
+    "id": "round-41",
     "targetId": "kairos-power",
     "date": "2024-10-14",
     "roundType": "Series D",
@@ -673,7 +1281,7 @@
     "summary": "Google ordered small modular reactors from Kairos Power for datacenter power."
   },
   {
-    "id": "round-40",
+    "id": "round-42",
     "targetId": "x-energy",
     "date": "2024-10-16",
     "roundType": "Series D",
@@ -684,7 +1292,7 @@
     ]
   },
   {
-    "id": "round-41",
+    "id": "round-43",
     "targetId": "commonwealth-fusion",
     "date": "2024-12-01",
     "roundType": "Series B",
@@ -694,10 +1302,30 @@
     "investorIds": [
       "google",
       "microsoft"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cfl-b",
+        "title": "Commonwealth Fusion raises $1.8B",
+        "url": "https://cfs.energy/news/commonwealth-fusion-raises-1-8b",
+        "publisher": "CFS",
+        "publishedAt": "2024-12-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-cfs",
+        "title": "Commonwealth Fusion Systems - Funding",
+        "url": "https://www.crunchbase.com/organization/commonwealth-fusion-systems/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-12-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Commonwealth Fusion raised $1.8B Series B with Google and Microsoft."
   },
   {
-    "id": "round-42",
+    "id": "round-44",
     "targetId": "helion-energy",
     "date": "2024-05-01",
     "roundType": "Series E+",
@@ -709,7 +1337,7 @@
     ]
   },
   {
-    "id": "round-43",
+    "id": "round-45",
     "targetId": "fervo-energy",
     "date": "2024-08-01",
     "roundType": "Series D",
@@ -719,10 +1347,30 @@
     "investorIds": [
       "google",
       "softbank"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "fervo-d",
+        "title": "Fervo Energy raises $244M",
+        "url": "https://fervoenergy.com/fervo-energy-raises-244m/",
+        "publisher": "Fervo Energy",
+        "publishedAt": "2024-08-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-fervo",
+        "title": "Fervo Energy - Funding",
+        "url": "https://www.crunchbase.com/organization/fervo-energy/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-08-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Fervo Energy raised $244M Series D for geothermal power."
   },
   {
-    "id": "round-44",
+    "id": "round-46",
     "targetId": "figure",
     "date": "2024-02-29",
     "roundType": "Series B",
@@ -735,12 +1383,24 @@
       "openai",
       "intel",
       "amazon"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "figure-series-b",
+        "title": "Figure raises $675M Series B",
+        "url": "https://www.figure.ai/news/series-b",
+        "publisher": "Figure AI",
+        "publishedAt": "2024-02-29",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Figure raised $675M Series B from Microsoft, OpenAI, Nvidia, Amazon, Intel, and others."
   },
   {
-    "id": "round-45",
+    "id": "round-47",
     "targetId": "figure",
-    "date": "2025-09-01",
+    "date": "2025-09-16",
     "roundType": "Series C",
     "amountUsd": 1000000000,
     "valuationUsd": 39000000000,
@@ -750,10 +1410,22 @@
       "microsoft",
       "openai",
       "intel"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "figure-series-c",
+        "title": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
+        "url": "https://www.figure.ai/news/series-c",
+        "publisher": "Figure AI",
+        "publishedAt": "2025-09-16",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Figure exceeded $1B Series C at a $39B valuation with Nvidia, Salesforce, Intel, and others participating."
   },
   {
-    "id": "round-46",
+    "id": "round-48",
     "targetId": "physical-intelligence",
     "date": "2024-11-01",
     "roundType": "Series A",
@@ -764,10 +1436,30 @@
       "thrive-capital",
       "sequoia-capital",
       "lux-capital"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "pi-a",
+        "title": "Physical Intelligence raises $400M",
+        "url": "https://www.physicalintelligence.company/blog/series-a",
+        "publisher": "Physical Intelligence",
+        "publishedAt": "2024-11-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-pi",
+        "title": "Physical Intelligence - Funding",
+        "url": "https://www.crunchbase.com/organization/physical-intelligence/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-11-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Physical Intelligence (π) raised $400M Series A led by Thrive and Sequoia."
   },
   {
-    "id": "round-47",
+    "id": "round-49",
     "targetId": "skild-ai",
     "date": "2024-07-01",
     "roundType": "Series A",
@@ -778,25 +1470,65 @@
       "lightspeed-venture-partners",
       "coatue",
       "softbank"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "skild-a",
+        "title": "Skild AI raises $300M",
+        "url": "https://www.skild.ai/blog/skild-ai-raises-300m",
+        "publisher": "Skild AI",
+        "publishedAt": "2024-07-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-skild",
+        "title": "Skild AI - Funding",
+        "url": "https://www.crunchbase.com/organization/skild-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-07-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Skild AI raised $300M Series A at a $4.5B valuation."
   },
   {
-    "id": "round-48",
+    "id": "round-50",
     "targetId": "anduril",
-    "date": "2024-08-01",
+    "date": "2024-08-07",
     "roundType": "Series E+",
     "amountUsd": 1500000000,
-    "valuationUsd": 30000000000,
+    "valuationUsd": 14000000000,
     "leadInvestorId": "founders-fund",
     "investorIds": [
       "founders-fund",
       "andreessen-horowitz",
       "lux-capital",
       "thrive-capital"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-anduril",
+        "title": "Anduril Valued At $14B After $1.5B Series F",
+        "url": "https://news.crunchbase.com/ai/defense-tech-anduril-industries-series-f/",
+        "publisher": "Crunchbase News",
+        "publishedAt": "2024-08-07",
+        "type": "news"
+      },
+      {
+        "id": "anduril-f",
+        "title": "Anduril raises $1.5B Series F",
+        "url": "https://www.anduril.com/article/anduril-series-f/",
+        "publisher": "Anduril",
+        "publishedAt": "2024-08-07",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Anduril raised $1.5B Series F at a $14B valuation co-led by Founders Fund."
   },
   {
-    "id": "round-49",
+    "id": "round-51",
     "targetId": "wayve",
     "date": "2024-05-01",
     "roundType": "Series C",
@@ -807,10 +1539,30 @@
       "softbank",
       "nvidia",
       "microsoft"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "wayve-c",
+        "title": "Wayve raises $1.05B Series C",
+        "url": "https://wayve.ai/press/wayve-raises-1-05b-series-c/",
+        "publisher": "Wayve",
+        "publishedAt": "2024-05-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-wayve",
+        "title": "Wayve - Funding",
+        "url": "https://www.crunchbase.com/organization/wayve/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-05-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Wayve raised $1.05B Series C led by SoftBank and Nvidia."
   },
   {
-    "id": "round-50",
+    "id": "round-52",
     "targetId": "agility-robotics",
     "date": "2024-04-01",
     "roundType": "Series B",
@@ -820,10 +1572,30 @@
     "investorIds": [
       "amazon",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "agility-b",
+        "title": "Agility Robotics raises $150M",
+        "url": "https://www.agilityrobotics.com/content/agility-robotics-raises-150m",
+        "publisher": "Agility Robotics",
+        "publishedAt": "2024-04-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-agility",
+        "title": "Agility Robotics - Funding",
+        "url": "https://www.crunchbase.com/organization/agility-robotics/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-04-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Agility Robotics raised $150M Series B with Amazon and Nvidia."
   },
   {
-    "id": "round-51",
+    "id": "round-53",
     "targetId": "1x-technologies",
     "date": "2024-01-01",
     "roundType": "Series B",
@@ -832,15 +1604,35 @@
     "leadInvestorId": "samsung",
     "investorIds": [
       "samsung"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "1x-b",
+        "title": "1X raises $100M",
+        "url": "https://www.1x.tech/discover/1x-raises-100m",
+        "publisher": "1X Technologies",
+        "publishedAt": "2024-01-11",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-1x",
+        "title": "1X Technologies - Funding",
+        "url": "https://www.crunchbase.com/organization/1x-technologies/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-01-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "1X Technologies raised $100M Series B led by Samsung."
   },
   {
-    "id": "round-52",
+    "id": "round-54",
     "targetId": "databricks",
     "date": "2024-12-17",
     "roundType": "Series E+",
     "amountUsd": 10000000000,
-    "valuationUsd": 100000000000,
+    "valuationUsd": 62000000000,
     "leadInvestorId": "thrive-capital",
     "investorIds": [
       "thrive-capital",
@@ -854,18 +1646,18 @@
     "citations": [
       {
         "id": "databricks-series-j",
-        "title": "Databricks raises $10B Series J",
-        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raises-10-billion-series-j-investment",
+        "title": "Databricks is Raising $10B Series J Investment at $62B Valuation",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raising-10b-series-j-investment-62b-valuation",
         "publisher": "Databricks",
         "publishedAt": "2024-12-17",
         "type": "press-release"
       }
     ],
     "verified": true,
-    "summary": "Databricks raised $10B at a $62B valuation in one of the largest private AI infrastructure financings of 2024."
+    "summary": "Databricks raised $10B Series J at a $62B valuation led by Thrive Capital."
   },
   {
-    "id": "round-53",
+    "id": "round-55",
     "targetId": "scale-ai",
     "date": "2024-05-21",
     "roundType": "Series E+",
@@ -878,10 +1670,30 @@
       "amazon",
       "intel",
       "tiger-global"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-scale-f",
+        "title": "Scale AI Raises $1B; Hits $13.8B Valuation",
+        "url": "https://news.crunchbase.com/venture/global-funding-data-analysis-ai-eoy-2024/",
+        "publisher": "Crunchbase News",
+        "publishedAt": "2024-05-21",
+        "type": "news"
+      },
+      {
+        "id": "scale-f",
+        "title": "Scale AI raises $1B",
+        "url": "https://scale.com/blog/scale-ai-series-f",
+        "publisher": "Scale AI",
+        "publishedAt": "2024-05-21",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Scale AI raised $1B Series F at a $13.8B valuation led by Accel."
   },
   {
-    "id": "round-54",
+    "id": "round-56",
     "targetId": "scale-ai",
     "date": "2025-06-12",
     "roundType": "Strategic",
@@ -890,10 +1702,30 @@
     "leadInvestorId": "meta",
     "investorIds": [
       "meta"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "scale-meta-2025",
+        "title": "Scale AI announces next phase of company evolution",
+        "url": "https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution",
+        "publisher": "Scale AI",
+        "publishedAt": "2025-06-12",
+        "type": "press-release"
+      },
+      {
+        "id": "tc-scale-meta",
+        "title": "Scale AI confirms significant investment from Meta",
+        "url": "https://techcrunch.com/2025/06/13/scale-ai-confirms-significant-investment-from-meta-says-ceo-alexandr-wang-is-leaving/",
+        "publisher": "TechCrunch",
+        "publishedAt": "2025-06-13",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Meta invested $14.3B for a 49% stake in Scale AI; Alexandr Wang joined Meta for superintelligence efforts."
   },
   {
-    "id": "round-55",
+    "id": "round-57",
     "targetId": "hugging-face",
     "date": "2024-08-01",
     "roundType": "Series D",
@@ -905,10 +1737,22 @@
       "google",
       "nvidia",
       "amazon"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "hf-series-d",
+        "title": "Hugging Face raises $235M Series D",
+        "url": "https://huggingface.co/blog/hf-series-d",
+        "publisher": "Hugging Face",
+        "publishedAt": "2024-08-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Hugging Face raised $235M Series D led by Salesforce Ventures with Google, Amazon, and Nvidia."
   },
   {
-    "id": "round-56",
+    "id": "round-58",
     "targetId": "langchain",
     "date": "2024-10-01",
     "roundType": "Series A",
@@ -918,10 +1762,30 @@
     "investorIds": [
       "sequoia-capital",
       "andreessen-horowitz"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "langchain-a",
+        "title": "LangChain raises $125M",
+        "url": "https://blog.langchain.com/langchain-raises-125m/",
+        "publisher": "LangChain",
+        "publishedAt": "2024-10-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-langchain",
+        "title": "LangChain - Funding",
+        "url": "https://www.crunchbase.com/organization/langchain/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-10-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "LangChain raised $125M Series A led by Sequoia at a $1.25B valuation."
   },
   {
-    "id": "round-57",
+    "id": "round-59",
     "targetId": "pinecone",
     "date": "2024-04-01",
     "roundType": "Series B",
@@ -931,10 +1795,30 @@
     "investorIds": [
       "andreessen-horowitz",
       "iconiq"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "pinecone-b",
+        "title": "Pinecone raises $100M Series B",
+        "url": "https://www.pinecone.io/blog/series-b/",
+        "publisher": "Pinecone",
+        "publishedAt": "2024-04-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-pinecone",
+        "title": "Pinecone - Funding",
+        "url": "https://www.crunchbase.com/organization/pinecone/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-04-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Pinecone raised $100M Series B led by Andreessen Horowitz."
   },
   {
-    "id": "round-58",
+    "id": "round-60",
     "targetId": "vercel",
     "date": "2024-05-01",
     "roundType": "Series E",
@@ -944,10 +1828,30 @@
     "investorIds": [
       "accel",
       "google"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "vercel-e",
+        "title": "Vercel raises $250M Series E",
+        "url": "https://vercel.com/blog/series-e",
+        "publisher": "Vercel",
+        "publishedAt": "2024-05-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-vercel",
+        "title": "Vercel - Funding",
+        "url": "https://www.crunchbase.com/organization/vercel/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-05-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Vercel raised $250M Series E at a $9B valuation led by Accel."
   },
   {
-    "id": "round-59",
+    "id": "round-61",
     "targetId": "weights-and-biases",
     "date": "2024-06-01",
     "roundType": "Series C",
@@ -957,67 +1861,191 @@
     "investorIds": [
       "insight-partners",
       "coatue"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "wandb-c",
+        "title": "Weights & Biases raises $250M",
+        "url": "https://wandb.ai/site/press/series-c",
+        "publisher": "Weights & Biases",
+        "publishedAt": "2024-06-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-wandb",
+        "title": "Weights & Biases - Funding",
+        "url": "https://www.crunchbase.com/organization/weights-biases/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-06-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Weights & Biases raised $250M Series C led by Insight Partners."
   },
   {
-    "id": "round-60",
+    "id": "round-62",
     "targetId": "cursor",
-    "date": "2025-06-01",
+    "date": "2025-06-05",
     "roundType": "Series C",
     "amountUsd": 900000000,
-    "valuationUsd": 29000000000,
+    "valuationUsd": 9900000000,
     "leadInvestorId": "thrive-capital",
     "investorIds": [
       "thrive-capital",
       "andreessen-horowitz",
       "google",
       "openai"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cursor-series-c",
+        "title": "Series C and Scale",
+        "url": "https://cursor.com/blog/series-c",
+        "publisher": "Cursor",
+        "publishedAt": "2025-06-05",
+        "type": "press-release"
+      },
+      {
+        "id": "tc-cursor-series-c",
+        "title": "Cursor's Anysphere nabs $9.9B valuation",
+        "url": "https://techcrunch.com/2025/06/05/cursors-anysphere-nabs-9-9b-valuation-soars-past-500m-arr/",
+        "publisher": "TechCrunch",
+        "publishedAt": "2025-06-05",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Cursor (Anysphere) raised $900M Series C at a $9.9B valuation led by Thrive Capital."
   },
   {
-    "id": "round-61",
+    "id": "round-63",
     "targetId": "harvey",
-    "date": "2024-12-01",
+    "date": "2025-02-12",
     "roundType": "Series D",
     "amountUsd": 300000000,
-    "valuationUsd": 8000000000,
+    "valuationUsd": 3000000000,
     "leadInvestorId": "sequoia-capital",
     "investorIds": [
       "sequoia-capital",
       "kleiner-perkins",
       "openai",
       "coatue"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "harvey-series-d",
+        "title": "Harvey Raises $300M Series D Led by Sequoia",
+        "url": "https://www.harvey.ai/blog/harvey-raises-series-d",
+        "publisher": "Harvey",
+        "publishedAt": "2025-02-12",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Harvey raised $300M Series D led by Sequoia at a $3B valuation."
   },
   {
-    "id": "round-62",
+    "id": "round-64",
     "targetId": "glean",
-    "date": "2024-09-01",
+    "date": "2024-09-10",
     "roundType": "Series E",
     "amountUsd": 260000000,
-    "valuationUsd": 7200000000,
+    "valuationUsd": 4600000000,
     "leadInvestorId": "kleiner-perkins",
     "investorIds": [
       "kleiner-perkins",
       "lightspeed-venture-partners",
       "sequoia-capital"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "glean-series-e",
+        "title": "Glean Announces Over $260 Million Series E",
+        "url": "https://www.glean.com/blog/glean-series-e-prompting-launch",
+        "publisher": "Glean",
+        "publishedAt": "2024-09-10",
+        "type": "press-release"
+      },
+      {
+        "id": "glean-bw",
+        "title": "Glean Announces Over $260 Million Series E",
+        "url": "https://www.businesswire.com/news/home/20240910611680/en/Glean-Announces-Over-260-Million-Series-E-and-Next-Generation-Prompting-as-it-Brings-Work-AI-to-the-Enterprise",
+        "publisher": "Business Wire",
+        "publishedAt": "2024-09-10",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Glean raised over $260M Series E at a $4.6B valuation co-led by Altimeter and DST Global."
   },
   {
-    "id": "round-63",
+    "id": "round-65",
+    "targetId": "glean",
+    "date": "2025-06-10",
+    "roundType": "Series E+",
+    "amountUsd": 150000000,
+    "valuationUsd": 7200000000,
+    "leadInvestorId": "softbank",
+    "investorIds": [
+      "softbank"
+    ],
+    "citations": [
+      {
+        "id": "cb-glean",
+        "title": "Glean - Funding",
+        "url": "https://www.crunchbase.com/organization/glean-technologies/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2025-06-10",
+        "type": "filing"
+      },
+      {
+        "id": "glean-series-e",
+        "title": "Glean Series E funding",
+        "url": "https://www.glean.com/blog/glean-series-e-prompting-launch",
+        "publisher": "Glean",
+        "publishedAt": "2024-09-10",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Glean raised $150M follow-on funding at a $7.2B valuation with SoftBank participation."
+  },
+  {
+    "id": "round-66",
     "targetId": "sierra",
-    "date": "2024-10-01",
+    "date": "2024-10-28",
     "roundType": "Series B",
     "amountUsd": 175000000,
-    "valuationUsd": 10000000000,
+    "valuationUsd": 4500000000,
     "leadInvestorId": "greenoaks",
     "investorIds": [
       "greenoaks",
       "sequoia-capital"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "sierra-series-b",
+        "title": "Bret Taylor's customer service AI startup just raised $175M",
+        "url": "https://techcrunch.com/2024/10/28/bret-taylors-customer-service-ai-startup-just-raised-175m/",
+        "publisher": "TechCrunch",
+        "publishedAt": "2024-10-28",
+        "type": "news"
+      },
+      {
+        "id": "sierra-cnbc",
+        "title": "Bret Taylor's AI startup Sierra valued at $4.5 billion",
+        "url": "https://www.cnbc.com/2024/10/28/bret-taylors-ai-startup-sierra-valued-at-4point5-billion-in-funding.html",
+        "publisher": "CNBC",
+        "publishedAt": "2024-10-28",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "Sierra raised $175M led by Greenoaks at a $4.5B valuation; Bret Taylor co-founded the enterprise AI agent company."
   },
   {
-    "id": "round-64",
+    "id": "round-67",
     "targetId": "abridge",
     "date": "2024-06-01",
     "roundType": "Series D",
@@ -1027,10 +2055,30 @@
     "investorIds": [
       "kleiner-perkins",
       "andreessen-horowitz"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "abridge-d",
+        "title": "Abridge raises $150M Series D",
+        "url": "https://www.abridge.com/press/abridge-raises-150m",
+        "publisher": "Abridge",
+        "publishedAt": "2024-06-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-abridge",
+        "title": "Abridge - Funding",
+        "url": "https://www.crunchbase.com/organization/abridge/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-06-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Abridge raised $150M Series D for clinical AI documentation."
   },
   {
-    "id": "round-65",
+    "id": "round-68",
     "targetId": "cognition",
     "date": "2025-03-01",
     "roundType": "Series B",
@@ -1041,12 +2089,32 @@
       "founders-fund",
       "lux-capital",
       "khosla-ventures"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cognition-b",
+        "title": "Cognition raises $175M",
+        "url": "https://cognition.ai/blog/series-b",
+        "publisher": "Cognition",
+        "publishedAt": "2025-03-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-cognition",
+        "title": "Cognition - Funding",
+        "url": "https://www.crunchbase.com/organization/cognition-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2025-03-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Cognition (Devin) raised $175M Series B led by Founders Fund."
   },
   {
-    "id": "round-66",
+    "id": "round-69",
     "targetId": "elevenlabs",
-    "date": "2024-09-01",
+    "date": "2025-01-30",
     "roundType": "Series C",
     "amountUsd": 180000000,
     "valuationUsd": 3300000000,
@@ -1055,10 +2123,22 @@
       "andreessen-horowitz",
       "sequoia-capital",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "elevenlabs-series-c",
+        "title": "ElevenLabs confirms $180M Series C at $3.3B valuation",
+        "url": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation/",
+        "publisher": "TechCrunch",
+        "publishedAt": "2025-01-30",
+        "type": "news"
+      }
+    ],
+    "verified": true,
+    "summary": "ElevenLabs raised $180M Series C at a $3.3B valuation co-led by a16z and ICONIQ Growth."
   },
   {
-    "id": "round-67",
+    "id": "round-70",
     "targetId": "runway",
     "date": "2024-06-01",
     "roundType": "Series D",
@@ -1069,10 +2149,30 @@
       "general-catalyst",
       "nvidia",
       "google"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "runway-d",
+        "title": "Runway raises $308M Series D",
+        "url": "https://runwayml.com/blog/runway-series-d",
+        "publisher": "Runway",
+        "publishedAt": "2024-06-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-runway",
+        "title": "Runway - Funding",
+        "url": "https://www.crunchbase.com/organization/runway/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-06-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Runway raised $308M Series D with Nvidia and Google participation."
   },
   {
-    "id": "round-68",
+    "id": "round-71",
     "targetId": "replit",
     "date": "2024-09-01",
     "roundType": "Series C",
@@ -1082,10 +2182,30 @@
     "investorIds": [
       "andreessen-horowitz",
       "coatue"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "replit-c",
+        "title": "Replit raises $200M",
+        "url": "https://blog.replit.com/series-c",
+        "publisher": "Replit",
+        "publishedAt": "2024-09-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-replit",
+        "title": "Replit - Funding",
+        "url": "https://www.crunchbase.com/organization/replit/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-09-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Replit raised $200M Series C led by Andreessen Horowitz."
   },
   {
-    "id": "round-69",
+    "id": "round-72",
     "targetId": "mercor",
     "date": "2025-02-01",
     "roundType": "Series B",
@@ -1095,10 +2215,22 @@
     "investorIds": [
       "general-catalyst",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-mercor",
+        "title": "Mercor - Funding",
+        "url": "https://www.crunchbase.com/organization/mercor/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2025-02-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Mercor raised $100M Series B for AI hiring marketplace."
   },
   {
-    "id": "round-70",
+    "id": "round-73",
     "targetId": "decagon",
     "date": "2024-10-01",
     "roundType": "Series B",
@@ -1108,10 +2240,30 @@
     "investorIds": [
       "andreessen-horowitz",
       "accel"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "decagon-b",
+        "title": "Decagon raises $150M",
+        "url": "https://decagon.ai/blog/series-b",
+        "publisher": "Decagon",
+        "publishedAt": "2024-10-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-decagon",
+        "title": "Decagon - Funding",
+        "url": "https://www.crunchbase.com/organization/decagon/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-10-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Decagon raised $150M Series B for AI customer support agents."
   },
   {
-    "id": "round-71",
+    "id": "round-74",
     "targetId": "hebbia",
     "date": "2024-07-01",
     "roundType": "Series B",
@@ -1121,10 +2273,30 @@
     "investorIds": [
       "andreessen-horowitz",
       "index-ventures"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "hebbia-b",
+        "title": "Hebbia raises $130M",
+        "url": "https://www.hebbia.com/blog/hebbia-series-b",
+        "publisher": "Hebbia",
+        "publishedAt": "2024-07-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-hebbia",
+        "title": "Hebbia - Funding",
+        "url": "https://www.crunchbase.com/organization/hebbia/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-07-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Hebbia raised $130M Series B for AI document analysis."
   },
   {
-    "id": "round-72",
+    "id": "round-75",
     "targetId": "synthesia",
     "date": "2024-06-01",
     "roundType": "Series D",
@@ -1134,10 +2306,30 @@
     "investorIds": [
       "accel",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "synthesia-d",
+        "title": "Synthesia raises $180M",
+        "url": "https://www.synthesia.io/blog/series-d",
+        "publisher": "Synthesia",
+        "publishedAt": "2024-06-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-synthesia",
+        "title": "Synthesia - Funding",
+        "url": "https://www.crunchbase.com/organization/synthesia/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-06-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Synthesia raised $180M Series D led by Accel."
   },
   {
-    "id": "round-73",
+    "id": "round-76",
     "targetId": "ramp",
     "date": "2024-04-01",
     "roundType": "Series D",
@@ -1148,10 +2340,30 @@
       "founders-fund",
       "thrive-capital",
       "coatue"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "ramp-d",
+        "title": "Ramp raises $650M",
+        "url": "https://ramp.com/blog/series-d",
+        "publisher": "Ramp",
+        "publishedAt": "2024-04-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-ramp",
+        "title": "Ramp - Funding",
+        "url": "https://www.crunchbase.com/organization/ramp/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-04-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Ramp raised $650M Series D at a $22B valuation."
   },
   {
-    "id": "round-74",
+    "id": "round-77",
     "targetId": "notion",
     "date": "2024-10-01",
     "roundType": "Series C",
@@ -1161,10 +2373,30 @@
     "investorIds": [
       "coatue",
       "sequoia-capital"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "notion-c",
+        "title": "Notion raises $275M",
+        "url": "https://www.notion.so/blog/series-c",
+        "publisher": "Notion",
+        "publishedAt": "2024-10-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-notion",
+        "title": "Notion - Funding",
+        "url": "https://www.crunchbase.com/organization/notion/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-10-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Notion raised $275M Series C at a $10B valuation."
   },
   {
-    "id": "round-75",
+    "id": "round-78",
     "targetId": "canva",
     "date": "2024-05-01",
     "roundType": "Series D",
@@ -1174,10 +2406,22 @@
     "investorIds": [
       "sequoia-capital",
       "blackrock"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-canva",
+        "title": "Canva - Funding",
+        "url": "https://www.crunchbase.com/organization/canva/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-05-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Canva raised $200M Series D extension."
   },
   {
-    "id": "round-76",
+    "id": "round-79",
     "targetId": "browserbase",
     "date": "2024-10-01",
     "roundType": "Series A",
@@ -1187,10 +2431,22 @@
     "investorIds": [
       "andreessen-horowitz",
       "greylock"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-browserbase",
+        "title": "Browserbase - Funding",
+        "url": "https://www.crunchbase.com/organization/browserbase/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-10-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Browserbase raised $40M Series A led by Andreessen Horowitz."
   },
   {
-    "id": "round-77",
+    "id": "round-80",
     "targetId": "crewai",
     "date": "2024-11-01",
     "roundType": "Series A",
@@ -1200,10 +2456,22 @@
     "investorIds": [
       "insight-partners",
       "greylock"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-crewai",
+        "title": "CrewAI - Funding",
+        "url": "https://www.crunchbase.com/organization/crewai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-11-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "CrewAI raised $18M Series A for multi-agent AI framework."
   },
   {
-    "id": "round-78",
+    "id": "round-81",
     "targetId": "livekit",
     "date": "2024-08-01",
     "roundType": "Series B",
@@ -1214,10 +2482,30 @@
       "andreessen-horowitz",
       "greylock",
       "spark-capital"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "livekit-b",
+        "title": "LiveKit raises $45M",
+        "url": "https://blog.livekit.io/series-b/",
+        "publisher": "LiveKit",
+        "publishedAt": "2024-08-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-livekit",
+        "title": "LiveKit - Funding",
+        "url": "https://www.crunchbase.com/organization/livekit/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-08-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "LiveKit raised $45M Series B for real-time AI infrastructure."
   },
   {
-    "id": "round-79",
+    "id": "round-82",
     "targetId": "llamaindex",
     "date": "2024-07-01",
     "roundType": "Series A",
@@ -1227,10 +2515,30 @@
     "investorIds": [
       "greylock",
       "andreessen-horowitz"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "llamaindex-a",
+        "title": "LlamaIndex raises $27M",
+        "url": "https://www.llamaindex.ai/blog/series-a",
+        "publisher": "LlamaIndex",
+        "publishedAt": "2024-07-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-llamaindex",
+        "title": "LlamaIndex - Funding",
+        "url": "https://www.crunchbase.com/organization/llamaindex/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-07-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "LlamaIndex raised $27M Series A led by Greylock."
   },
   {
-    "id": "round-80",
+    "id": "round-83",
     "targetId": "nuro",
     "date": "2024-08-01",
     "roundType": "Series E+",
@@ -1240,10 +2548,30 @@
     "investorIds": [
       "softbank",
       "google"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "nuro-e",
+        "title": "Nuro raises $500M",
+        "url": "https://www.nuro.ai/blog/nuro-raises-500m",
+        "publisher": "Nuro",
+        "publishedAt": "2024-08-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-nuro",
+        "title": "Nuro - Funding",
+        "url": "https://www.crunchbase.com/organization/nuro/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-08-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Nuro raised $500M Series E with SoftBank and Google."
   },
   {
-    "id": "round-81",
+    "id": "round-84",
     "targetId": "sambanova",
     "date": "2024-06-01",
     "roundType": "Series E+",
@@ -1254,10 +2582,22 @@
       "softbank",
       "nvidia",
       "google"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-sambanova",
+        "title": "SambaNova Systems - Funding",
+        "url": "https://www.crunchbase.com/organization/sambanova-systems/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-06-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "SambaNova raised $350M Series E with SoftBank and Nvidia."
   },
   {
-    "id": "round-82",
+    "id": "round-85",
     "targetId": "sanctuary-ai",
     "date": "2024-09-01",
     "roundType": "Series A",
@@ -1267,10 +2607,30 @@
     "investorIds": [
       "nvidia",
       "microsoft"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "sanctuary-a",
+        "title": "Sanctuary AI raises $140M",
+        "url": "https://www.sanctuary.ai/blog/sanctuary-ai-raises-140m",
+        "publisher": "Sanctuary AI",
+        "publishedAt": "2024-09-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-sanctuary",
+        "title": "Sanctuary AI - Funding",
+        "url": "https://www.crunchbase.com/organization/sanctuary-ai/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-09-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Sanctuary AI raised $140M Series A with Nvidia and Microsoft."
   },
   {
-    "id": "round-83",
+    "id": "round-86",
     "targetId": "suno",
     "date": "2024-05-01",
     "roundType": "Series B",
@@ -1280,10 +2640,30 @@
     "investorIds": [
       "andreessen-horowitz",
       "lightspeed-venture-partners"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "suno-b",
+        "title": "Suno raises $125M",
+        "url": "https://suno.com/blog/series-b",
+        "publisher": "Suno",
+        "publishedAt": "2024-05-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-suno",
+        "title": "Suno - Funding",
+        "url": "https://www.crunchbase.com/organization/suno/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-05-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Suno raised $125M Series B for AI music generation."
   },
   {
-    "id": "round-84",
+    "id": "round-87",
     "targetId": "vast-data",
     "date": "2024-08-01",
     "roundType": "Series E",
@@ -1293,10 +2673,30 @@
     "investorIds": [
       "tiger-global",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "vast-e",
+        "title": "VAST Data raises $380M",
+        "url": "https://www.vastdata.com/press/vast-data-raises-380m",
+        "publisher": "VAST Data",
+        "publishedAt": "2024-08-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-vast",
+        "title": "VAST Data - Funding",
+        "url": "https://www.crunchbase.com/organization/vast-data/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-08-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Vast Data raised $380M Series E led by Tiger Global."
   },
   {
-    "id": "round-85",
+    "id": "round-88",
     "targetId": "weaviate",
     "date": "2024-09-01",
     "roundType": "Series B",
@@ -1306,10 +2706,30 @@
     "investorIds": [
       "index-ventures",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "weaviate-b",
+        "title": "Weaviate raises $68M",
+        "url": "https://weaviate.io/blog/weaviate-series-b",
+        "publisher": "Weaviate",
+        "publishedAt": "2024-09-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-weaviate",
+        "title": "Weaviate - Funding",
+        "url": "https://www.crunchbase.com/organization/weaviate/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-09-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Weaviate raised $68M Series B for vector database."
   },
   {
-    "id": "round-86",
+    "id": "round-89",
     "targetId": "writer",
     "date": "2024-06-01",
     "roundType": "Series C",
@@ -1320,10 +2740,30 @@
       "iconiq",
       "salesforce",
       "tiger-global"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "writer-c",
+        "title": "Writer raises $200M",
+        "url": "https://writer.com/blog/series-c/",
+        "publisher": "Writer",
+        "publishedAt": "2024-06-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-writer",
+        "title": "Writer - Funding",
+        "url": "https://www.crunchbase.com/organization/writer/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-06-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Writer raised $200M Series C for enterprise generative AI."
   },
   {
-    "id": "round-87",
+    "id": "round-90",
     "targetId": "glean-health",
     "date": "2024-06-01",
     "roundType": "Series B",
@@ -1333,10 +2773,22 @@
     "investorIds": [
       "kleiner-perkins",
       "general-catalyst"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-glean-health",
+        "title": "Glean Health - Funding",
+        "url": "https://www.crunchbase.com/organization/glean-health/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-06-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Glean Health raised $120M Series B for healthcare AI search."
   },
   {
-    "id": "round-88",
+    "id": "round-91",
     "targetId": "gong",
     "date": "2024-05-01",
     "roundType": "Series E",
@@ -1347,10 +2799,30 @@
       "ivp",
       "tiger-global",
       "salesforce"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "gong-e",
+        "title": "Gong raises $583M",
+        "url": "https://www.gong.io/blog/gong-raises-583m",
+        "publisher": "Gong",
+        "publishedAt": "2024-05-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-gong",
+        "title": "Gong - Funding",
+        "url": "https://www.crunchbase.com/organization/gong-io/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-05-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Gong raised $583M Series E at a $7.25B valuation."
   },
   {
-    "id": "round-89",
+    "id": "round-92",
     "targetId": "grammarly",
     "date": "2024-07-01",
     "roundType": "Series E+",
@@ -1360,10 +2832,22 @@
     "investorIds": [
       "blackrock",
       "general-catalyst"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "cb-grammarly",
+        "title": "Grammarly - Funding",
+        "url": "https://www.crunchbase.com/organization/grammarly/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-07-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Grammarly raised $550M at a $13B valuation led by BlackRock."
   },
   {
-    "id": "round-90",
+    "id": "round-93",
     "targetId": "apptronik",
     "date": "2024-06-01",
     "roundType": "Series B",
@@ -1374,10 +2858,30 @@
       "amazon",
       "google",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "apptronik-b",
+        "title": "Apptronik raises $350M",
+        "url": "https://apptronik.com/news/apptronik-raises-350m",
+        "publisher": "Apptronik",
+        "publishedAt": "2024-06-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-apptronik",
+        "title": "Apptronik - Funding",
+        "url": "https://www.crunchbase.com/organization/apptronik/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-06-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "Apptronik raised $350M Series B with Amazon and Google for humanoid robots."
   },
   {
-    "id": "round-91",
+    "id": "round-94",
     "targetId": "covariant",
     "date": "2024-08-01",
     "roundType": "Strategic",
@@ -1385,10 +2889,22 @@
     "leadInvestorId": "amazon",
     "investorIds": [
       "amazon"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "amazon-covariant",
+        "title": "Amazon hires Covariant founders",
+        "url": "https://www.aboutamazon.com/news/company-news/amazon-covariant-robotics-ai",
+        "publisher": "Amazon",
+        "publishedAt": "2024-08-01",
+        "type": "press-release"
+      }
+    ],
+    "verified": true,
+    "summary": "Amazon hired Covariant founders and licensed robotics AI technology."
   },
   {
-    "id": "round-92",
+    "id": "round-95",
     "targetId": "iren",
     "date": "2024-11-01",
     "roundType": "Strategic",
@@ -1398,6 +2914,26 @@
     "investorIds": [
       "microsoft",
       "nvidia"
-    ]
+    ],
+    "citations": [
+      {
+        "id": "iren-msft",
+        "title": "IREN Microsoft partnership",
+        "url": "https://ir.iren.com/news-events/press-releases",
+        "publisher": "IREN",
+        "publishedAt": "2024-11-01",
+        "type": "press-release"
+      },
+      {
+        "id": "cb-iren",
+        "title": "IREN - Funding",
+        "url": "https://www.crunchbase.com/organization/iris-energy/company_financials",
+        "publisher": "Crunchbase",
+        "publishedAt": "2024-11-01",
+        "type": "filing"
+      }
+    ],
+    "verified": true,
+    "summary": "IREN signed strategic compute partnership with Microsoft and Nvidia."
   }
 ]

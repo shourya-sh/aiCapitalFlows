@@ -4,7 +4,7 @@
 
 The AI economy is represented as a **living network**: nodes are entities (investors, foundation-model labs, infrastructure, compute, energy, robotics, agent infra, enterprise AI, governments) and edges are **capital flows**. The app lets you see at a glance who is funding whom, where money is concentrating, which sectors have momentum, and where bottlenecks are forming.
 
-![dark, glassmorphism, network-driven UI](public/preview.svg)
+dark, glassmorphism, network-driven UI
 
 ---
 
@@ -22,17 +22,19 @@ The app is a **single screen**: one live capital network of the entire AI econom
 
 ## Tech Stack
 
-| Layer | Choice |
-| --- | --- |
-| Framework | Next.js 16 (App Router) · React 19 · TypeScript |
-| Styling | Tailwind CSS v4 · custom glassmorphism design system |
-| UI primitives | shadcn-style components (`src/components/ui`) |
-| Graph | `@xyflow/react` (React Flow) |
-| Sankey / viz | `d3-sankey`, `d3-shape` |
-| Charts | Recharts |
-| Animation | Framer Motion |
-| Backend (optional) | Supabase (Postgres) |
-| Icons | lucide-react |
+
+| Layer              | Choice                                               |
+| ------------------ | ---------------------------------------------------- |
+| Framework          | Next.js 16 (App Router) · React 19 · TypeScript      |
+| Styling            | Tailwind CSS v4 · custom glassmorphism design system |
+| UI primitives      | shadcn-style components (`src/components/ui`)        |
+| Graph              | `@xyflow/react` (React Flow)                         |
+| Sankey / viz       | `d3-sankey`, `d3-shape`                              |
+| Charts             | Recharts                                             |
+| Animation          | Framer Motion                                        |
+| Backend (optional) | Supabase (Postgres)                                  |
+| Icons              | lucide-react                                         |
+
 
 > Note: the prompt called for Next.js 15; `create-next-app@latest` installs Next 16, which is API-compatible for everything used here. Pin to 15 in `package.json` if required.
 
@@ -52,14 +54,16 @@ npm run build && npm start
 
 ## Scripts
 
-| Script | Description |
-| --- | --- |
-| `npm run dev` | Start the dev server |
-| `npm run build` / `npm start` | Production build / serve |
-| `npm run seed` | Regenerate the deterministic mock dataset → `src/lib/data/seed/*.json` |
-| `npm run ingest` | Run the full ETL pipeline → JSON seed |
-| `npm run ingest -- --supabase` | Run ETL and upsert into Supabase |
-| `npm run lint` | ESLint |
+
+| Script                         | Description                                                            |
+| ------------------------------ | ---------------------------------------------------------------------- |
+| `npm run dev`                  | Start the dev server                                                   |
+| `npm run build` / `npm start`  | Production build / serve                                               |
+| `npm run seed`                 | Regenerate the deterministic mock dataset → `src/lib/data/seed/*.json` |
+| `npm run ingest`               | Run the full ETL pipeline → JSON seed                                  |
+| `npm run ingest -- --supabase` | Run ETL and upsert into Supabase                                       |
+| `npm run lint`                 | ESLint                                                                 |
+
 
 ## Architecture
 
@@ -133,14 +137,16 @@ Connectors normalize their vendor payloads into the domain model (helpers in `sr
 
 Connectors are stubbed and ready (see `src/lib/etl/sources/`):
 
-| Source | File | What to implement |
-| --- | --- | --- |
-| Crunchbase | `crunchbase.ts` | `mapOrganization` / `mapFundingRound` are already written — wire `fetch` to the Crunchbase Enterprise API with `CRUNCHBASE_API_KEY`. |
-| SEC EDGAR | `sec.ts` | Pull XBRL financials & 8-K strategic stakes for public infra/energy. |
-| OECD / Government | `oecd.ts` | Sovereign AI programs → `government` entities + `grant`/`partnership` flows. |
-| NVIDIA IR / Datacenter | `infrastructure.ts` | Supply deals & buildouts → `supply` / `compute-deal` flows. |
-| Energy providers | `infrastructure.ts` | PPAs / datacenter power → `energy-contract` flows. |
-| Press / CB Insights | `infrastructure.ts` | NLP over newswires for early financings. |
+
+| Source                 | File                | What to implement                                                                                                                    |
+| ---------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Crunchbase             | `crunchbase.ts`     | `mapOrganization` / `mapFundingRound` are already written — wire `fetch` to the Crunchbase Enterprise API with `CRUNCHBASE_API_KEY`. |
+| SEC EDGAR              | `sec.ts`            | Pull XBRL financials & 8-K strategic stakes for public infra/energy.                                                                 |
+| OECD / Government      | `oecd.ts`           | Sovereign AI programs → `government` entities + `grant`/`partnership` flows.                                                         |
+| NVIDIA IR / Datacenter | `infrastructure.ts` | Supply deals & buildouts → `supply` / `compute-deal` flows.                                                                          |
+| Energy providers       | `infrastructure.ts` | PPAs / datacenter power → `energy-contract` flows.                                                                                   |
+| Press / CB Insights    | `infrastructure.ts` | NLP over newswires for early financings.                                                                                             |
+
 
 Example — flip Crunchbase live:
 
@@ -170,10 +176,10 @@ npm run ingest -- --supabase   # upserts into Supabase instead
 
 ### 4. Persist with Supabase (optional)
 
-1. Create a Supabase project and run [`supabase/schema.sql`](supabase/schema.sql).
+1. Create a Supabase project and run `[supabase/schema.sql](supabase/schema.sql)`.
 2. Set the env vars (see `.env.example`):
-   - `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` (read)
-   - `SUPABASE_SERVICE_ROLE_KEY` (server-side writes)
+  - `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` (read)
+  - `SUPABASE_SERVICE_ROLE_KEY` (server-side writes)
 3. `npm run ingest -- --supabase` to load, then point `src/lib/data/index.ts` at `loadDataset()` from `src/lib/supabase/sync.ts` to read live.
 
 Without env vars, the app transparently falls back to the committed JSON seed.

@@ -239,10 +239,10 @@
       "LLM",
       "chatgpt"
     ],
-    "totalFundingUsd": 64000000000,
+    "totalFundingUsd": 186000000000,
     "founded": 2015,
-    "latestValuationUsd": 300000000000,
-    "revenueUsd": 12000000000,
+    "latestValuationUsd": 852000000000,
+    "revenueUsd": 20000000000,
     "users": 800000000,
     "enterpriseCustomers": 1000000,
     "dataQuality": "verified"
@@ -261,10 +261,10 @@
       "claude",
       "safety"
     ],
-    "totalFundingUsd": 33000000000,
+    "totalFundingUsd": 125000000000,
     "founded": 2021,
-    "latestValuationUsd": 183000000000,
-    "revenueUsd": 5000000000,
+    "latestValuationUsd": 965000000000,
+    "revenueUsd": 47000000000,
     "enterpriseCustomers": 300000,
     "dataQuality": "verified"
   },
@@ -380,7 +380,7 @@
     "totalFundingUsd": 3000000000,
     "founded": 2024,
     "latestValuationUsd": 32000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "reka-ai",
@@ -397,7 +397,7 @@
     "totalFundingUsd": 60000000,
     "founded": 2022,
     "latestValuationUsd": 1000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "ai21-labs",
@@ -415,7 +415,7 @@
     "founded": 2017,
     "latestValuationUsd": 1400000000,
     "enterpriseCustomers": 200,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "nvidia",
@@ -452,7 +452,7 @@
     "founded": 1969,
     "marketCapUsd": 270000000000,
     "revenueUsd": 26000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "cerebras",
@@ -470,7 +470,7 @@
     "founded": 2015,
     "latestValuationUsd": 8000000000,
     "revenueUsd": 250000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "groq",
@@ -488,7 +488,7 @@
     "founded": 2016,
     "latestValuationUsd": 6900000000,
     "revenueUsd": 100000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "sambanova",
@@ -505,7 +505,7 @@
     "totalFundingUsd": 1100000000,
     "founded": 2017,
     "latestValuationUsd": 5000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "tsmc",
@@ -524,7 +524,7 @@
     "founded": 1987,
     "marketCapUsd": 900000000000,
     "revenueUsd": 90000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "broadcom",
@@ -543,7 +543,7 @@
     "founded": 1991,
     "marketCapUsd": 800000000000,
     "revenueUsd": 51000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "coreweave",
@@ -581,7 +581,7 @@
     "founded": 2018,
     "latestValuationUsd": 10000000000,
     "revenueUsd": 500000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "applied-digital",
@@ -617,7 +617,7 @@
     "founded": 2012,
     "latestValuationUsd": 4000000000,
     "revenueUsd": 400000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "together-ai",
@@ -635,7 +635,7 @@
     "founded": 2022,
     "latestValuationUsd": 3300000000,
     "revenueUsd": 130000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "nebius",
@@ -654,7 +654,7 @@
     "founded": 2024,
     "marketCapUsd": 14000000000,
     "revenueUsd": 300000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "vast-data",
@@ -671,7 +671,7 @@
     "totalFundingUsd": 380000000,
     "founded": 2016,
     "latestValuationUsd": 9000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "constellation-energy",
@@ -690,7 +690,7 @@
     "founded": 2022,
     "marketCapUsd": 90000000000,
     "revenueUsd": 24000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "vistra",
@@ -726,7 +726,7 @@
     "founded": 1925,
     "marketCapUsd": 150000000000,
     "revenueUsd": 25000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "brookfield-renewable",
@@ -779,7 +779,7 @@
     "totalFundingUsd": 950000000,
     "founded": 2017,
     "latestValuationUsd": 1400000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "figure",
@@ -796,7 +796,7 @@
     "totalFundingUsd": 1700000000,
     "founded": 2022,
     "latestValuationUsd": 39000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "physical-intelligence",
@@ -813,7 +813,7 @@
     "totalFundingUsd": 470000000,
     "founded": 2024,
     "latestValuationUsd": 2400000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "skild-ai",
@@ -829,7 +829,7 @@
     "totalFundingUsd": 500000000,
     "founded": 2023,
     "latestValuationUsd": 4500000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "covariant",
@@ -847,7 +847,7 @@
     "founded": 2017,
     "latestValuationUsd": 625000000,
     "enterpriseCustomers": 50,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "apptronik",
@@ -863,7 +863,7 @@
     "totalFundingUsd": 440000000,
     "founded": 2016,
     "latestValuationUsd": 1600000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "1x-technologies",
@@ -880,7 +880,7 @@
     "totalFundingUsd": 600000000,
     "founded": 2014,
     "latestValuationUsd": 4000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "langchain",
@@ -898,7 +898,7 @@
     "founded": 2022,
     "latestValuationUsd": 1250000000,
     "enterpriseCustomers": 1500,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "llamaindex",
@@ -915,7 +915,7 @@
     "totalFundingUsd": 27000000,
     "founded": 2023,
     "latestValuationUsd": 200000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "crewai",
@@ -933,7 +933,7 @@
     "founded": 2023,
     "latestValuationUsd": 150000000,
     "enterpriseCustomers": 150,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "pinecone",
@@ -951,7 +951,7 @@
     "founded": 2019,
     "latestValuationUsd": 750000000,
     "enterpriseCustomers": 5000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "livekit",
@@ -968,7 +968,7 @@
     "totalFundingUsd": 83000000,
     "founded": 2021,
     "latestValuationUsd": 700000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "browserbase",
@@ -985,7 +985,7 @@
     "totalFundingUsd": 67000000,
     "founded": 2024,
     "latestValuationUsd": 300000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "harvey",
@@ -1004,7 +1004,7 @@
     "latestValuationUsd": 8000000000,
     "revenueUsd": 100000000,
     "enterpriseCustomers": 350,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "glean",
@@ -1023,7 +1023,7 @@
     "latestValuationUsd": 7200000000,
     "revenueUsd": 100000000,
     "enterpriseCustomers": 250,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "abridge",
@@ -1041,7 +1041,7 @@
     "founded": 2018,
     "latestValuationUsd": 5300000000,
     "enterpriseCustomers": 150,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "sierra",
@@ -1059,7 +1059,7 @@
     "founded": 2023,
     "latestValuationUsd": 10000000000,
     "enterpriseCustomers": 100,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "writer",
@@ -1077,7 +1077,7 @@
     "founded": 2020,
     "latestValuationUsd": 1900000000,
     "enterpriseCustomers": 300,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "cursor",
@@ -1096,7 +1096,7 @@
     "latestValuationUsd": 29000000000,
     "revenueUsd": 500000000,
     "enterpriseCustomers": 50000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "glean-health",
@@ -1114,7 +1114,7 @@
     "founded": 2021,
     "latestValuationUsd": 900000000,
     "enterpriseCustomers": 80,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "decagon",
@@ -1132,7 +1132,7 @@
     "founded": 2023,
     "latestValuationUsd": 1500000000,
     "enterpriseCustomers": 120,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "united-states",
@@ -1447,6 +1447,40 @@
     "dataQuality": "unverified"
   },
   {
+    "id": "apollo-global-management",
+    "name": "Apollo Global Management",
+    "sector": "investor",
+    "description": "Private credit and alternative asset manager financing AI infrastructure and chip SPVs.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "private-credit",
+      "infrastructure"
+    ],
+    "totalFundingUsd": 40000000000,
+    "founded": 1990,
+    "marketCapUsd": 80000000000,
+    "dataQuality": "unverified"
+  },
+  {
+    "id": "blackstone",
+    "name": "Blackstone",
+    "sector": "investor",
+    "description": "Global alternative asset manager co-leading AI compute and datacenter financings.",
+    "headquarters": "New York, NY",
+    "country": "United States",
+    "region": "North America",
+    "tags": [
+      "private-credit",
+      "infrastructure"
+    ],
+    "totalFundingUsd": 60000000000,
+    "founded": 1985,
+    "marketCapUsd": 200000000000,
+    "dataQuality": "unverified"
+  },
+  {
     "id": "jane-street",
     "name": "Jane Street",
     "sector": "investor",
@@ -1617,7 +1651,7 @@
     "totalFundingUsd": 1500000000,
     "founded": 2022,
     "latestValuationUsd": 4000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "moonshot-ai",
@@ -1635,7 +1669,7 @@
     "totalFundingUsd": 1300000000,
     "founded": 2023,
     "latestValuationUsd": 3300000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "zhipu-ai",
@@ -1652,7 +1686,7 @@
     "totalFundingUsd": 1500000000,
     "founded": 2019,
     "latestValuationUsd": 4000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "black-forest-labs",
@@ -1670,7 +1704,7 @@
     "totalFundingUsd": 330000000,
     "founded": 2024,
     "latestValuationUsd": 1000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "world-labs",
@@ -1687,7 +1721,7 @@
     "totalFundingUsd": 230000000,
     "founded": 2024,
     "latestValuationUsd": 1000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "liquid-ai",
@@ -1704,7 +1738,7 @@
     "totalFundingUsd": 250000000,
     "founded": 2023,
     "latestValuationUsd": 2300000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "intel",
@@ -1723,7 +1757,7 @@
     "founded": 1968,
     "marketCapUsd": 90000000000,
     "revenueUsd": 54000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "micron",
@@ -1742,7 +1776,7 @@
     "founded": 1978,
     "marketCapUsd": 120000000000,
     "revenueUsd": 25000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "arm",
@@ -1832,7 +1866,7 @@
     "totalFundingUsd": 1000000000,
     "founded": 2016,
     "latestValuationUsd": 2600000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "etched",
@@ -1849,7 +1883,7 @@
     "totalFundingUsd": 125000000,
     "founded": 2022,
     "latestValuationUsd": 750000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "equinix",
@@ -1904,7 +1938,7 @@
     "totalFundingUsd": 327000000,
     "founded": 2022,
     "latestValuationUsd": 4000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "baseten",
@@ -1920,7 +1954,7 @@
     "totalFundingUsd": 350000000,
     "founded": 2019,
     "latestValuationUsd": 2100000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "modal",
@@ -1936,7 +1970,7 @@
     "totalFundingUsd": 110000000,
     "founded": 2021,
     "latestValuationUsd": 1100000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "iren",
@@ -1955,7 +1989,7 @@
     "founded": 2018,
     "marketCapUsd": 10000000000,
     "revenueUsd": 500000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "ge-vernova",
@@ -1992,7 +2026,7 @@
     "founded": 2015,
     "marketCapUsd": 14000000000,
     "revenueUsd": 2000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "bloom-energy",
@@ -2043,7 +2077,7 @@
     "totalFundingUsd": 2000000000,
     "founded": 2018,
     "latestValuationUsd": 4000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "x-energy",
@@ -2059,7 +2093,7 @@
     ],
     "totalFundingUsd": 1200000000,
     "founded": 2009,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "boston-dynamics",
@@ -2093,7 +2127,7 @@
     "totalFundingUsd": 320000000,
     "founded": 2015,
     "latestValuationUsd": 1000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "waymo",
@@ -2127,7 +2161,7 @@
     "totalFundingUsd": 1300000000,
     "founded": 2017,
     "latestValuationUsd": 2700000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "sanctuary-ai",
@@ -2142,7 +2176,7 @@
     ],
     "totalFundingUsd": 140000000,
     "founded": 2018,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "hugging-face",
@@ -2160,7 +2194,7 @@
     "founded": 2016,
     "latestValuationUsd": 4500000000,
     "enterpriseCustomers": 10000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "scale-ai",
@@ -2195,7 +2229,7 @@
     "founded": 2017,
     "latestValuationUsd": 1300000000,
     "enterpriseCustomers": 1000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "weaviate",
@@ -2212,7 +2246,7 @@
     "totalFundingUsd": 68000000,
     "founded": 2019,
     "latestValuationUsd": 200000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "vercel",
@@ -2230,7 +2264,7 @@
     "founded": 2015,
     "latestValuationUsd": 9000000000,
     "enterpriseCustomers": 4000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "cognition",
@@ -2247,7 +2281,7 @@
     "totalFundingUsd": 200000000,
     "founded": 2023,
     "latestValuationUsd": 4000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "elevenlabs",
@@ -2265,7 +2299,7 @@
     "founded": 2022,
     "latestValuationUsd": 3300000000,
     "enterpriseCustomers": 5000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "runway",
@@ -2282,7 +2316,7 @@
     "totalFundingUsd": 540000000,
     "founded": 2018,
     "latestValuationUsd": 3000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "synthesia",
@@ -2300,7 +2334,7 @@
     "founded": 2017,
     "latestValuationUsd": 2100000000,
     "enterpriseCustomers": 60000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "suno",
@@ -2317,7 +2351,7 @@
     "totalFundingUsd": 125000000,
     "founded": 2022,
     "latestValuationUsd": 500000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "hebbia",
@@ -2335,7 +2369,7 @@
     "founded": 2020,
     "latestValuationUsd": 700000000,
     "enterpriseCustomers": 200,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "replit",
@@ -2353,7 +2387,7 @@
     "founded": 2016,
     "latestValuationUsd": 3000000000,
     "enterpriseCustomers": 5000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "mercor",
@@ -2370,7 +2404,7 @@
     "totalFundingUsd": 130000000,
     "founded": 2023,
     "latestValuationUsd": 2000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "ibm",
@@ -2564,7 +2598,7 @@
     "founded": 1969,
     "marketCapUsd": 380000000000,
     "revenueUsd": 200000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "sk-hynix",
@@ -2714,7 +2748,7 @@
     "totalFundingUsd": 250000000,
     "founded": 2019,
     "latestValuationUsd": 1000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "character-ai",
@@ -2767,7 +2801,7 @@
     "totalFundingUsd": 110000000,
     "founded": 2021,
     "latestValuationUsd": 400000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "palantir",
@@ -2804,7 +2838,7 @@
     "totalFundingUsd": 6000000000,
     "founded": 2017,
     "latestValuationUsd": 30000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "shield-ai",
@@ -2837,7 +2871,7 @@
     "totalFundingUsd": 2100000000,
     "founded": 2016,
     "latestValuationUsd": 6000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "notion",
@@ -2855,7 +2889,7 @@
     "founded": 2013,
     "latestValuationUsd": 10000000000,
     "enterpriseCustomers": 4000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "canva",
@@ -2873,7 +2907,7 @@
     "founded": 2013,
     "latestValuationUsd": 32000000000,
     "users": 220000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "figma",
@@ -2910,7 +2944,7 @@
     "founded": 2009,
     "latestValuationUsd": 13000000000,
     "users": 30000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "gong",
@@ -2928,7 +2962,7 @@
     "founded": 2015,
     "latestValuationUsd": 7250000000,
     "enterpriseCustomers": 4000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "ramp",
@@ -2946,7 +2980,7 @@
     "founded": 2019,
     "latestValuationUsd": 22000000000,
     "enterpriseCustomers": 30000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "terrapower",
@@ -2979,7 +3013,7 @@
     "totalFundingUsd": 1000000000,
     "founded": 2013,
     "latestValuationUsd": 5400000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "nuscale-power",
@@ -3016,7 +3050,7 @@
     "founded": 2018,
     "latestValuationUsd": 30000000000,
     "revenueUsd": 2000000000,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "humain",
@@ -3032,7 +3066,7 @@
     ],
     "totalFundingUsd": 10000000000,
     "founded": 2025,
-    "dataQuality": "unverified"
+    "dataQuality": "partial"
   },
   {
     "id": "fidelity",

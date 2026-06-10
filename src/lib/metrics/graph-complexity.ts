@@ -48,7 +48,7 @@ export const COMPLEXITY_PRESETS: ComplexityPreset[] = [
   },
 ];
 
-export const DEFAULT_COMPLEXITY: MapComplexity = "standard";
+export const DEFAULT_COMPLEXITY: MapComplexity = "detailed";
 
 export function presetFor(id: MapComplexity): ComplexityPreset {
   return COMPLEXITY_PRESETS.find((p) => p.id === id) ?? COMPLEXITY_PRESETS[1];

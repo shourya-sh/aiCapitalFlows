@@ -47,6 +47,26 @@ export function fundingBySector(): SectorAgg[] {
     .sort((a, b) => b.totalFunding - a.totalFunding);
 }
 
+/** Capital actually deployed to each recipient sector (all flow types — investments, compute deals, supply, etc.). */
+export function capitalDeployedBySector(): SectorAgg[] {
+  const map = new Map<Sector, number>();
+  for (const f of flows) {
+    const t = entityById.get(f.targetId);
+    if (!t || t.sector === "investor" || t.sector === "government") continue;
+    map.set(t.sector, (map.get(t.sector) ?? 0) + f.amountUsd);
+  }
+  return [...map.entries()]
+    .map(([sector, totalFunding]) => ({
+      sector,
+      label: sectorLabel(sector),
+      color: SECTORS[sector].color,
+      totalFunding,
+      entityCount: entities.filter((e) => e.sector === sector).length,
+      avgValuation: 0,
+    }))
+    .sort((a, b) => b.totalFunding - a.totalFunding);
+}
+
 export interface GeoAgg {
   region: string;
   totalFunding: number;

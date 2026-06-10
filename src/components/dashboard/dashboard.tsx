@@ -27,6 +27,12 @@ interface DashboardProps {
   sectorBars: { label: string; value: number; color: string }[];
   momentum: { label: string; momentum: number; color: string }[];
   verification: { verified: number; total: number; pct: number };
+  dataGeneratedAt?: string;
+  lastRefresh?: string | null;
+  refreshing?: boolean;
+  refreshError?: string | null;
+  newFlowCount?: number;
+  onRefreshData?: () => void;
 }
 
 function StatChip({ label, value, accent }: { label: string; value: string; accent?: string }) {
@@ -40,7 +46,21 @@ function StatChip({ label, value, accent }: { label: string; value: string; acce
   );
 }
 
-export function Dashboard({ graphNodes, graphEdges, stats, insights, sectorBars, momentum, verification }: DashboardProps) {
+export function Dashboard({
+  graphNodes,
+  graphEdges,
+  stats,
+  insights,
+  sectorBars,
+  momentum,
+  verification,
+  dataGeneratedAt,
+  lastRefresh,
+  refreshing,
+  refreshError,
+  newFlowCount,
+  onRefreshData,
+}: DashboardProps) {
   const [pulseOpen, setPulseOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [slideshowOpen, setSlideshowOpen] = useState(false);
@@ -146,6 +166,12 @@ export function Dashboard({ graphNodes, graphEdges, stats, insights, sectorBars,
         visibleEdges={graphStats.visibleEdges}
         totalNodes={graphStats.totalNodes}
         totalEdges={graphStats.totalEdges}
+        dataGeneratedAt={dataGeneratedAt}
+        lastRefresh={lastRefresh}
+        refreshing={refreshing}
+        refreshError={refreshError}
+        newFlowCount={newFlowCount}
+        onRefreshData={onRefreshData}
       />
 
       {/* Market Pulse drawer */}

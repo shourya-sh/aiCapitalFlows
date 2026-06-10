@@ -37,6 +37,8 @@ export type RoundType =
   | "Series D"
   | "Series E"
   | "Series E+"
+  | "Series G"
+  | "Series H"
   | "Growth"
   | "Strategic"
   | "Grant"

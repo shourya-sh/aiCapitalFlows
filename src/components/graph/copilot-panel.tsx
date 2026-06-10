@@ -509,28 +509,51 @@ const TAG_COLORS: Record<NewsItem["tagColor"], string> = {
 };
 
 function FeedItem({ item, sectorColor }: { item: NewsItem; sectorColor: string }) {
-  return (
-    <div className="group rounded-lg px-3 py-2.5 transition-colors hover:bg-white/[0.03]">
-      <div className="flex items-start gap-2.5">
-        <div
-          className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full"
-          style={{ backgroundColor: sectorColor }}
-        />
-        <div className="min-w-0 flex-1">
-          <p className="text-[13px] font-medium leading-snug text-foreground/90">
-            {item.headline}
-          </p>
-          <div className="mt-1.5 flex flex-wrap items-center gap-2">
-            <span className={`rounded-md px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wide ${TAG_COLORS[item.tagColor]}`}>
-              {item.tag}
-            </span>
-            <span className="text-[10px] text-muted-2">{item.source}</span>
-            <span className="text-[10px] text-muted-2">·</span>
-            <span className="text-[10px] text-muted-2">{relativeTime(item.date)}</span>
-            <ExternalLink className="ml-auto h-3 w-3 text-muted-2 opacity-0 transition-opacity group-hover:opacity-100" />
-          </div>
+  const body = (
+    <>
+      <div
+        className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full"
+        style={{ backgroundColor: sectorColor }}
+      />
+      <div className="min-w-0 flex-1">
+        <p
+          className={`text-[13px] font-medium leading-snug text-foreground/90 ${
+            item.url ? "group-hover:text-accent group-hover:underline" : ""
+          }`}
+        >
+          {item.headline}
+        </p>
+        <div className="mt-1.5 flex flex-wrap items-center gap-2">
+          <span className={`rounded-md px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wide ${TAG_COLORS[item.tagColor]}`}>
+            {item.tag}
+          </span>
+          <span className="text-[10px] text-muted-2">{item.source}</span>
+          <span className="text-[10px] text-muted-2">·</span>
+          <span className="text-[10px] text-muted-2">{relativeTime(item.date)}</span>
+          {item.url ? (
+            <ExternalLink className="ml-auto h-3 w-3 text-muted-2 opacity-0 transition-opacity group-hover:text-accent group-hover:opacity-100" />
+          ) : null}
         </div>
       </div>
+    </>
+  );
+
+  if (item.url) {
+    return (
+      <a
+        href={item.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group block rounded-lg px-3 py-2.5 transition-colors hover:bg-white/[0.03]"
+      >
+        <div className="flex items-start gap-2.5">{body}</div>
+      </a>
+    );
+  }
+
+  return (
+    <div className="group rounded-lg px-3 py-2.5 transition-colors hover:bg-white/[0.03]">
+      <div className="flex items-start gap-2.5">{body}</div>
     </div>
   );
 }
